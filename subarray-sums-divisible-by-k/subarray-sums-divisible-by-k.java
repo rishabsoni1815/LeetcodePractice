@@ -1,5 +1,6 @@
 class Solution {
     public int subarraysDivByK(int[] a, int k) {
+        // k!=0 given else have to check
         int n=a.length;
         int h[]=new int[k];
         int s=0,ans=0;
