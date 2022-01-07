@@ -11,46 +11,48 @@
 class Solution {
 
 
-//  ArrayList<Integer> ans = new ArrayList<>();
-//     Random rand = new Random();
-//     public Solution(ListNode head) {
-//         ans = new ArrayList<>();
-//          rand = new Random();
-//         while (head != null) {
-//             ans.add(head.val);
-//             head = head.next;
-//         }
-//     }
-    
-//     public int getRandom() {
-//         int pick = rand.nextInt(ans.size());
-//         return ans.get(pick);
-//     }
-    
-    
-    
-//O(1) space sol - https://youtu.be/Lsquc54IciI?t=588
-
-ListNode h;
-Random rand = new Random();
-
- public Solution(ListNode head) {
-        h=head;
+ ArrayList<Integer> ans = new ArrayList<>();
+    Random rand = new Random();
+    public Solution(ListNode head) {
+        ans = new ArrayList<>();
+         rand = new Random();
+        while (head != null) {
+            ans.add(head.val);
+            head = head.next;
+        }
     }
     
     public int getRandom() {
-        rand = new Random();
-        int n=0,res=0;
-        ListNode t=h;
-        while(t!=null){
-            n++;
-            if(rand.nextInt(n)==0){
-                res=t.val;
-            }
-            t=t.next;
-        }
-        return res;
+        int pick = rand.nextInt(ans.size());
+        return ans.get(pick);
     }
+    
+    
+    
+// O(1) space sol - https://youtu.be/Lsquc54IciI?t=588
+
+// ListNode h;
+// Random rand = new Random();
+
+//  public Solution(ListNode head) {
+//         h=head;
+//     }
+    
+//     public int getRandom() {
+//         rand = new Random();
+//         int n=0,res=0;
+//         ListNode t=h;
+//         while(t!=null){
+//             n++;
+//             if(rand.nextInt(n)==0){
+//                 res=t.val;
+//             }
+//             t=t.next;
+//         }
+//         return res;
+//     }
+    
+    
 }
 
 
