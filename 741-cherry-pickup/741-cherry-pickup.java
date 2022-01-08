@@ -1,5 +1,7 @@
 class Solution {
     //https://leetcode.com/problems/cherry-pickup/discuss/329945/Very-easy-to-follow-%3A-step-by-step-recursive-backtracking-with-memoization-N4.
+    // 4 states-> DD,DR,RD,RR
+    
     public int cherryPickup(int[][] a) {
         int n=a.length;
         int m=a[0].length;
