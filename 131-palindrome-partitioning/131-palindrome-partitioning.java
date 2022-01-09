@@ -6,7 +6,7 @@ class Solution {
         return ans;
     }
     void h(String s,List<String>t,List<List<String>>ans,int i){
-        if(i>=s.length()){
+        if(i==s.length()){
             ans.add(new ArrayList<>(t));
             return;
         }
