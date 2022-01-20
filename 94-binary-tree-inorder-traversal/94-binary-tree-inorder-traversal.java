@@ -17,6 +17,7 @@ class Solution {
     public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> nodes = new ArrayList<>();
         TreeNode cur = root;
+        // 2 cases - 1) if cur.left is nul add and go to right   2) if not null then check the rightest node of the left subtree if this node's rightis null then connect it to cur and move left else (link already there so break it) make its right as null add cur and go right
         while (cur != null) {
             if (cur.left != null) {
                 TreeNode pre = cur.left;
