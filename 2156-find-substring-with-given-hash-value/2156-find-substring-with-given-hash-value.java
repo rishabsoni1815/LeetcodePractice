@@ -1,5 +1,5 @@
 class Solution {
-    public String subStrHash(String s, long p, long mod, int k, int v) {
+    public String subStrHash(String s, int p, int mod, int k, int v) {
         // cant move hash (window) by dividing by p as p is not primt in modular arithmetic we can only divide by p if p is prime as division in modular inverse only i.e x/p is x*modular inverse of p modular inverse exists only if no. is prime so think of miultiplying and moving window from back 
         int n=s.length();
         long hash=0;
