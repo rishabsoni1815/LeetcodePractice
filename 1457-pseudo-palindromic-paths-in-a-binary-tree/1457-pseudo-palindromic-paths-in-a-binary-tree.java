@@ -29,7 +29,7 @@ class Solution {
             return isPalindrome(arr) ? 1 : 0;
         }
         
-        return preorder(root.left, arr.clone()) + preorder(root.right, arr.clone());
+        return preorder(root.left, arr.clone()) + preorder(root.right, arr.clone());// as array is not pass by reference if we use hashmap then we don't need to pass clone or if we declare array as global then no need to do clone of array
     }
     
     public boolean isPalindrome(int[] arr) {
