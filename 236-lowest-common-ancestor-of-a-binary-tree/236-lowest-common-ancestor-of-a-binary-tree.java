@@ -8,6 +8,13 @@
  * }
  */
 class Solution {
+    
+    // if parent pointers are given or quries are given of LCA of 2 nodes - https://www.geeksforgeeks.org/lowest-common-ancestor-in-a-binary-tree-set-2-using-parent-pointer/
+    
+    
+    // if find lca of many nodes then -> https://www.youtube.com/watch?v=F8iSNXblKSU
+    
+    
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         //works when it is guarantee that p and q will exist in the tree.
         
