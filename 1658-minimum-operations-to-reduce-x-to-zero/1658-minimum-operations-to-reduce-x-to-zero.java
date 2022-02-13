@@ -21,7 +21,7 @@ class Solution {
                 maxlen = Math.max(maxlen, i - map.get(sum-k));
             } 
             if (!map.containsKey(sum)) {
-                map.put(sum, i);
+                map.put(sum, i);// to maximise length don't update index stored for sum if it is already present as i-map.get() will decrease with it or use some test cases to understand
             }
         }
         return maxlen;
