@@ -46,7 +46,7 @@ class Solution {
     }
     
     
-//     // O(n^3) time and space as r1 + c1 == r2 + c2 so int r2 = r1 + c1 - c2;
+//     // O(n^3) time and space as r1 + c1 == r2 + c2 so int r2 = r1 + c1 - c2; // as only going down and right
 //     public int cherryPickup(int[][] grid) {
 //         int[][][] dp = new int[grid.length][grid.length][grid.length];
 
