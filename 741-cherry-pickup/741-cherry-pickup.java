@@ -1,11 +1,16 @@
 class Solution {
-    //https://leetcode.com/problems/cherry-pickup/discuss/329945/Very-easy-to-follow-%3A-step-by-step-recursive-backtracking-with-memoization-N4.
-    // 4 states-> DD,DR,RD,RR
+    //https://leetcode.com/problems/cherry-pickup/discuss/329945/Very-easy-to-follow-%3A-step-by-step-recursive-backtracking-with-memoization-N4
+    
+    // Instead of having two paths starting from 0,0 and then other path from N,N We can have two people starting from 0,0 and Now, we know that we want collectively maximum cherries. So, we have to do the traversal of both paths at the same time and select maximum global answer. The potential problem of this approach is double counting (if we collect same cherry in 2 paths), but this can be easily avoided in code. If both are at the same cell we count cherry only once.
+    
+    
+    
+    // 4 states-> DD,DR,RD,RR 
     
     public int cherryPickup(int[][] a) {
         int n=a.length;
         int m=a[0].length;
-        int dp[][][][]=new int [n][m][n][m];
+        int dp[][][][]=new int [n][m][n][m];//(i,j of one and k,l of other)
         for(int i=0;i<n;i++){
             for(int j=0;j<m;j++){
                 for(int k=0;k<n;k++){
