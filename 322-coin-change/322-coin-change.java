@@ -31,6 +31,8 @@ class Solution {
     }
     */
     
+    /*
+    n*m space as only dp[i-1][] required so optimise
     
     public int coinChange(int[] coins, int amount) {
         int dp[][]=new int[coins.length][amount+1];
@@ -57,6 +59,34 @@ class Solution {
             return dp[coins.length-1][amount];
         }
     }
+    */
     
+      public int coinChange(int[] coins, int amount) {
+        int prev[]=new int[amount+1];
+        for(int i=0;i<=amount;i++){
+            if(i%coins[0]==0){
+                prev[i]=i/coins[0];
+            }else{
+               prev[i]=Integer.MAX_VALUE-1;// as 1+ Int_max mmay be error
+            }
+        }   
+        for(int i=1;i<coins.length;i++){
+            int cur[]=new int[amount+1];
+            for(int j=0;j<=amount;j++){
+                int notTake=0+prev[j];//prev as dp[i-1][] required
+                int take=Integer.MAX_VALUE;
+                if(coins[i]<=j){
+                    take=1+cur[j-coins[i]];//cur not prev as dp[i][] only not i-1
+                }
+                cur[j]=Math.min(notTake,take);
+            }
+            prev=cur;
+        }
+        if(prev[amount]==Integer.MAX_VALUE-1){
+            return -1;
+        }else{
+            return prev[amount];
+        }
+    }
     
 }
