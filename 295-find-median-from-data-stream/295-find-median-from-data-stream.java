@@ -4,7 +4,7 @@ class MedianFinder {
     
     PriorityQueue<Integer> max = new PriorityQueue<>(Collections.reverseOrder());
     PriorityQueue<Integer> min = new PriorityQueue<>();
-    //cant use sorting nlogn as they require complete data hhere can use insertion dort but it is o(n^2)
+   // list is already sorted
     
     public MedianFinder() {
          max = new PriorityQueue<>(Collections.reverseOrder());//max heap for first half of sorted array as we need max of first hasl
@@ -13,7 +13,7 @@ class MedianFinder {
     }
     
     public void addNum(int num) {
-        if(max.isEmpty()||max.peek()>num){//means it belong to first half of sorted array so add to max heap as first element should go to first half so max.isEmpty() condition
+        if(max.isEmpty()||max.peek()>num){//means it belong to first half of array (as input is sorted) so add to max heap as first element should go to first half so max.isEmpty() condition
             max.add(num);
         }else{
             min.add(num);
