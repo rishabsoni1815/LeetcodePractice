@@ -3,6 +3,8 @@ class Solution {
     
     //2nd aproach - quicksort method of partition
     public int findKthLargest(int[] nums, int k) {
+        //shuffle(nums); to random quicksort
+        
         return quick(nums,0,nums.length-1,nums.length-k);//kth largest => n-k smallest in sorted array so have to do quick sort until pivot is n-k (run quick sort till n-k as pivot not n-k+1 as 0 based indexing in array while doing quicksort) as pivot n-k means on left of n-k are less than it and on right >= than pivot so when pivot is n-k it means a[k] is the kth largest or (n-k)th smallest 
     }
     int quick(int a[],int l,int r,int k){
