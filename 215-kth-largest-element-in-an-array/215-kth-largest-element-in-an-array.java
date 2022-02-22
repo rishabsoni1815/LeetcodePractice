@@ -33,4 +33,17 @@ class Solution {
         a[i]=a[j];
         a[j]=t;
     }
+      private void shuffle(String a[]) {
+        Random random = new Random();
+        for(int ind = 1; ind < a.length; ind++) {
+            final int r = random.nextInt(ind + 1);
+            exch(a, ind, r);
+        }
+    }
+    
+    private void exch(String[] a, int i, int j) {
+        final String tmp = a[i];
+        a[i] = a[j];
+        a[j] = tmp;
+    }
 }
