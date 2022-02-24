@@ -13,14 +13,15 @@ class Solution {
     if (head == null || head.next == null)
       return head;
     ListNode prev = null, slow = head, fast = head;
-    while (fast != null && fast.next != null) {
-      prev = slow;
+    while (fast.next != null && fast.next.next != null) {//if length even then select first one as middle
       slow = slow.next;
       fast = fast.next.next;
     }
-    prev.next = null;
+    ListNode nextToMiddle=slow.next;
+    slow.next = null;//breaking list into twot
     ListNode l1 = sortList(head);
-    ListNode l2 = sortList(slow);
+    ListNode l2 = sortList(nextToMiddle);
+         //l1 and l2 both sorted returned now just merge them both
     return merge(l1, l2);
   }
     
