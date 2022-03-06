@@ -11,7 +11,7 @@ class Solution {
         if(dp[up][ud]!=-1) return dp[up][ud];
         long pick=(up%mod*help(up-1,ud,dp)%mod)%mod;
         
-        long deliver=((ud-up)%mod*help(up,ud-1,dp)%mod)%mod;
+        long deliver=((ud-up)%mod*help(up,ud-1,dp)%mod)%mod;//undelivered - unpicked => (orders which are picked but not delivered)
         return dp[up][ud]=(pick%mod+deliver%mod)%mod;
     }
 }
