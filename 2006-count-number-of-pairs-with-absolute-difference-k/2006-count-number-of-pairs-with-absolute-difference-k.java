@@ -4,15 +4,16 @@ class Solution {
         int res = 0;
         
         for(int i = 0;i< nums.length;i++){
-            if(map.containsKey(nums[i]-k)){
-                res+= map.get(nums[i]-k);
-            }
-            if(map.containsKey(nums[i]+k)){
-                res+= map.get(nums[i]+k);
-            }
             map.put(nums[i],map.getOrDefault(nums[i],0)+1);
         }
-           
-        return res;
+        for(int num:map.keySet()){
+           if(map.containsKey(num-k)){
+               res+=(map.get(num)*(map.get(num-k)));
+           }
+           if(map.containsKey(num+k)){
+               res+=(map.get(num)*(map.get(num+k)));
+           }
+        } 
+        return res/2;
     }
 }
