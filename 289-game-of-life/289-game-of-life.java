@@ -8,7 +8,7 @@ class Solution {
             for(int j=0;j<m;j++){
                 int c=count(i,j,n,m,a);
                 if(c<2 && a[i][j]==1) a[i][j]=2;
-                else if((c==2 || c==3) && a[i][j]==1) a[i][j]=1;
+                else if((c==2 || c==3) && a[i][j]==1) a[i][j]=1;//live remains live
                 else if((c>3) && a[i][j]==1) a[i][j]=2;
                 else if(c==3 && a[i][j]==0) a[i][j]=3;
             }
@@ -27,7 +27,7 @@ class Solution {
                 int ii=x+dirx[i];
                 int jj=y+diry[i];
                 if(ii>=0&&ii<n&&jj<m&&jj>=0){
-                    if(a[ii][jj]==1 || a[ii][jj]==2)c++;
+                    if(a[ii][jj]==1 || a[ii][jj]==2)c++;//as 2 means zero in future i.e. before it was 1 only
                 }
             }
         return c;
