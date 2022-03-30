@@ -56,19 +56,20 @@ class Array {
 
 
 class Complete{
-    
+    //1 1 3 4 4 
    
     // Function for finding maximum and value pair
     public static long calculate (int a[], int n) {
-        //Complete the function
-        HashMap<Integer,Integer>h=new HashMap<>();
-        for(int i=0;i<n;i++){
-            h.put(a[i],h.getOrDefault(a[i],0)+1);
-        }
-        long ans=0;
-        for(int t:h.keySet()){
-            long x=h.get(t);
-            ans+=((x)*(x-1))/2;
+        Arrays.sort(a);
+        int i=0;long ans=0;
+        while(i<n){
+            int cnt=1;
+            while(i<(n-1) && a[i]==a[i+1]){
+                cnt++;
+                i++;
+            }
+            i++;
+            ans+=((cnt*(cnt-1)/2));
         }
         return ans;
     }
