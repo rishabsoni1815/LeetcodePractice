@@ -13,22 +13,28 @@
  *     }
  * }
  */
-class Solution {    
+//iterative inorder traversal
+class Solution {
     public TreeNode increasingBST(TreeNode root) {
-        List<Integer> vals = new ArrayList();
-        inorder(root, vals);
-        TreeNode ans = new TreeNode(0), cur = ans;
-        for (int v: vals) {
-            cur.right = new TreeNode(v);
+        TreeNode head = null, pre = null;
+        Stack<TreeNode> stack = new Stack<>();
+        TreeNode cur = root;
+        while (cur != null || !stack.isEmpty()) {
+            while (cur != null) {
+                stack.push(cur);
+                cur = cur.left;
+            }
+            cur = stack.pop();
+            if (head == null) {
+                head = cur;
+            }
+            cur.left = null;
+            if (pre != null) {
+                pre.right = cur;
+            }
+            pre = cur;
             cur = cur.right;
         }
-        return ans.right;
-    }
-
-    public void inorder(TreeNode node, List<Integer> vals) {
-        if (node == null) return;
-        inorder(node.left, vals);
-        vals.add(node.val);
-        inorder(node.right, vals);
+        return head;
     }
 }
