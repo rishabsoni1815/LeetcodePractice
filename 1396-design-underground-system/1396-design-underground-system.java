@@ -6,8 +6,16 @@ class Pair{
         this.t=t;
     }
 }
+class Pair1{
+    int c;
+    long s;
+    Pair1(int c,long s){
+        this.s=s;
+        this.c=c;
+    }
+}
 class UndergroundSystem {
-    HashMap<String,ArrayList<Integer>>sum=new HashMap<>();
+    HashMap<String,Pair1>sum=new HashMap<>();
     HashMap<Integer,Pair>h=new HashMap<>();
     public UndergroundSystem() {
         h=new HashMap<>();
@@ -21,21 +29,17 @@ class UndergroundSystem {
     public void checkOut(int id, String s, int t) {
         String cur=((h.get(id).s)+"#"+s);
         if(sum.containsKey(cur)){
-            sum.get(cur).add(t-h.get(id).t);
+            sum.get(cur).s+=(t-h.get(id).t);
+            sum.get(cur).c++;
         }else{
-            ArrayList<Integer>v=new ArrayList<>();
-            v.add(t-h.get(id).t);
-            sum.put(cur,v);
+            long y=t-h.get(id).t;
+            sum.put(cur,new Pair1(1,y));
         }
     }
     
     public double getAverageTime(String a, String b) {
-        ArrayList<Integer>t=sum.get(a+'#'+b);
-        double ans=0;
-        for(int u:t){
-            ans+=u;
-        }
-        return ans/(double)(t.size());
+        long t=sum.get(a+'#'+b).s;
+        return t/(double)(sum.get(a+'#'+b).c);
     }
 }
 
