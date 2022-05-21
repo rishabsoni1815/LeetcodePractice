@@ -6,7 +6,7 @@ class Solution {
         return ans;
     }
     void help(List<List<Integer>>ans,List<Integer>t,int i,int sum,int a[]){
-        if(sum==0 && i==a.length){
+        if(sum==0){
             ans.add(new ArrayList<>(t));
             return;
         }
