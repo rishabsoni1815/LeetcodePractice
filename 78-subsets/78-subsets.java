@@ -2,18 +2,18 @@ class Solution {
     public List<List<Integer>> subsets(int[] a) {
         int n=a.length;
         List<List<Integer>>ans=new ArrayList<>();
-         List<Integer>t=new ArrayList<Integer>();
-        h(a,0,n,ans,t);
+        List<Integer>t=new ArrayList<>();
+        help(ans,t,0,a);
         return ans;
     }
-     void h(int a[],int i,int n,List<List<Integer>>ans,List<Integer>t){
-        if(i>=n){
+    void help(List<List<Integer>>ans,List<Integer>t,int i,int a[]){
+        if(i>=a.length){
             ans.add(new ArrayList<>(t));
             return;
-        }//pick and non pick
+        }
         t.add(a[i]);
-        h(a,i+1,n,ans,t);
+        help(ans,t,i+1,a);
         t.remove(t.size()-1);
-        h(a,i+1,n,ans,t);
+        help(ans,t,i+1,a);
     }
 }
