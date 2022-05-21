@@ -1,29 +1,30 @@
 class Solution {
     public List<List<String>> partition(String s) {
-        List<String>t=new ArrayList<>();
         List<List<String>>ans=new ArrayList<>();
-        h(s,t,ans,0);
+        List<String>t=new ArrayList<>();
+        StringBuilder c=new StringBuilder();
+        c.append(s);
+        help(ans,t,0,s,c);
         return ans;
     }
-    void h(String s,List<String>t,List<List<String>>ans,int i){
-        if(i==s.length()){
-            ans.add(new ArrayList<>(t));
-            return;
-        }
+    void help(List<List<String>>ans,List<String>t,int i,String s,StringBuilder c){
+		if(i==s.length()) {
+			ans.add(new ArrayList<>(t));
+			return;
+		}
         for(int j=i;j<s.length();j++){
-            String t1=s.substring(i,j+1);
-            if(p(t1)){
-                t.add(t1);
-                h(s,t,ans,j+1);
-                t.remove(t.size()-1);
+            String cur=c.substring(i,j+1);
+            if(check(cur)) {
+            	t.add(cur);
+            	help(ans,t,j+1,s,c);
+            	t.remove(t.size()-1);
             }
         }
     }
-    boolean p(String s){
-        int i=0;
-        for(int ui=0;ui<s.length()/2;ui++){
-            if(s.charAt(ui)!=s.charAt(s.length()-ui-1)) return false;
-        }
-        return true;
-    }
+	boolean check(String s) {
+		for(int i=0;i<=(s.length()-1)/2;i++) {
+			if(s.charAt(i)!=s.charAt(s.length()-i-1)) return false;
+		}
+		return true;
+	}
 }
