@@ -1,15 +1,19 @@
 class Solution {
     public boolean hasAllCodes(String s, int k) {
-        HashSet<Integer>h=new HashSet<>();
-        for(int i=0;i+k<=s.length();i++){
-            String binaryString= s.substring(i,i+k);
-            h.add(Integer.parseInt(binaryString,2));
+        int need = 1 << k;
+        Set<String> got = new HashSet<String>();
+
+        for (int i = k; i <= s.length(); i++) {
+            String a = s.substring(i - k, i);
+            if (!got.contains(a)) {
+                got.add(a);
+                need--;
+                // return true when found all occurrences
+                if (need == 0) {
+                    return true;
+                }
+            }
         }
-        // System.out.println(h);
-        for(int i=0;i<Math.pow(2,k);i++){
-            // System.out.println(i);
-            if(h.contains(i)==false) return false;
-        }
-        return true;
+        return false;
     }
 }
