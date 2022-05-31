@@ -38,11 +38,11 @@ class Solution {
                         res.add(quad);
                     
                         // Processing the duplicates of number 3
-                        while (front < back && num[front] == quad.get(2)) ++front;
+                        while (front < back && num[front] ==num[front+1]) ++front;
                     
                         // Processing the duplicates of number 4
-                        while (front < back && num[back] == quad.get(3)) --back;
-                
+                        while (front < back && num[back] ==num[back-1]) --back;
+                 ++front;--back;
                     }
                 }
                 
