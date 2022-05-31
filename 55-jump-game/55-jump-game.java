@@ -1,15 +1,14 @@
 class Solution {
     public boolean canJump(int[] a) {
-        //greedy is whereever max we can go there let's say first index say we can go till 5th then when going through 1 to 5 if we get a better right going pos. (a[i]+i > cur_reach) then update cur_reqach and let's go there
+        //as if no 0 in array then always possible by taking 1 step all times so we have to avoid 0 by taking maximum where we can go by below method
+        //greedy is whereever max we can go there let's say first index say we can go till 5th then when going through 1 to 5 if we get a better right going pos. (a[i]+i > cur_reach) then update cur_reach and let's go there
          int n=a.length;
-         int cur_reach=0;
-        for(int i=0;i<=cur_reach;i++){
-            if(i==n-1) return true;
+         int cur_reach=a[0];
+        for(int i=0;i<n;i++){
+            if(cur_reach<i) return false;
             cur_reach=Math.max(cur_reach,i+a[i]);
-            // or we can do like this
-            //if(i+a[i] > cur_reach) cur_reach=i+a[i];
         }
-        return false;
+        return true;
     }
     
     /*
