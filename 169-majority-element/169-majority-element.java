@@ -19,7 +19,7 @@ class Solution {
             }else{
                 count--;
             }
-            if(count==0){
+            if(count<0){
                 count=1;
                 ans=a[i];
             }
