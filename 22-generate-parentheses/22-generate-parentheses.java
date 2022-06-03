@@ -4,14 +4,13 @@ class Solution {
         help(n,n,ans,"");
         return ans;
     }
-   void help(int o,int c,List<String>ans,String s){
-        if(c<o){
+    void help(int l,int r,List<String>ans,String s){
+        if(l>r || l<0 || r<0) return;
+        if(l==0&&r==0) {
+            ans.add(s);
             return;
         }
-       if(c==o&&c==0){
-           ans.add(s);
-       }
-       if(o>0)help(o-1,c,ans,s+"(");
-       if(c>0)help(o,c-1,ans,s+")");
+        help(l-1,r,ans,s+"(");
+        help(l,r-1,ans,s+")");
     }
 }
