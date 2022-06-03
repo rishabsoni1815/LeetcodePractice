@@ -1,28 +1,28 @@
 class Solution {
     public String intToRoman(int num) {
-        String ans="";
+    StringBuilder ans = new StringBuilder();
         while(num>0){
             int x=num/1000;
             if(x>0){
-                while(x-->0) ans+='M';
+                while(x-->0) ans.append("M");
                 num%=1000;
             }
             x=num/100;
             if(x>0){
                 if(x==4 || x==9){
                     if(x==4) {
-                        ans+="CD";
+                        ans.append("CD");
                     }
                     if(x==9) {
-                        ans+="CM";
+                        ans.append("CM");
                     }
                 }else{
                     if(x<4){
-                        while(x-->0) ans+='C';
+                        while(x-->0) ans.append("C");
                     }else{
-                        ans+='D';
+                        ans.append("D");
                         x-=5;
-                        while(x-->0) ans+='C';
+                        while(x-->0) ans.append("C");
                     }
                 }
                 num%=100;
@@ -31,18 +31,18 @@ class Solution {
             if(x>0){
                 if(x==4 || x==9){
                     if(x==4) {
-                        ans+="XL";
+                        ans.append("XL");
                     }
                     if(x==9) {
-                        ans+="XC";
+                        ans.append("XC");
                     }
                 }else{
                     if(x<4){
-                        while(x-->0) ans+='X';
+                        while(x-->0) ans.append("X");
                     }else{
-                        ans+='L';
+                        ans.append("L");
                         x-=5;
-                        while(x-->0) ans+='X';
+                        while(x-->0) ans.append("X");
                     }
                 }
                 num%=10;
@@ -52,23 +52,23 @@ class Solution {
             if(x>0){
                 if(x==4 || x==9){
                     if(x==4) {
-                        ans+="IV";
+                        ans.append("IV");
                     }
                     if(x==9) {
-                        ans+="IX";
+                        ans.append("IX");
                     }
                 }else{
                     if(x<4){
-                        while(x-->0) ans+='I';
+                        while(x-->0) ans.append("I");
                     }else{
-                        ans+='V';
+                        ans.append("V");
                         x-=5;
-                        while(x-->0) ans+='I';
+                        while(x-->0) ans.append("I");
                     }
                 }
                 num%=1;
             }
         }
-        return ans;
+        return ans.toString();
     }
 }
