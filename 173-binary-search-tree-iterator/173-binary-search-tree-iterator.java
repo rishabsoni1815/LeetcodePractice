@@ -44,31 +44,35 @@
 
 
 //o(h) h is height 
-public class BSTIterator {
-    private Stack<TreeNode> stack = new Stack<TreeNode>();
-    
+
+class BSTIterator {
+    Stack<TreeNode>s=new Stack<>();
     public BSTIterator(TreeNode root) {
-        pushAll(root);
-    }
-
-    /** @return whether we have a next smallest number */
-    public boolean hasNext() {
-        return !stack.isEmpty();
-    }
-
-    /** @return the next smallest number */
-    public int next() {
-        TreeNode tmpNode = stack.pop();
-        pushAll(tmpNode.right);
-        return tmpNode.val;
+        s=new Stack<>();
+        while(root!=null){//getting the smallest no.
+            s.add(root);
+            root=root.left;
+        }
     }
     
-    private void pushAll(TreeNode node) {
-        for (; node != null; stack.push(node), node = node.left);
+    public int next() {
+        TreeNode cur=s.pop();
+        TreeNode temp=cur.right; //right of cur
+        if(temp!=null){//if right exists
+            while(temp!=null){//putting all left of this (pop's right) in stack so tha s.pop() is always min 
+                s.add(temp);
+                temp=temp.left;
+            }
+        }
+        return cur.val;//return s.pop() ( initial stack before putting right's all left)
+    }
+    
+    public boolean hasNext() {
+        return s.size()>0;
     }
 }
 
-/**
+/**  
  * Your BSTIterator object will be instantiated and called as such:
  * BSTIterator obj = new BSTIterator(root);
  * int param_1 = obj.next();
