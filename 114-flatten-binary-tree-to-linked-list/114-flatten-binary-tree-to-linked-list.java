@@ -55,14 +55,16 @@ class Solution {
             return null;
         if(root.left==null && root.right==null) return root;
 
-        TreeNode ltail=flattenUtil(root.left);
-        TreeNode rtail=flattenUtil(root.right);
+        TreeNode ltail=flattenUtil(root.left);//returning tail of list
+        TreeNode rtail=flattenUtil(root.right);//returning tail of list
 
         if(ltail!=null && rtail!=null){
             ltail.right=root.right;
             root.right=root.left;
             root.left=null;
-        }else if(ltail!=null){
+            return rtail;
+        }
+        if(ltail!=null){
             root.right=root.left;
             root.left=null;
             return ltail;
