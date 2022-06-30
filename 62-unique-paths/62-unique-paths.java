@@ -1,17 +1,40 @@
 class Solution {
+//     public int uniquePaths(int m, int n) {
+//         int dp[][]=new int[m+1][n+1];
+//         for(int i=m;i>0;i--){
+//             for(int j=n;j>0;j--){
+//                 if(j==n||i==m){
+//                     dp[i][j]=1;
+//                 }else{
+//                     dp[i][j]=dp[i+1][j]+dp[i][j+1];
+//                 }
+//             }
+//         }
+//         return dp[1][1];
+//     }
+    
+    
+    
+    
+    // as only i+1 required so can optimise
     public int uniquePaths(int m, int n) {
-        int dp[][]=new int[m+1][n+1];
+        int dp[]=new int[n+1];
         for(int i=m;i>0;i--){
+            int prev[]=dp;
             for(int j=n;j>0;j--){
                 if(j==n||i==m){
-                    dp[i][j]=1;
+                    prev[j]=1;
                 }else{
-                    dp[i][j]=dp[i+1][j]+dp[i][j+1];
+                    prev[j]=dp[j]+prev[j+1];
                 }
             }
+            dp=prev;
         }
-        return dp[1][1];
+        return dp[1];
     }
+    
+    
+    
     /*
      or as total down we have to take is m-1 (m is the no. of rows here) and as total right we have to take is n-1 (n is the no. of colm. here) which total is m-1+n-1= m+n-2 the answer can be (m+n-2) C (n-1) or (m+n-2) C (m-1) as out of m+n-2 directions i have to fix either n-1 then m-1 will make combinations or fix m-1 and n-1 will make diff combos , so (m+n-2) C (n-1) or (m+n-2) C (m-1)
      
