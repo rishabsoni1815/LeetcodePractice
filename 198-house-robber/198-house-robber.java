@@ -1,14 +1,14 @@
 class Solution {
     public int rob(int[] a) {
-        int n=a.length;
-        int dp[]=new int[n+1];
+        int dp[]=new int[a.length+1];
         Arrays.fill(dp,-1);
-       return find(0,n,dp,a);
+        return help(0,a,a.length,dp);
     }
-    int find(int i,int n,int dp[],int a[]){
-        if(i>n) return 0;
-        if(i==n) return 0;
+    int help(int i,int a[],int n,int dp[]){
+        if(i>=n) return 0;
         if(dp[i]!=-1) return dp[i];
-        return dp[i]=Math.max(a[i]+find(i+2,n,dp,a),find(i+1,n,dp,a));
+        int l=a[i]+help(i+2,a,n,dp);
+        int r=help(i+1,a,n,dp);
+        return dp[i]=Math.max(l,r);
     }
 }
