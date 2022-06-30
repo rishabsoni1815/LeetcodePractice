@@ -37,9 +37,10 @@ class Solution {
         Pair l=help(root.left);
         Pair r=help(root.right);
         Pair ans=new Pair(0,0);
+        // if we rob this node, we cannot rob its children
         ans.inc=root.val+((l.ninc+r.ninc));
+        // else, we free to choose rob its children or not
         ans.ninc=(Math.max(l.inc,l.ninc)+Math.max(r.inc,r.ninc));
-        // System.out.println(root.val+" "+ans.inc+" "+ans.ninc);
         return ans;
     }
 }
