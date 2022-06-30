@@ -2,6 +2,7 @@ class Solution {
     public int rob(int[] nums) {
         if(nums.length==1) return nums[0];
         if(nums.length==2) return Math.max(nums[0],nums[1]);
+      //max of subarray [0,n-1] and [1,n] 
         return Math.max(help(Arrays.copyOfRange(nums,1,nums.length)),help(Arrays.copyOfRange(nums,0,nums.length-1)));
     }
     public int help(int[] nums) {
