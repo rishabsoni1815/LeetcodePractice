@@ -1,34 +1,30 @@
 class Solution {
-    public int findTargetSumWays(int[] a, int k) {
-        int n=a.length;
+    public int findTargetSumWays(int[] a, int t) {
+        /*
+        
+        like count of subsets with given sum ->
+            S1 - S2 = target
+    S1 + S2 = sum of all the elements   
+
+    By simplifing the above 2 equations we get, 2* S1 = target + Sum of all the elements
+
+    => S1 = (target + Sum of all the elements) / 2
+        
+        */
         int sum=0;
-        int c=0;
-        for(int y:a) {
-            sum+=y;
-         if(y==0) c++;   
+        for(int x:a) sum+=x;
+        if((Math.abs(t)>sum)||(t+sum)%2!=0) return 0;
+        t=(t+sum)/2;
+        int n=a.length;
+        int dp[][]=new int[n+1][t+1];
+        dp[0][0]=1;
+        // for(int i=0;i<=n;i++) dp[i][0]=1; not doing this as we do in target sum as array can have 0 so if sum==0 it is not always true we have to consider choices ( to include 0 or not)
+        for(int i=1;i<=n;i++){
+            for(int j=0;j<=t;j++){
+                dp[i][j]=dp[i-1][j];
+                if(j-a[i-1]>=0) dp[i][j]+=dp[i-1][j-a[i-1]];
+            }
         }
-        int ans=0;
-        if(k>sum||(sum+k)%2!=0) return 0;
-        k=((sum+k)/2);
-        if(k<0) return 0;
-        int t[][]=new int[n+1][k+1];
-        for (int i=0; i<=n; i++) {
-            for (int j=0; j<=k; j++) {
-               if(i==0&&j==0){
-                   t[i][j]=1;
-               }
-                else if(j==0&&i!=0){
-                    t[i][j]=1;
-                }else if(i==0&&j!=0){
-                    t[i][j]=0;
-                }
-                else if (a[i-1] > j||a[i-1]==0) {
-                    t[i][j] = t[i-1][j];
-                } else {
-                    t[i][j] = t[i-1][j]+ t[i-1][j-(a[i-1])];;
-                }                   
-             }
-         }
-        return (int)Math.pow(2,c)*t[n][k];
+        return dp[n][t];
     }
 }
