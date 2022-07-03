@@ -1,7 +1,9 @@
 class Solution {
+    
+    // as i+2 and i+1 so can't space optimise 
     public int maxProfit(int[] a) {
         int n=a.length;
-        int dp[][]=new int[n+1][2];//only i+1 needed so can optimise also
+        int dp[][]=new int[n+1][2];
         //n+1 case base case has value 0
         for(int i=n-1;i>=0;i--){
             for(int buy=0;buy<2;buy++){
