@@ -11,9 +11,9 @@ class LRUCache {
 
   public int get(int key) {
     if(map.containsKey(key)) {
-      Node node = map.get(key);
+      Node node = map.get(key);//now node is most recently used so it will go next to head
       remove(node);
-      insert(node);
+      insert(node);//inseting next to head
       return node.value;
     } else {
       return -1;
@@ -25,7 +25,7 @@ class LRUCache {
       remove(map.get(key));
     }
     if(map.size() == capacity) {
-      remove(tail.prev);
+      remove(tail.prev);//removing least recently used element i.e prev to tail
     }
     insert(new Node(key, value));
   }
