@@ -21,23 +21,35 @@ class GfG {
 // User function Template for Java
 
 class Solution {
-    public int longestkSubstr(String s, int k) {
-        // code 
-        HashMap<Character,Integer>h=new HashMap<>();
-        int i=0,n=s.length(),ans=-1,j=0;
-        while(i<n){
-            h.put(s.charAt(i),h.getOrDefault(s.charAt(i),0)+1);
-            if(h.size()==k){
-                ans=Math.max(ans,i-j+1);
-            }else if(h.size()>k){
-                while(j<n&&h.size()>k){
-                    h.put(s.charAt(j),h.get(s.charAt(j))-1);
-                    if(h.get(s.charAt(j))==0) h.remove(s.charAt(j));
-                    j++;
-                }
+    public int longestkSubstr(String s, int t) {
+        // code here
+        int h[]=new int[26];
+        int i=0,j=0,n=s.length(),k=0,max=0;
+        while(j<n){
+            h[s.charAt(j)-'a']++;
+            if(h[s.charAt(j)-'a']==1){
+                k++;
             }
-            i++;
+            if(k<t){
+                j++;
+            }
+            if(k==t){
+                max=Math.max(max,j-i+1);
+                j++;
+            }
+            else if(k>t){
+                while(k>t){
+                    if(h[s.charAt(i)-'a']>0){
+                        h[s.charAt(i)-'a']--;
+                        if(h[s.charAt(i)-'a']==0){
+                            k--;
+                        }
+                    }
+                    i++;
+                }
+                j++;
+            }
         }
-        return ans;
+        return max==0?-1:max;
     }
 }
