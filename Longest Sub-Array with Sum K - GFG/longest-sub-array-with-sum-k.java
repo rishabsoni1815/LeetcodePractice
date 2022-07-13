@@ -54,11 +54,12 @@ class Solution{
     public static int lenOfLongSubarr (int a[], int n, int k) {
         int sum=0,max=0;
         HashMap<Integer,Integer>h=new HashMap<>();
+        h.put(0,-1);
         for(int i=0;i<n;i++){
             sum+=a[i];
-            if(sum==k){
-                max=Math.max(max,i+1);
-            }
+            // if(sum==k){
+            //     max=Math.max(max,i+1);
+            // }
             if(h.containsKey(sum-k)){
                 max=Math.max(max,i-h.get(sum-k));
             }
