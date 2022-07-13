@@ -13,7 +13,7 @@ class Solution {
         }
         int i=0,j=0,ansi=0,ansj=0,ans=Integer.MAX_VALUE;
         //increasing window until reqcount!=count and after that decreasign window size from front until reqcount==count
-        while(i<n && j<n){
+        while(j<n){
             if(j<n && reqcount>count){
                 char c=s.charAt(j);
                 int x=c-'A';
@@ -22,7 +22,7 @@ class Solution {
                 j++;
             }
             if(count==reqcount){
-                while(i<n &&i<j && reqcount==count){
+                while(i<n &&i<j && reqcount==count){//if equal then also compress window as we want min size window as answer
                     int x=s.charAt(i)-'A';
                     h[x]--;
                     if(req[x]>0 && h[x]<req[x]) count--;
