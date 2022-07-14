@@ -18,7 +18,7 @@ class Solution {
         for(int j=i;j<a.length;j++){
             if(v[j]==false){
                 v[j]=true;
-                if(help(j+1,sum+a[j],a,k,v,t)) return true;
+                if(help(j,sum+a[j],a,k,v,t)) return true;
                 v[j]=false;
             }
         }
