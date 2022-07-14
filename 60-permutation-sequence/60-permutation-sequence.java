@@ -1,6 +1,6 @@
 class Solution {
     public String getPermutation(int n, int k) {
-        int fact = 1; 
+        int fact = 1; //fact of n-1
         List<Integer> numbers = new ArrayList<>(); 
         for(int i = 1;i<n;i++) {
             fact = fact * i; 
@@ -11,7 +11,7 @@ class Solution {
         k = k - 1; 
         while(true) {
             ans = ans + numbers.get(k / fact); 
-            numbers.remove(k / fact); 
+            numbers.remove(k / fact); //remove lement at k/fact index
             if(numbers.size() == 0) {
                 break; 
             }
