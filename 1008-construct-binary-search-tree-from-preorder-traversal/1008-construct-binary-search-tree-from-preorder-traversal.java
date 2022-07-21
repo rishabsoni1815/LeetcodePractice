@@ -23,7 +23,7 @@ class Solution {
         if (i[0] == A.length || A[i[0]] >= bound) return null;
         TreeNode root = new TreeNode(A[i[0]++]);
         root.left = bstFromPreorder(A, root.val, i);
-        root.right = bstFromPreorder(A, bound, i);
+        root.right = bstFromPreorder(A, bound, i);//not root.val as bound is diff. as recurssion has completed left subtree
         return root;
     }
 }
