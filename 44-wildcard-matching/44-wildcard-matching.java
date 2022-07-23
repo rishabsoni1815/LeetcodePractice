@@ -16,7 +16,7 @@ class Solution {
             return dp[i][j]=help(i-1,j-1,s,p,dp);
         }else{
             if(p.charAt(j)=='*'){
-                return dp[i][j]=help(i-1,j,s,p,dp)||help(i,j-1,s,p,dp);//for a start either replace it with empty sequence then j-1 and i else if replace that by s.charAt(i) and do i-1 not j-1 as * can replace any length of sequence of characters 
+                return dp[i][j]=help(i-1,j,s,p,dp)||help(i,j-1,s,p,dp);//for a start either replace it with empty sequence (as maybe * is just extra stuff) then j-1 and i else if replace that by s.charAt(i) and do i-1 but don not do j-1 as * can replace any length of sequence of characters so can carry as it is so i-1 but j remains same 
             }else{
                 return dp[i][j]=false;
             }
