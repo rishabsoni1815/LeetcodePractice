@@ -11,9 +11,9 @@ class Solution {
         if(a.charAt(i)==b.charAt(j)){
            return dp[i][j]=help(i-1,j-1,a,b,dp);
         }else{
-            int x=help(i,j-1,a,b,dp);
-            int y=help(i-1,j,a,b,dp);
-            int z=help(i-1,j-1,a,b,dp);
+            int x=help(i,j-1,a,b,dp);//insert -> inserted jth char after a.substring(0,i+1) so is is same only but as jth is matched (insertd jth char only) so j--
+            int y=help(i-1,j,a,b,dp);//delete -> deleted ith char but still hve to match jth so i-- but j is same
+            int z=help(i-1,j-1,a,b,dp);//replace-> replaced ith with jth so  i-- j--
             return dp[i][j]=1+Math.min(x,Math.min(y,z));
         }
     }
