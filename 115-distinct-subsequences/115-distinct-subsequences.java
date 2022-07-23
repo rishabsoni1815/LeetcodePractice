@@ -8,12 +8,10 @@ class Solution {
     int help(int i,int j,String s,String t,Integer dp[][]){
         if(j<0) return 1;
         if(i<0) return 0;
-        int x=0;
         if(dp[i][j]!=null) return dp[i][j];
         if(s.charAt(i)==t.charAt(j)){
-            x+=help(i-1,j-1,s,t,dp);
+            return dp[i][j]=help(i-1,j,s,t,dp)+help(i-1,j-1,s,t,dp);//taking jth char and ith char+don't want jth to match with ith so j remains same but i decreases
         }
-            x+=help(i-1,j,s,t,dp);
-        return dp[i][j]=x;
+        else return dp[i][j]=help(i-1,j,s,t,dp);
     }
 }
