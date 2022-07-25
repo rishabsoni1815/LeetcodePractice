@@ -1,7 +1,7 @@
 class Solution {
   public int longestStrChain(String[] words) {
         Map<String, Integer> dp = new HashMap<>();//as can't strore string as index so map
-        Arrays.sort(words, (a, b)->a.length() - b.length());//to check only for smaller 
+        Arrays.sort(words, (a, b)->a.length() - b.length());//to check only for smaller so sorting by length comparator not simple Arrays.sort(words) as this will sort lexicographically not legth wise
         int res = 0;
         for (String word : words) {
             int best = 0;
