@@ -26,8 +26,8 @@ class Solution {
         if(i==j) return 0;
         int max=0;
         if(dp[i][j]!=null) return dp[i][j];
-        for(int k=i;k<j;k++){
-            max=Math.max(max,a[i-1]*a[k]*a[j]+help(i,k,a,dp)+help(k+1,j,a,dp));
+        for(int k=i;k<=j;k++){
+            max=Math.max(max,a[i-1]*a[k]*a[j+1]+help(i,k,a,dp)+help(k+1,j,a,dp));
         }
         return dp[i][j]=max;
     }
