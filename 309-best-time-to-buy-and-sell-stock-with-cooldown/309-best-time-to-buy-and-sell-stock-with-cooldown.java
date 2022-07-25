@@ -1,21 +1,41 @@
 class Solution {
     
-    // as i+2 and i+1 so can't space optimise 
     public int maxProfit(int[] a) {
         int n=a.length;
-        int dp[][]=new int[n+1][2];
+        int prev2[]=new int[2];
+        int prev1[]=new int[2];
+        int dp[]=new int[2];
         //n+1 case base case has value 0
         for(int i=n-1;i>=0;i--){
             for(int buy=0;buy<2;buy++){
                     if(buy==1){
-                        dp[i][buy]=Math.max(-a[i]+dp[i+1][0],dp[i+1][1]);
+                        dp[buy]=Math.max(-a[i]+prev1[0],prev1[1]);
                     }else{
-                        dp[i][buy]=Math.max((i+2<=n)?(a[i]+dp[i+2][1]):a[i],dp[i+1][0]);
+                        dp[buy]=Math.max(a[i]+prev2[1],prev1[0]);
                     }
             }
+            prev2=(int [])prev1.clone();//as can't define it inside first loop everytime as we do generally as we need prev2 and all
+            prev1=(int[])(dp.clone());
         }
-        return dp[0][1];//at 0 always buy as no choice of sell
+        return dp[1];//at 0 always buy as no choice of sell
     }
+    
+    // as i+2 and i+1 so can do space optimise 
+    // public int maxProfit(int[] a) {
+    //     int n=a.length;
+    //     int dp[][]=new int[n+1][2];
+    //     //n+1 case base case has value 0
+    //     for(int i=n-1;i>=0;i--){
+    //         for(int buy=0;buy<2;buy++){
+    //                 if(buy==1){
+    //                     dp[i][buy]=Math.max(-a[i]+dp[i+1][0],dp[i+1][1]);
+    //                 }else{
+    //                     dp[i][buy]=Math.max((i+2<=n)?(a[i]+dp[i+2][1]):a[i],dp[i+1][0]);
+    //                 }
+    //         }
+    //     }
+    //     return dp[0][1];//at 0 always buy as no choice of sell
+    // }
     
     
     //memoisation
