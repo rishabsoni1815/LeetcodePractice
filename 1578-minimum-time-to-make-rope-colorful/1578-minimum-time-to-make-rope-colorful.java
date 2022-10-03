@@ -6,27 +6,17 @@ class Solution {
             if(s.charAt(i)==s.charAt(j)){
                 if(t[i]<=t[j]){
                     c+=t[i];
-                    i=j;
+                    i=j;//not i++ as i and j may have diff grt>1 
                     j++;
                 }else{
                     c+=t[j];
                     j++;
                 }
-                // System.out.println(i+" "+j);
             }else{
-                i=j;
+                i=j;//not i++ as i and j may have diff grt>1 
                 j++;
             }
         }
         return c;
     }
 }
-// "a a a  b b b a b b b b"
-// [3,5,10,7,5,3,5,5,4,8,1]
-// 3  
-//    8
-//           13
-//             16
-//                 20
-//                     25
-        
