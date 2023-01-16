@@ -1,30 +1,25 @@
 class Solution {
-    public int[][] insert(int[][] a, int[] in) {
-        int n=a.length;
-        ArrayList<int []>ans=new ArrayList<>();
-        int i=0;
-        while(i<n && in[0]>a[i][1]) {
-            ans.add(a[i]);
-            i++;
+    public int[][] insert(int[][] a, int[] b) {
+        List<int []>ans=new ArrayList<>();
+        int i=b[0];
+        int j=b[1];
+        int c=0;
+        while(c<a.length&&a[c][1]<i){
+            ans.add(a[c]);
+            c++;
         }
-        int x[]=new int[2];
-        x[0]=in[0];
-        if(n>0 &&i<n) x[0]=Math.min(a[i][0],in[0]);
-        int j=i;
-        x[1]=in[1];
-        while(j<n && a[j][0]<=in[1]) {
-            x[1]=Math.max(x[1],a[j][1]);
-            j++;
+        while(c<a.length&&a[c][0]<=j){
+            i=Math.min(i,a[c][0]);
+            j=Math.max(j,a[c][1]);
+            c++;
         }
-        ans.add(x);
-        while(j<n){
-            ans.add(a[j]);
-            j++;
+        ans.add(new int[]{i,j});
+        while(c<a.length){
+              ans.add(a[c]);
+            c++;
         }
-        int uu[][]=new int[ans.size()][2];
-        for(int ii=0;ii<uu.length;ii++){
-            uu[ii]=ans.get(ii);
-        }
-        return uu;
+       int u[][]=new int[ans.size()][];
+        u=ans.toArray(u);
+         return u; 
     }
 }
