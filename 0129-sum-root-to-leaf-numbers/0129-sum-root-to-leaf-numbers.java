@@ -14,24 +14,12 @@
  * }
  */
 class Solution {
-    int ans=0;
     public int sumNumbers(TreeNode root) {
-        ans=0;
-        help(root);
-        return ans;
+        return help(root,0);
     }
-    int help(TreeNode root){
+    int help(TreeNode root,int s){
         if(root==null) return 0;
-        if(root.left==null&&root.right==null) {
-            ans+=root.val;
-            return 1;
-        }
-        else{
-            int x=10*help(root.left);
-            int y=10*help(root.right);
-            ans+=(root.val*x);
-            ans+=(root.val*y);
-            return x+y;
-        }
+        if(root.left==null&&root.right==null) return s*10+root.val;
+        return help(root.left,s*10+root.val)+help(root.right,s*10+root.val);
     }
 }
