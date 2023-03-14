@@ -19,7 +19,8 @@ class Solution {
     }
     int help(TreeNode root,int s){
         if(root==null) return 0;
-        if(root.left==null&&root.right==null) return s*10+root.val;
-        return help(root.left,s*10+root.val)+help(root.right,s*10+root.val);
+        int cursum=s*10+root.val;
+        if(root.left==null&&root.right==null) return cursum;
+        return help(root.left,cursum)+help(root.right,cursum);
     }
 }
