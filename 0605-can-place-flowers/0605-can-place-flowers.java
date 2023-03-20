@@ -1,24 +1,18 @@
-class Solution {
-    public boolean canPlaceFlowers(int[] a, int k) {
-        int i=0,ans=0,n=a.length;
-        while(i<n){
-            if(a[i]==1){
-                i++;
-            }else{
-                boolean f=true;
-                if(i>0){
-                    if(a[i-1]==1) f=false;
-                }
-                if(i< n-1){
-                    if(a[i+1]==1) f=false;
-                }
-                if(f==true){
-                    ans++;
-                    i++;
-                }
+public class Solution {
+    public boolean canPlaceFlowers(int[] flowerbed, int n) {
+        int count = 0;
+        for(int i = 0; i < flowerbed.length && count < n; i++) {
+            if(flowerbed[i] == 0) {
+	     //get next and prev flower bed slot values. If i lies at the ends the next and prev are considered as 0. 
+               int next = (i == flowerbed.length - 1) ? 0 : flowerbed[i + 1]; 
+               int prev = (i == 0) ? 0 : flowerbed[i - 1];
+               if(next == 0 && prev == 0) {
+                   flowerbed[i] = 1;
+                   count++;
+               }
             }
-            i++;
         }
-        return k<=ans;
+        
+        return count == n;
     }
 }
