@@ -11,10 +11,11 @@ class Solution {
                 i++;
             }
         }
-        String ans="";
-        while(st.isEmpty()==false){
-            ans=st.pop()+ans;
+          StringBuilder answer = new StringBuilder();
+        while (!st.isEmpty()) {
+            answer.append(st.pop());
         }
-        return ans;
+
+        return answer.reverse().toString();
     }
 }
