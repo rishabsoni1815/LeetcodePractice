@@ -14,14 +14,17 @@
  * }
  */
 class Solution {
+    int max = 0;
     public int longestZigZag(TreeNode root) {
-        return help(root)[2];
+        if(root == null) return 0;
+        path(root.left, 0, false); //try both directions, and choose the better one
+        path(root.right, 0, true);
+        return max;
     }
-    int [] help(TreeNode root){
-        if(root==null) return new int[]{-1,-1,-1};
-        int l[]=help(root.left);
-        int r[]=help(root.right);
-        int res=Math.max(Math.max(l[1],r[0])+1,Math.max(l[2],r[2]));
-        return new int[]{l[1]+1,r[0]+1,res};
+    private void path(TreeNode node, int depth, boolean direction) { //direction: true is right, false is left
+        max = Math.max(max, depth);
+        if(node == null) return;
+        path(node.left, (direction) ? depth+1: 0, false); //if previous direction was right, and now going left, we add 1 to depth, else starting again as 0
+        path(node.right, (!direction) ? depth+1: 0, true);
     }
 }
