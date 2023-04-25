@@ -1,16 +1,23 @@
 class SmallestInfiniteSet {
     TreeSet<Integer>h=new TreeSet<>();
+    int cur=1;
     public SmallestInfiniteSet() {
         h=new TreeSet<>();
-        for(int i=1;i<=1000;i++) h.add(i);
+        cur=1;
     }
     
     public int popSmallest() {
-        return h.pollFirst();
+        if(h.size()==0){
+            return cur++;
+        }else{
+            return h.pollFirst();
+        }
     }
     
     public void addBack(int num) {
-        h.add(num);
+        if(num<cur){
+            h.add(num);
+        }
     }
 }
 
