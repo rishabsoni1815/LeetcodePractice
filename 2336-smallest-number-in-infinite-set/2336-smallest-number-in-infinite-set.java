@@ -1,4 +1,5 @@
 class SmallestInfiniteSet {
+    //  https://youtu.be/b_Cmig4l6_c
     TreeSet<Integer>h=new TreeSet<>();
     int cur=1;
     public SmallestInfiniteSet() {
