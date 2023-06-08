@@ -1,24 +1,25 @@
 class Solution {
-    public int[] successfulPairs(int[] a, int[] b, long s) {
-        Arrays.sort(b);
-        for(int i=0;i<a.length;i++){
-            int x=(int)Math.ceil((double)s/a[i]);
-            a[i]=help(b,x);
+    public int[] successfulPairs(int[] s, int[] p, long k) {
+        Arrays.sort(p);
+        int n=s.length;
+        int m=p.length;
+        for(int i=0;i<n;i++){
+            int x=help(s[i],p,k,n,m);
+            s[i]=x;
         }
-        return a;
+        return s;
     }
-    int help(int a[],int x){
-        int l=0,r=a.length-1;
-        int ans=a.length;
-        while(l<=r){
-            int m=(l+(r-l)/2);
-            if(a[m]>=x){
-                ans=m;
-                r=m-1;
+    int help(int s,int p[],long k,int n,int m){
+        int ans=m,i=0,j=m-1;
+        while(i<=j){
+            int mid=i+(j-i)/2;
+            if((p[mid]*(long)s)>=k){
+                ans=mid;
+                j=mid-1;
             }else{
-                l=m+1;
+                i=mid+1;
             }
         }
-        return a.length-ans;
+        return m-ans;
     }
 }
