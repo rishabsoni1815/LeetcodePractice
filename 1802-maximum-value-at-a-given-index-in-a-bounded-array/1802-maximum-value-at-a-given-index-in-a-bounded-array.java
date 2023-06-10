@@ -19,7 +19,6 @@ class Solution {
         int l=Math.max(0,m-id);
         res=((long)(m+l)*(m-l+1)/2);
         int r=Math.max(0,m-((n-1)-id));
-        System.out.println(l+" "+r+" "+res);
         res+=((long)(m+r)*(m-r+1)/2);//not m-r as sequence is [a,a-1,a-2....b] i.e [a,...b+2,b+1,b]
         res-=m;//while adding res we added m twice 
         return res<=s;
