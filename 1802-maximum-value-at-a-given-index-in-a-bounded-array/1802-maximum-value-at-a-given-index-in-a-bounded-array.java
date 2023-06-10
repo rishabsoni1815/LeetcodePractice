@@ -1,10 +1,9 @@
 class Solution {
     public int maxValue(int n, int id, int s) {
-        s-=n;
+        s-=n;//giving 1 to all as min is 1 not 0 (written nums[i] is a positive integer)
         int ans=0,i=0,j=s;
         while(i<=j){
             int m=(i+(j-i)/2);
-            // System.out.println(i+" "+j+" "+m+" "+help(m,n,id,s));
             if(help(m,n,id,s)){
                 ans=m;
                 i=m+1;
@@ -12,11 +11,10 @@ class Solution {
                 j=m-1;
             }
         }
-        return Math.max(1,ans+1);
+        return Math.max(1,ans+1);//ans+1 as alerady we did s-=n in first
     }
     //The sum of arithmetic sequence {a, a+1, ....b},equals to (a + b) * (b - a + 1) / 2.
     boolean help(int m,int n,int id,int s){
-        // 2 3 2 1 0 0 
         long res=0L;
         int l=Math.max(0,m-id);
         res=((long)(m+l)*(m-l+1)/2);
