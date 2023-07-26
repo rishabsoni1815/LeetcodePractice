@@ -1,21 +1,24 @@
 class Solution {
-    public int minSpeedOnTime(int[] dist, double hour) {
-        int n = dist.length;
-        int min = 1, max = 10000005;
-        int ans = -1;
-        while(min <= max){
-            int mid = (max + min)/2;
-            double sum = 0;
-            for(int i = 0; i<n-1; ++i){
-                sum += Math.ceil( ( (double) dist[i]) /mid);
-            }
-            sum = sum + ( ( (double) dist[n-1]) /mid);
-            if(sum > hour){
-                min = mid+1;
+    public int minSpeedOnTime(int[] a, double h) {
+        int n=a.length;
+        int l=1,r=10000001,ans=-1;
+        while(l<=r){
+            int m= l+(r-l)/2;
+            if(help(a,h,m)){
+                ans=m;
+                r=m-1;
             }else{
-                max = mid-1;
+                l=m+1;
             }
         }
-        return min>=10000005?-1: min;
+        return ans;
+    }
+    boolean help(int a[],double h,int m){
+        double k=0.0;
+        for(int i=0;i<a.length-1;i++){
+            k+=Math.ceil((double)a[i]/m);
+        }
+        k+=((double)a[a.length-1]/m);
+        return k<=h;
     }
 }
