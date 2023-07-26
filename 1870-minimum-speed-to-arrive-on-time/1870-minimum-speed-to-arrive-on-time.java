@@ -1,7 +1,7 @@
 class Solution {
     public int minSpeedOnTime(int[] a, double h) {
         int n=a.length;
-        int l=1,r=1000000001,ans=-1;
+        int l=1,r=10000001,ans=-1;
         while(l<=r){
             int m= l+(r-l)/2;
             if(help(a,h,m)){
