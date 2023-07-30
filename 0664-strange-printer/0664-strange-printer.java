@@ -7,6 +7,14 @@ class Solution {
     int help(int i,int j,int n,String s,Integer dp[][]){
         if(i>j) return Integer.MAX_VALUE-1;
         if(i==j) return 1;
+        
+        //optimise it as if s[j]==s[j-1] then it's equivalent to printing substring s[i...j-1].
+        if(j>0 && s.charAt(j)==s.charAt(j-1)) return dp[i][j]=help(i, j-1, n,s,dp);
+        
+       //optimise it as if s[i]==s[i+1] then it's equivalent to printing substring s[i+1...j].
+        if(i<n-1 && s.charAt(j)==s.charAt(j-1)) return dp[i][j]=help(i+1, j,  n,s,dp);
+        
+        
         if(s.charAt(i)==s.charAt(j)){
             return dp[i][j]=help(i,j-1,n,s,dp);// abcda can be ans of abcd only as we can make aaaaa and then make it abcda so ans of abcda is of abcd only
         }else{
