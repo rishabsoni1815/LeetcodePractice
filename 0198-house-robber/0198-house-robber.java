@@ -3,14 +3,20 @@ class Solution {
         int n=a.length;
         // Integer dp[]=new Integer [n];
         // return help(0,n,a,dp);
-        int dp[]=new int[n];
-        dp[0]=a[0];
+        int prev=0,prevprev=0;
+        // int dp[]=new int[n];
+        // dp[0]=a[0];
+        prev=a[0];
         for(int i=1;i<n;i++){
             int r=a[i];
-            dp[i]=Math.max(r,dp[i-1]);
-            if(i-2>=0) dp[i]=Math.max(dp[i],r+dp[i-2]);
+            int l=prev;
+            if(i-2>=0) r+=prevprev;
+            int cur=Math.max(l,r);
+            prevprev=prev;
+            prev=cur;
+            
         }
-        return dp[n-1];
+        return prev;
     }
     int help(int i,int n,int a[],Integer dp[]){
         if(i>=n) return 0;
