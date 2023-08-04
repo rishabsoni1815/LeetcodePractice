@@ -10,13 +10,15 @@ class Solution {
         if(i>=n) return true;
         StringBuilder temp=new StringBuilder();
         if(dp[i]!=null) return dp[i];
-        boolean ans=false;
+        // boolean ans=false;
         for(int j=i;j<n;j++){
             temp.append(s.charAt(j));
             if(h.contains(temp.toString())){
-                ans|=help(j+1,n,s,h,dp);
+                // ans|=help(j+1,n,s,h,dp);//optimise as break when found
+                if(help(j+1,n,s,h,dp)) return dp[i]=true;
+                
             }
         }
-        return dp[i]=ans;
+        return dp[i]=false;
     }
 }
