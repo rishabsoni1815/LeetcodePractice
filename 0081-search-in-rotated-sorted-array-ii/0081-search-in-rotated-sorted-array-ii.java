@@ -1,6 +1,6 @@
 class Solution {
     public boolean search(int[] a, int t) {
-        //same as this - https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
+        //same as this - https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/ for test case [10 1 2 10 10] case
        // in this we just added a[i]==a[m] && a[m]==a[j] condition for https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/
         
         int n=a.length;
