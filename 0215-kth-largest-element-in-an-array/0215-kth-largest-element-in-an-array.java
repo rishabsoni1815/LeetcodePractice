@@ -11,7 +11,7 @@ class Solution {
        while(l<r){
             int p=partition(a,l,r);
              if(p>k) r=p-1;//if pivot is >k (we don't) need to make pivot an element which is >k that so r=p-1
-            else if(p<k) l=p+1;
+            else if(p<k) l=p+1;//this binary search technique will further optimise can do simple also
            else break;
        }
         return a[k];// returning a[k] as till 0 to k (n-k originally) array has less than pivot on left na don right > than pivot
