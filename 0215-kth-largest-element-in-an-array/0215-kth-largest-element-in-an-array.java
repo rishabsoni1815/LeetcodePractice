@@ -1,41 +1,42 @@
 class Solution {
-    public int findKthLargest(int[] a, int k) {
-        int n=a.length;
-        if(n==1) return a[0];
-        k=n-k;
-        int nas=qSort(a,0,n-1,k);
-        // for(int i=0;i<n;i++) System.out.print(a[i]+" ");
-        // System.out.println();
-        return nas;
+    /// heap 
+    
+    //2nd aproach - quicksort method of partition
+    public int findKthLargest(int[] nums, int k) {
+        //shuffle(nums); to random quicksort
+        
+        return quick(nums,0,nums.length-1,nums.length-k);//kth largest => n-k smallest in sorted array so have to do quick sort until pivot is n-k (run quick sort till n-k as pivot not n-k+1 as 0 based indexing in array while doing quicksort) as pivot n-k means on left of n-k are less than it and on right >= than pivot so when pivot is n-k it means a[k] is the kth largest or (n-k)th smallest 
     }
-    int qSort(int a[],int i,int j,int k){
-        // System.out.println(i+" "+j);
-        if(i<=j){
-            int p=getPartition(a,i,j);//p is at right place sort i...p-1 and p+1...j
-            
-        //     for(int ii=0;ii<a.length;ii++) System.out.print(a[ii]+" ");
-        // System.out.println(" pivot - "+p+" "+a[p]);
-            
-            if(p==k) return a[p];        
-            int y=qSort(a,i,p-1,k);
-            if(y!=-1) return y;
-            y=qSort(a,p+1,j,k);
-            if(y!=-1) return y;
-        }
-        return -1;
+    int quick(int a[],int l,int r,int k){
+       while(l<r){
+            int p=partition(a,l,r);
+             if(p>k) r=p-1;//if pivot is >k (we don't) need to make pivot an element which is >k that so r=p-1
+            else if(p<k) l=p+1;
+           else break;
+       }
+        return a[k];// returning a[k] as till 0 to k (n-k originally) array has less than pivot on left na don right > than pivot
     }
-    int getPartition(int a[],int i,int j){
-        int pivot=j;//last index as pivot
-        int cur=i,l=i;
-        while(l<=j && cur<=j){
-            if(a[cur]<=a[pivot]){//swap l and cur
-                int temp=a[l];
-                a[l]=a[cur];
-                a[cur]=temp;
-                l++;
+    int partition(int a[],int l,int r){
+        int pivot=a[r];// rth as pivot
+        int pindex=l;
+        for(int i=l;i<=r;i++){
+            if(a[i]<=pivot){    
+                swap(a,i,pindex);
+                pindex++;
             }
-            cur++;
         }
-        return l-1;
+        return pindex-1;//as on last turn pindex will be pindex++
+    }
+    void swap(int a[],int i,int j){
+        int t=a[i];
+        a[i]=a[j];
+        a[j]=t;
+    }
+      private void shuffle(int a[]) {
+        Random random = new Random();
+        for(int ind = 1; ind < a.length; ind++) {
+            final int r = random.nextInt(ind + 1);//The nextInt(int n) is used to get a random number between 0(inclusive) and the number passed in this argument(n), exclusive.
+            swap(a, ind, r);
+        }
     }
 }
