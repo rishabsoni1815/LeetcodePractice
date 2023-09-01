@@ -21,10 +21,10 @@ class Solution {
         for(int i=1;i<=n;i++){
             if(i%2==0) {
                 k++;
-                a[i]=a[k];
+                a[i]=a[i>>1]; // or can directly do i>>1 or i/2 no need of k
             }
             else {
-                a[i]=1+a[k];
+                a[i]=1+a[i>>1];
             }
         }
         return a;
