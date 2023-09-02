@@ -1,24 +1,19 @@
 class Solution {
-    public int minExtraChar(String s, String[] a) {
-        int n=s.length();
+    public int minExtraChar(String s, String[] d) {
+        int n=s.length(),m=d.length;
         HashSet<String>h=new HashSet<>();
-        for(String y:a) h.add(y);
-        Integer dp[]=new Integer[n];
-        return help(0,s.length(),s,h,dp);
-    }
-     int help(int i,int n,String s,HashSet<String>h,Integer dp[]){
-        if(i>=n) return 0;
-        StringBuilder temp=new StringBuilder();
-        if(dp[i]!=null) return dp[i];
-        int ans=Integer.MAX_VALUE;
-        for(int j=i;j<n;j++){
-            temp.append(s.charAt(j));
-            if(h.contains(temp.toString())){
-                ans=Math.min(ans,help(j+1,n,s,h,dp));
+        for(String f:d) h.add(f);
+        int dp[]=new int[n+1];
+        for(int i=n-1;i>=0;i--){
+            StringBuilder c=new StringBuilder();
+            dp[i]=1+dp[i+1];
+            for(int j=i;j<n;j++){
+                c.append(s.charAt(j));
+                if(h.contains(c.toString())){
+                    dp[i]=Math.min(dp[i],dp[j+1]);
+                }           
             }
-            ans=Math.min(ans,(j-i+1)+help(j+1,n,s,h,dp));
-            
         }
-        return dp[i]=ans;
+        return dp[0];
     }
 }
