@@ -19,7 +19,7 @@ The first loop makes sure children with a higher rating get more candy than its 
       
       for(int i = n - 2; i >=0; i--){
         if(ratings[i + 1] < ratings[i]){
-          res[i] = Math.max(res[i+1] + 1, res[i]);    
+          res[i] = Math.max(res[i+1] + 1, res[i]); //imp max not min as we want to take max of both possiblities   
         }
       }
       
