@@ -8,7 +8,7 @@ class Solution {
             graph.get(edge[1]).add(new int[]{edge[0], 1}); // reverse edge, weight 1    
         }
         HashMap<String,Integer>dp=new HashMap<>();
-        // Integer[][] dp = new Integer[n][n];
+        // Integer[][] dp = new Integer[n][n]; as give memory exceeded
         int ans[]=new int[n];
         for(int i=0;i<n;i++) ans[i]=dfs(i,-1,graph,dp);
         return ans;
