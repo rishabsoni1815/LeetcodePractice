@@ -1,37 +1,27 @@
 class Solution {
-    public boolean backspaceCompare(String s, String t) {
-        Stack<Character>s1=new Stack<>();
-        Stack<Character>s2=new Stack<>();
-        int n=s.length(),m=t.length();
-        int i=0,j=0;
-        while(i<n){
-            char c=s.charAt(i);
-            if(c!='#'){
-                s1.push(c);
-            }else{
-                if(s1.size()>0){
-                    s1.pop();
-                }
+    public boolean backspaceCompare(String S, String T) {
+        int i = S.length() - 1, j = T.length() - 1;
+        int skipS = 0, skipT = 0;
+
+        while (i >= 0 || j >= 0) { // While there may be chars in build(S) or build (T)
+            while (i >= 0) { // Find position of next possible char in build(S)
+                if (S.charAt(i) == '#') {skipS++; i--;}
+                else if (skipS > 0) {skipS--; i--;}
+                else break;
             }
-            i++;
-        }
-        
-        while(j<m){
-            char c=t.charAt(j);
-            if(c!='#'){
-                s2.push(c);
-            }else{
-                if(s2.size()>0){
-                    s2.pop();
-                }
+            while (j >= 0) { // Find position of next possible char in build(T)
+                if (T.charAt(j) == '#') {skipT++; j--;}
+                else if (skipT > 0) {skipT--; j--;}
+                else break;
             }
-            j++;
+            // If two actual characters are different
+            if (i >= 0 && j >= 0 && S.charAt(i) != T.charAt(j))
+                return false;
+            // If expecting to compare char vs nothing
+            if ((i >= 0) != (j >= 0))
+                return false;
+            i--; j--;
         }
-        
-        while(s1.size()>0 && s2.size()>0){
-            if(s1.pop()!=s2.pop()) return false;
-        }
-        if(s1.size()>0||s2.size()>0) return false;
         return true;
     }
 }
