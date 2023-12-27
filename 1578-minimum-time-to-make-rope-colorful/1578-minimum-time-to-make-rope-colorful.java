@@ -1,22 +1,18 @@
 class Solution {
-    public int minCost(String s, int[] t) {
-        int c=0,n=s.length();
-        int i=0,j=1;
-        while(i<n && j<n){
-            if(s.charAt(i)==s.charAt(j)){
-                if(t[i]<=t[j]){
-                    c+=t[i];
-                    i=j;//not i++ as i and j may have diff grt>1 
-                    j++;
+    public int minCost(String s, int[] a) {
+        int ans=0,n=s.length();
+        for(int i=1;i<n;){
+            if(s.charAt(i)==s.charAt(i-1)){
+                if(a[i-1]<a[i]){
+                    ans+=a[i-1];
+                    i++;
                 }else{
-                    c+=t[j];
-                    j++;
+                    ans+=a[i];
+                    a[i]=a[i-1];
+                    i++;
                 }
-            }else{
-                i=j;//not i++ as i and j may have diff grt>1 
-                j++;
-            }
+            }else i++;
         }
-        return c;
+        return ans;
     }
 }
