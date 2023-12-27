@@ -8,7 +8,7 @@ class Solution {
                     i++;
                 }else{
                     ans+=a[i];
-                    a[i]=a[i-1];
+                    a[i]=a[i-1];//as a[i] is removed and for a[i+1] now a[i-1] will be a[i-2] not a[i-1] as for a[i+1] a[i-1] which is a[i] is removed so a[i]=a[i-1] so that a[i-1] for a[i+1] is now a[i-2] 
                     i++;
                 }
             }else i++;
