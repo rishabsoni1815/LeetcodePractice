@@ -1,33 +1,42 @@
-class Solution
-{
-    private int calcLen(int len)
-    {
-        if (len == 0) return 0;
-        else if (len == 1) return 1;
-        else if (len < 10) return 2;
-        else if (len < 100) return 3;
-        else return 4;
+class Solution {
+    public int getLengthOfOptimalCompression(String s, int k) {
+       Integer dp[][][][] = new Integer[s.length()+1][k+1][27][101];
+        return dfs(s, k, 0, (char) ('a'+26), 0, dp);
     }
-
-    public int getLengthOfOptimalCompression(String s, int k)
-    {
-        int n = s.length();
-        int[][] dp = new int[n + 1][k + 1];
-        for (int i = 1; i <= n; i++) Arrays.fill(dp[i], Integer.MAX_VALUE);
-        for (int i = 1; i <= n; i++)
-        {
-            for (int j = 0; j <= k; j++)
-            {
-                if (j > 0) dp[i][j] = dp[i - 1][j - 1];
-                int removed = 0, cnt = 0, p;
-                for (p = i; p > 0; p--)
-                {
-                    if (s.charAt(p - 1) == s.charAt(i - 1)) cnt++;
-                    else if (++removed > j) break;
-                    dp[i][j] = Math.min(dp[i][j], dp[p - 1][j - removed] + calcLen(cnt));
-                }
+    
+    
+    private int dfs(String s, int k, int i, char prevChar, int prevFreq, Integer dp[][][][]) {
+              
+        if(k<0) return Integer.MAX_VALUE;
+        
+        if(i==s.length()) return 0;       
+        
+         if(dp[i][k][prevChar-'a'][prevFreq]!=null) return dp[i][k][prevChar-'a'][prevFreq];
+        
+        
+        
+        int delete = Integer.MAX_VALUE;
+        int dontDelete = Integer.MAX_VALUE;
+        
+        
+        delete = dfs(s, k-1, i+1, prevChar, prevFreq, dp);
+        if(s.charAt(i) != prevChar) {
+            dontDelete = 1 + dfs(s, k, i+1, s.charAt(i), 1, dp); 
+        }
+        
+        else if(s.charAt(i) == prevChar) {
+            if(prevFreq == 1) {
+                dontDelete = 1 + dfs(s, k, i+1, s.charAt(i), 2, dp);
+            }
+            else if(prevFreq == 9) {
+                dontDelete = 1 + dfs(s, k, i+1, s.charAt(i), 10, dp);
+            }
+            else if(prevFreq == 99) {
+                 dontDelete = 1 + dfs(s, k, i+1, s.charAt(i), 100, dp);
+            } else {
+                dontDelete = dfs(s,k,i+1, s.charAt(i), prevFreq+1, dp);
             }
         }
-        return dp[n][k];
+        return dp[i][k][prevChar-'a'][prevFreq] = Math.min(delete, dontDelete);
     }
 }
