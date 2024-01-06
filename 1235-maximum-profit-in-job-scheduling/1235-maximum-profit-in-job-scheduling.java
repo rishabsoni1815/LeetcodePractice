@@ -1,5 +1,6 @@
 class Solution {
     public int jobScheduling(int[] s, int[] e, int[] p) {
+        //https://www.youtube.com/watch?v=Uz2iNhjGGm0
         int n=s.length;
         int a[][]=new int[n][3];
         for(int i=0;i<n;i++){
@@ -17,7 +18,7 @@ class Solution {
             if(x!=-1){
                 dp[i]=Math.max(dp[i],a[i][2]+dp[x]);
             }
-            if(i!=n-1) dp[i]=Math.max(dp[i],dp[i+1]);
+            if(i!=n-1) dp[i]=Math.max(dp[i],dp[i+1]);// all test cases gets cover as we take binary search founded as well as just next as binary search founded has also done the same(excluded n taken its bs founded)
             max=Math.max(dp[i],max);
         }
         return max;
