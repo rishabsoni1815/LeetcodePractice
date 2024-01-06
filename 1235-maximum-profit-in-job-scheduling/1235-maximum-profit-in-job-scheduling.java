@@ -1,18 +1,38 @@
 class Solution {
-    public int jobScheduling(int[] startTime, int[] endTime, int[] profit) {
-        int n = startTime.length;
-        int[][] jobs = new int[n][3];
-        for (int i = 0; i < n; i++) {
-            jobs[i] = new int[] {startTime[i], endTime[i], profit[i]};
+    public int jobScheduling(int[] s, int[] e, int[] p) {
+        int n=s.length;
+        int a[][]=new int[n][3];
+        for(int i=0;i<n;i++){
+            a[i][0]=s[i];
+            a[i][1]=e[i];
+            a[i][2]=p[i];
         }
-        Arrays.sort(jobs, (a, b)->a[1] - b[1]);
-        TreeMap<Integer, Integer> dp = new TreeMap<>();
-        dp.put(0, 0);
-        for (int[] job : jobs) {
-            int cur = dp.floorEntry(job[0]).getValue() + job[2];
-            if (cur > dp.lastEntry().getValue())
-                dp.put(job[1], cur);
+        Arrays.sort(a,(x,y)->Integer.compare(x[0],y[0]));
+
+        int dp[]=new int[n];
+        int max=0;
+        for(int i=n-1;i>=0;i--){
+            dp[i]=a[i][2];
+            int x=bs(a[i][1],a,i+1);
+            if(x!=-1){
+                dp[i]=Math.max(dp[i],a[i][2]+dp[x]);
+            }
+            if(i!=n-1) dp[i]=Math.max(dp[i],dp[i+1]);
+            max=Math.max(dp[i],max);
         }
-        return dp.lastEntry().getValue();
+        return max;
+    }
+    int bs(int x,int a[][],int l){
+        int ans=-1,r=a.length-1;
+        while(l<=r){
+            int m=l+(r-l)/2;
+            if(a[m][0]>=x){
+                ans=m;
+                r=m-1;
+            }else{
+                l=m+1;
+            }
+        }
+        return ans;
     }
 }
