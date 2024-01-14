@@ -7,7 +7,7 @@ class Solution {
         }
         for(int i=0;i<b.length();i++){
             h2[b.charAt(i)-'a']++;
-            if(h1[b.charAt(i)-'a']==0) return false;
+            if(h1[b.charAt(i)-'a']==0) return false;		// if one has a letter which another one doesn't have, dont exist as Operation 2: is on char both existing not with any char (swap btw itself) 
         }
         HashMap<Integer,Integer>m1=new HashMap<>();
         for(int i=0;i<26;i++){
