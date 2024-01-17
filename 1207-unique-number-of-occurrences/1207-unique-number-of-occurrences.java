@@ -1,12 +1,13 @@
 class Solution {
     public boolean uniqueOccurrences(int[] a) {
-        int h[]=new int[100000];
+        HashMap<Integer,Integer>h=new HashMap<>();
         for(int i=0;i<a.length;i++){
-            h[a[i]+1001]++;
+            h.put(a[i],h.getOrDefault(a[i],0)+1);
         }
-        HashSet<Integer>s=new HashSet<>();
-        for(int k:h){
-            if(k!=0 && s.add(k)==false) return false;
+        HashSet<Integer>set=new HashSet<>();
+        for(int key:h.keySet()){
+            if(set.contains(h.get(key))) return false;
+            set.add(h.get(key));
         }
         return true;
     }
