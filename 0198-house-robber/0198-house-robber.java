@@ -4,15 +4,14 @@ class Solution {
         public int rob(int[] a) {
         int n=a.length;
         int next=0,nextToNext=0;
-        int dp[]=new int[n];
         for(int i=n-1;i>=0;i--){
-            dp[i]=a[i];
-            if(i+1<n) dp[i]=Math.max(dp[i],dp[i+1]);
-            if(i+2<n) dp[i]=Math.max(dp[i],a[i]+dp[i+2]);
+            int cur=a[i];
+            if(i+1<n) cur=Math.max(cur,next);
+            if(i+2<n) cur=Math.max(cur,a[i]+nextToNext);
             nextToNext=next;
-            next=dp[i];
+            next=cur;
         }
-        return dp[0];
+        return next;
     }
     
     
