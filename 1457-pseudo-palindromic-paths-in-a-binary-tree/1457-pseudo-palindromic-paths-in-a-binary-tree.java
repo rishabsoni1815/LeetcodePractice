@@ -15,34 +15,26 @@
  */
 class Solution {
     public int pseudoPalindromicPaths (TreeNode root) {
-        int[] arr = new int[10];//can use hashmap also
-        return preorder(root, arr);
+        int h[]=new int[10];
+        return dfs(root,h);
     }
-    
-    public int preorder(TreeNode root, int[] arr) {
-        if(root == null) {
-            return 0;
-        }
-        
-        arr[root.val]++;
-        if(root.left == null && root.right == null) {
-            return isPalindrome(arr) ? 1 : 0;
-        }
-        
-        return preorder(root.left, arr.clone()) + preorder(root.right, arr.clone());// as array is not pass by reference if we use hashmap then we don't need to pass clone or if we declare array as global then no need to do clone of array
-    }
-    
-    public boolean isPalindrome(int[] arr) {
-        // return true if there is atmost one number with odd frequency 
-        int odd = 0;
-        for(int num: arr) {
-            if(num % 2 == 1) {
-                odd++;
+    int dfs(TreeNode root,int h[]){
+        if(root==null) return 0;
+        if(root.left==null && root.right==null){
+            h[root.val]++;
+            int e=0,o=0;
+            for(int i=1;i<10;i++){
+                if(h[i]>0){
+                    if(h[i]%2!=0) o++;
+                }
             }
+            h[root.val]--;
+            if(o>1) return 0;
+            return 1;
         }
-        if(odd > 1) {
-            return false;
-        }
-        return true;
+        h[root.val]++;
+        int x=dfs(root.left,h)+dfs(root.right,h);
+        h[root.val]--;
+        return x;
     }
 }
