@@ -1,8 +1,26 @@
 class Solution {
     public int longestCommonSubsequence(String a, String b) {
-        Integer dp[][]=new Integer[a.length()][b.length()];
-        return help(a,b,a.length()-1,b.length()-1,dp);
+        //memoisation
+        // Integer dp[][]=new Integer[a.length()][b.length()];
+        // return help(a,b,a.length()-1,b.length()-1,dp);
+        
+        //tabulation
+        int n=a.length(),m=b.length();
+        int dp[][]=new int[n+1][m+1];//as have to handle 0,0 in dp[i-1][j-1]
+        for(int i=1;i<=n;i++){
+            for(int j=1;j<=m;j++){
+                if(a.charAt(i-1)==b.charAt(j-1)){//as 1 based indexing
+                    dp[i][j]=1+dp[i-1][j-1];
+                }else{
+                    dp[i][j]=Math.max(dp[i][j-1],dp[i-1][j]);
+                }                
+            }
+        }
+        return dp[n][m];
     }
+    
+    
+    //memoisation 
     int help(String a,String b,int n,int m,Integer dp[][]){
         if(n==-1 && m==-1) return 0;
         if(n<0 || m<0){
