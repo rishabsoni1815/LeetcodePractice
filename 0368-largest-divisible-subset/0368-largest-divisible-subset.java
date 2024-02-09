@@ -2,7 +2,7 @@ class Solution {
     public List<Integer> largestDivisibleSubset(int[] a) {
         int n=a.length;
         int dp[]=new int[n];
-        Arrays.sort(a);
+        Arrays.sort(a);//sorting so that when we see j<i , a[i]%a[j]==0 then for all a[k] k<j a[i]%a[k]==0 ans also if you thing dp if we can check a[i]%a[j]==0 || a[j]%a[i]==0 its not guarantee if a[j]%a[i]==0 if all answers till j also are divisible by a[i]..... so sort and check ,as now we are sure if a[i]%a[j]==0 then all answers till a[j] also divide a[i]
         int ans=0;
         for(int i=0;i<n;i++){
             dp[i]=1;
