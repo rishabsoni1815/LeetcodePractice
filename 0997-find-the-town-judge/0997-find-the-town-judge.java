@@ -1,6 +1,6 @@
 class Solution {
     public int findJudge(int n, int[][] a) {
-        int trustCount[]=new int[n+1];
+        int trustCount[]=new int[n+1];//can use one array also can -- if a[i][0] is there and a[i][1] ++
         int whoTrust[]=new int[n+1];
         for(int i=0;i<a.length;i++){
             trustCount[a[i][1]]++;
