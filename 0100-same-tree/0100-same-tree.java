@@ -2,7 +2,7 @@
  * Definition for a binary tree node.
  * public class TreeNode {
  *     int val;
- *     TreeNode left;
+ *     TreeNode left; 
  *     TreeNode right;
  *     TreeNode() {}
  *     TreeNode(int val) { this.val = val; }
@@ -24,6 +24,7 @@
  */
 class Solution {
   public boolean isSameTree(TreeNode p, TreeNode q) {
+      
     // p and q are both null
     if (p == null && q == null) return true;
     // one of p and q is null
