@@ -14,4 +14,5 @@ class Solution {
         if(l!=s.length()-1) c[l]='0';
         return String.valueOf(c);
     }
+    //or simple method is to count ones and make new string out of it
 }
