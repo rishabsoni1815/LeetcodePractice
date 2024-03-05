@@ -6,7 +6,6 @@ class Solution {
                 char c=s.charAt(i);
                 while(i<n && s.charAt(i)==c) i++;
                 while(j>i && s.charAt(j)==c) j--;
-                System.out.println(i+" "+j);
             }else{
                 return j-i+1;
             }
