@@ -1,24 +1,17 @@
-public class Solution {
-    public int maxFrequencyElements(int[] nums) {
-        // Find the frequency of each element
-        Map<Integer, Integer> frequencies = new HashMap<>();
-        for (int num : nums) {
-            frequencies.put(num, frequencies.getOrDefault(num, 0) + 1);
-        }
-
-        // Determine the maximum frequency
-        int maxFrequency = 0;
-        for (int frequency : frequencies.values()) {
-            maxFrequency = Math.max(maxFrequency, frequency);
-        }
-
-        // Calculate the total frequencies of elements with the maximum frequency
-        int frequencyOfMaxFrequency = 0;
-        for (int frequency : frequencies.values()) {
-            if (frequency == maxFrequency) {
-                frequencyOfMaxFrequency++;
+class Solution {
+    public int maxFrequencyElements(int[] a) {
+        HashMap<Integer,Integer>h=new HashMap<>();
+        int sum=1,maxfreq=0;
+        for(int i=0;i<a.length;i++){ //updating maxfreq and hashmap on the go and sum 
+            h.put(a[i],h.getOrDefault(a[i],0)+1);
+            if(h.get(a[i])>=maxfreq){
+                if(h.get(a[i])==maxfreq) sum+=maxfreq;
+               else {
+                   maxfreq=h.get(a[i]);
+                   sum=maxfreq;
+               }
             }
         }
-        return frequencyOfMaxFrequency * maxFrequency;
+        return sum;
     }
 }
