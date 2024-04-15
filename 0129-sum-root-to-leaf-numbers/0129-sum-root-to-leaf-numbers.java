@@ -17,9 +17,11 @@ class Solution {
     public int sumNumbers(TreeNode root) {
         return help(root,0);
     }
-    int help(TreeNode root,int x){
+    int help(TreeNode root,int s){
+        //as if we wanted to calculate from leaves back to root then we needed current level at each node so calculated from root on the go and passed s in the recurssion only
         if(root==null) return 0;
-        if(root.left==null && root.right==null) return x*10+root.val;
-        return help(root.left,x*10+root.val)+help(root.right,x*10+root.val);
+        int cursum=s*10+root.val;
+        if(root.left==null&&root.right==null) return cursum;
+        return help(root.left,cursum)+help(root.right,cursum);
     }
 }
