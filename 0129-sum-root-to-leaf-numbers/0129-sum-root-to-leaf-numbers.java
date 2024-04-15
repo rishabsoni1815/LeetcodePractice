@@ -17,10 +17,9 @@ class Solution {
     public int sumNumbers(TreeNode root) {
         return help(root,0);
     }
-    int help(TreeNode root,int s){
+    int help(TreeNode root,int x){
         if(root==null) return 0;
-        int cursum=s*10+root.val;
-        if(root.left==null&&root.right==null) return cursum;
-        return help(root.left,cursum)+help(root.right,cursum);
+        if(root.left==null && root.right==null) return x*10+root.val;
+        return help(root.left,x*10+root.val)+help(root.right,x*10+root.val);
     }
 }
