@@ -15,15 +15,15 @@
  */
 class Solution {
     public TreeNode addOneRow(TreeNode root, int val, int d) {
+        return help(root,val,d);
+    }
+    TreeNode help(TreeNode root, int val, int d){
+        if(root==null) return null;
         if(d==1){
             TreeNode temp=new TreeNode(val);
             temp.left=root;
             return temp;
         }
-        return help(root,val,d);
-    }
-    TreeNode help(TreeNode root, int val, int d){
-        if(root==null) return null;
         if((d-1)==1){
             TreeNode tleft=root.left,tright=root.right;
             root.left=new TreeNode(val,tleft,null);
