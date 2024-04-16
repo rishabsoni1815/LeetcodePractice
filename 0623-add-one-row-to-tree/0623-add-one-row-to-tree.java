@@ -24,7 +24,7 @@ class Solution {
             temp.left=root;
             return temp;
         }
-        if((d-1)==1){
+        if((d-1)==1){//or d==2
             TreeNode tleft=root.left,tright=root.right;
             root.left=new TreeNode(val,tleft,null);
             root.right=new TreeNode(val,null,tright);
