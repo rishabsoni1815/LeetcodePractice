@@ -1,39 +1,43 @@
-class Solution {
-    int dirx[]={1,-1,0,0};
-    int diry[]={0,0,1,-1};
-    public int[][] updateMatrix(int[][] a) {
-        int n=a.length,m=a[0].length;
-        Queue<int []>q=new LinkedList<>();
-        boolean v[][]=new boolean[n][m];
-        for(int i=0;i<n;i++){
-            for(int j=0;j<m;j++){
-                if(a[i][j]==0){
-                    v[i][j]=true;
-                    q.add(new int[]{i,j});
-                }else{
-                    a[i][j]=Integer.MAX_VALUE;
+public class Solution {
+    public int[][] updateMatrix(int[][] matrix) {
+         //dont do check form each cell with 1 and check which is min distance of 1 from it instead do multisouce bfs from all the cells with 0 in them and initialise all 1s with int_max
+        int m = matrix.length;
+        int n = matrix[0].length;
+        int count = 0;
+        Queue<int[]> queue = new LinkedList<>();
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                if (matrix[i][j] == 0) {
+                    queue.offer(new int[] {i, j});
+                }
+                else {
+                    count++;
+                    matrix[i][j] = Integer.MAX_VALUE;
                 }
             }
         }
-        int ans=0;
-        while(q.size()>0){
-            ans++;
-            int s=q.size();
-            for(int i=0;i<s;i++){
-                int c[]=q.poll();
-                for(int j=0;j<4;j++){
-                    int nx=c[0]+dirx[j];
-                    int ny=c[1]+diry[j];
-                    if(nx>=0 && nx<n && ny>=0 && ny<m){
-                        if(a[nx][ny]!=0){
-                            a[nx][ny]=Math.min(a[nx][ny],ans);
-                        }
-                        if(v[nx][ny]==false) q.add(new int[]{nx,ny});
-                        v[nx][ny]=true;
-                    }
+        
+        int[][] dirs = {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
+        int dist = 0;
+        while (!queue.isEmpty()) {
+            int size = queue.size();
+            dist++;
+            for(int i = 0; i < size; i++){
+                int[] cell = queue.poll();
+                for (int[] d : dirs) {
+                    int r = cell[0] + d[0];
+                    int c = cell[1] + d[1];
+                    if (r < 0 || r >= m || c < 0 || c >= n || 
+                        matrix[r][c] != Integer.MAX_VALUE) continue;
+                    queue.add(new int[] {r, c});
+                    matrix[r][c] = dist;
+                    count--;
+                    if(count == 0) return matrix;
                 }
             }
+
         }
-        return a;
+        
+        return matrix;
     }
 }
