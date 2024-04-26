@@ -11,7 +11,6 @@ class Solution {
                 smin=min;
                 min=dp[n-1][i];
                 mini=i;
-                continue;
             }else if(dp[n-1][i]<smin){
                 smin=dp[n-1][i];
             }
@@ -29,7 +28,6 @@ class Solution {
                     asmin=amin;
                     amin=dp[i][j];
                     amini=j;
-                    continue;
                 }else if(dp[i][j]<asmin){
                     asmin=dp[i][j];
                 }
