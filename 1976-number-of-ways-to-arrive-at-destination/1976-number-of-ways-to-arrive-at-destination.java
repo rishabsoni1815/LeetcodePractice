@@ -1,5 +1,7 @@
 class Solution {
     public int countPaths(int n, int[][] e) {
+        //dijsktra but when cdis+ndis == dis[nnode] we can add this to the total ways as this has been visited again with minimum distance 
+        
         int m=(int)(1e9 + 7);
         ArrayList<ArrayList<int []>>g=new ArrayList<>();
         for(int i=0;i<n;i++) g.add(new ArrayList<int[]>());
