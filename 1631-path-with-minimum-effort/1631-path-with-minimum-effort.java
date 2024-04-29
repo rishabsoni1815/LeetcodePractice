@@ -1,6 +1,6 @@
 class Solution {
     int[] DIR = new int[]{0, 1, 0, -1, 0};
-    public int minimumEffortPath(int[][] heights) {
+    public int minimumEffortPath(int[][] heights) {//dp ccant be applied ans subproblems depend on other subproblems so we apply dijkstra with distance as the key for min heap
         int m = heights.length, n = heights[0].length;
         int[][] dist = new int[m][n];
         for (int i = 0; i < m; i++) Arrays.fill(dist[i], Integer.MAX_VALUE);
