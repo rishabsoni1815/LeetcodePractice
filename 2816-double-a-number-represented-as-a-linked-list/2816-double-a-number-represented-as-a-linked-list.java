@@ -38,14 +38,9 @@ class Solution {
         ListNode thead=dhead;
         dhead.next=head;
         while(dhead!=null){
-            if(dhead.next!=null){
-                if(dhead.next.val>4){
-                    dhead.val=(dhead.val*2 + 1)%10;
-                }else{
-                    dhead.val=(dhead.val*2)%10;
-                }   
-            }else{
-                dhead.val=(dhead.val*2)%10;
+            dhead.val=(dhead.val*2)%10;
+            if(dhead.next!=null && dhead.next.val>4){
+                dhead.val=(dhead.val+1)%10;
             }
             dhead=dhead.next;
         }
