@@ -33,7 +33,7 @@ class Solution {
         public boolean union(int u,int v){
             int p1=findParent(u);
             int p2=findParent(v);
-            if(p1==p2) return false;
+            if(p1==p2) return false;//dont directly check using p[p1] and p[p2] instead use findParent as we want ultimate parent not just current parent
             if(r[p1]<r[p2]){
                 p[p1]=p2;
             }else if(r[p1]>r[p2]){
