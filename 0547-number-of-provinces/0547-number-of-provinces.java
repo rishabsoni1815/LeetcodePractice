@@ -12,7 +12,7 @@ class Solution {
         }
         int c=0;
         for(int i=0;i<n;i++){
-            if(dsu.p[i]==i) {//use find not parent array
+            if(dsu.p[i]==i) {
                 c++;
             }
         }
