@@ -1,5 +1,6 @@
 class Solution {
     public int maxScore(List<List<Integer>> g) {
+        //https://youtu.be/nqQDob496Ek?t=2193
         //observation lets say go from a->b->c so sum=b-a +c-b => c-a so only last matters so for a[i][j] we dont want total sum of path we just want maximum element in all of the ledft and down neighbours or subgrid from a[i+][j+1] to a[n-1][m-1] and also its next ro and its next down column elements 
         
         int n=g.size(),m=g.get(0).size();
