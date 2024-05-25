@@ -1,24 +1,25 @@
 class Solution {
-    public boolean wordBreak(String s, List<String> a) {
-        int n=s.length();
+    public boolean wordBreak(String s, List<String> w) {//recursive is n! so dp as subproblems are repeating and independent
+        int n=w.size();
         HashSet<String>h=new HashSet<>();
-        for(String y:a) h.add(y);
-        Boolean dp[]=new Boolean[n];
-        return help(0,s.length(),s,h,dp);
+        for(int i=0;i<n;i++){
+            h.add(w.get(i));
+        }
+        HashMap<Integer,Boolean>dp=new HashMap<>();
+        return help(0,h,s,dp);
     }
-    boolean help(int i,int n,String s,HashSet<String>h,Boolean dp[]){
-        if(i>=n) return true;
-        StringBuilder temp=new StringBuilder();
-        if(dp[i]!=null) return dp[i];
-        // boolean ans=false;
-        for(int j=i;j<n;j++){
-            temp.append(s.charAt(j));
-            if(h.contains(temp.toString())){
-                // ans|=help(j+1,n,s,h,dp);//optimise as break when found
-                if(help(j+1,n,s,h,dp)) return dp[i]=true;
-                
+    boolean help(int i,HashSet<String>h,String s,HashMap<Integer,Boolean>dp){
+        if(i>=s.length()) return true;
+        if(dp.containsKey(i)) return dp.get(i);
+        boolean ans=false;
+        StringBuilder c=new StringBuilder();
+        for(int j=i;j<s.length();j++){
+            c.append(s.charAt(j));
+            if(h.contains(c.toString())){
+                ans|=help(j+1,h,s,dp);
             }
         }
-        return dp[i]=false;
+        dp.put(i,ans);
+        return ans;
     }
 }
