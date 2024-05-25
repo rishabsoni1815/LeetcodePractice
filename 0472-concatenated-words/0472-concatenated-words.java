@@ -1,25 +1,35 @@
 class Solution {
     public List<String> findAllConcatenatedWordsInADict(String[] a) {
-        List<String> res=new ArrayList<>();
         int n=a.length;
-        if(n==0) return res;
+        //Time Complexity: O(total no.of words * (n^3)) where n = avg length of each word.
         HashSet<String>h=new HashSet<>();
+        Arrays.sort(a,(x,y)->(x.length()-y.length()));
+        // for(int i=0;i<n;i++){//do on the fly so only small are used to make big
+        //     h.add(a[i]);
+        // }
+        List<String>ans=new ArrayList<>();
         for(int i=0;i<n;i++){
+            Boolean dp[]=new Boolean[a[i].length()+1];
+            if(help(0,a[i],h,dp)){//just this make cat and dog to be true too so sort a (not alphabaetically asc or desc just length wise asc desc) and just use smaller to make bigger
+                ans.add(a[i]);
+            }
             h.add(a[i]);
         }
-        for(int i=0;i<n;i++){
-            if(h(a[i],h)) res.add(a[i]);
-        }   
-        return res;
+        return ans;
     }
-    boolean h(String s,HashSet<String>h){
-        int n=s.length();
-        for(int i=0;i<n-1;i++){  //0 1 2 3 4       (n=5) not n=4  as empty string is not in input ( so 0 to n-1 not n as substring(i,n) will be empty fot i=n-1)
-             if(h.contains(s.substring(0,i+1))){
-                if(h.contains(s.substring(i+1))) return true;
-                 if(h(s.substring(i+1),h)) return true;   
+    boolean help(int i,String s,HashSet<String>h,Boolean dp[]){
+        if(i>=s.length()) return true;
+        StringBuilder c=new StringBuilder();
+        boolean ans=false;
+        String cur=s.substring(i);
+        if(dp[i]!=null) return dp[i];
+        for(int j=i;j<s.length();j++){
+            c.append(s.charAt(j));
+            if(h.contains(c.toString())){
+                ans|=help(j+1,s,h,dp);
             }
         }
-               return false;
+        dp[i]=ans;
+        return ans;
     }
 }
