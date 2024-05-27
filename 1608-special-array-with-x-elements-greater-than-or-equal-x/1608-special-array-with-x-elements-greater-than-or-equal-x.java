@@ -2,7 +2,7 @@ class Solution {
     public int specialArray(int[] a) {
         int n=a.length;
         Arrays.sort(a);
-        for(int i=0;i<=1002;i++){
+        for(int i=0;i<=a[n-1];i++){//till max elemetn
             if(find(a,n,i)) return i;
         }
         return -1;
