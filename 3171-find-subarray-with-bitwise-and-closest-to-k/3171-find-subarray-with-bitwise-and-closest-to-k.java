@@ -10,7 +10,7 @@ class Solution {
         while(j<n){
             //add jth element
             addEle(a[j],h);
-            ans=Math.min(ans,Math.abs(k-getAnd(h,j-i+1)));
+            // ans=Math.min(ans,Math.abs(k-getAnd(h,j-i+1)));
             
             while(i<=j && getAnd(h,j-i+1)<=k){//get and from h
                 ans=Math.min(ans,Math.abs(k-getAnd(h,j-i+1)));
