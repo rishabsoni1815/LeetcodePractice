@@ -10,7 +10,6 @@ class Solution {
         while(j<n){
             //add jth element
             addEle(a[j],h);
-            // ans=Math.min(ans,Math.abs(k-getAnd(h,j-i+1)));
             
             while(i<=j && getAnd(h,j-i+1)<=k){//get and from h
                 ans=Math.min(ans,Math.abs(k-getAnd(h,j-i+1)));
@@ -20,7 +19,6 @@ class Solution {
             }
             
             ans=Math.min(ans,Math.abs(k-getAnd(h,j-i+1)));
-            // System.out.println(getAnd(h,j-i+1)+" "+i+" "+j);
             j++;
         }
         return ans;
@@ -38,7 +36,6 @@ class Solution {
     void addEle(int x,int h[]){
         for(int i=0;i<32;i++){
             if((x & (1<<i)) > 0) {
-                // System.out.println(i+" isset "+x);
                 h[i]++;//increase unset count
             }
         }
@@ -47,12 +44,10 @@ class Solution {
     int getAnd(int h[],int n){
         int ans=0;
         for(int i=0;i<32;i++){
-            // System.out.print(h[i]+" ");
             if((n-h[i]) == 0){//means has all set bits
                 ans|=(1<<i);
             }
         }
-        // System.out.println();
         return ans;
     }
 }
