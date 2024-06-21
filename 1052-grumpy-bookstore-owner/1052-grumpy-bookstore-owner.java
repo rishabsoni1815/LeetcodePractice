@@ -23,8 +23,7 @@ class Solution {
             if(i-m>=0) totalsum-=tpre[i-m];
             int zsum=zpre[i];
             if(i-m>=0) zsum-=zpre[i-m];
-           int cans=(totalsum) + (totalz-zsum);
-            // System.out.println(totalsum+" "+(totalz-zsum)+" "+cans+" "+i);
+            int cans=(totalsum) + (totalz-zsum);
             ans=Math.max(ans,cans);
         }
         return ans;
