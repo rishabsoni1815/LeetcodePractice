@@ -1,4 +1,27 @@
 class Solution {
+    
+        public int numberOfSubarrays(int[] a, int k) {
+            int n=a.length,l=0,r=0,ans=0,gap=0,osize=0;
+            while(r<n){
+                if(a[r]%2!=0) osize++;
+                if(osize==k){
+                    gap=0;
+                    while(osize==k){
+                        gap++;
+                        if(a[l]%2!=0) osize--;
+                        l++;
+                    }
+                }
+                ans+=gap;
+                r++;
+            }
+            return ans;
+        }
+    
+    
+/*
+// still uses o(n) spac so optimise 
+// what we can do is when my window has k odd elemenrs we will dec l till ocount==k let this be gap (these will be all evens btw 2 odds (prev in our approach) ) and now while r++ everytime add gap in ans this will be doing work of prev*next -> prev+prev+prev...+prev (next) times
     public int numberOfSubarrays(int[] a, int k) {
         int n=a.length;
         ArrayList<Integer>o=new ArrayList<>();
@@ -17,4 +40,6 @@ class Solution {
         }
         return ans;
     }
+    */
+    
 }
