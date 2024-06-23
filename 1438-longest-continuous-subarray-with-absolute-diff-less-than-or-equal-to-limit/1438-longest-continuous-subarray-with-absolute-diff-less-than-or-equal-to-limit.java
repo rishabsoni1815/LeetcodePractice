@@ -1,18 +1,40 @@
 class Solution {
-    public int longestSubarray(int[] a, int limit) {
-        int n=a.length;
-        TreeMap<Integer,Integer>h=new TreeMap<>();//tree map as duplicates can be there so map tree map as need max and min both in log n time at one point
-        int l=0,r=0,ans=0;
-        while(r<n){
-            h.put(a[r],h.getOrDefault(a[r],0)+1);
-            while(l<r && h.lastKey()-h.firstKey()>limit){
-                h.put(a[l],h.get(a[l])-1);
-                if(h.get(a[l])==0) h.remove(a[l]);
-                l++;
+
+    public int longestSubarray(int[] nums, int limit) {
+        //using treemap in submissions (nlog) this is o(n)
+        Deque<Integer> maxDeque = new LinkedList<>();
+        Deque<Integer> minDeque = new LinkedList<>();
+        int left = 0;
+        int maxLength = 0;
+
+        for (int right = 0; right < nums.length; ++right) {
+            // Maintain the maxDeque in decreasing order
+            while (!maxDeque.isEmpty() && maxDeque.peekLast() < nums[right]) {
+                maxDeque.pollLast();
             }
-            ans=Math.max(ans,r-l+1);
-            r++;
+            maxDeque.offerLast(nums[right]);
+
+            // Maintain the minDeque in increasing order
+            while (!minDeque.isEmpty() && minDeque.peekLast() > nums[right]) {
+                minDeque.pollLast();
+            }
+            minDeque.offerLast(nums[right]);
+
+            // Check if the current window exceeds the limit
+            while (maxDeque.peekFirst() - minDeque.peekFirst() > limit) {
+                // Remove the elements that are out of the current window
+                if (maxDeque.peekFirst() == nums[left]) {
+                    maxDeque.pollFirst();
+                }
+                if (minDeque.peekFirst() == nums[left]) {
+                    minDeque.pollFirst();
+                }
+                ++left;
+            }
+
+            maxLength = Math.max(maxLength, right - left + 1);
         }
-        return ans;
+
+        return maxLength;
     }
 }
