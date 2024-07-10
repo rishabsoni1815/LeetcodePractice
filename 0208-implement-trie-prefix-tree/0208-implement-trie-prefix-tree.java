@@ -1,60 +1,56 @@
 class Trie {
-    Node root=new Node();
-    /** Initialize your data structure here. */
+    Node node;
     public Trie() {
-        root=new Node();
+        node=new Node(26);
     }
-    
-    /** Inserts a word into the trie. */
+    public void add(Node node,int i,String s){
+        if(i>=s.length()) {
+            node.end=true;
+            return;
+        }
+        char c=s.charAt(i);
+        if(node.a[c-'a']==null){
+            node.a[c-'a']=new Node(26);
+        }
+        add(node.a[c-'a'],i+1,s);
+    }
     public void insert(String word) {
-            Node curr=root;
-        for(int i=0;i<word.length();i++){
-            char f=word.charAt(i);
-            if(curr.child[f-'a']==null){
-                curr.child[f-'a']=new Node();
-            }
-            curr=curr.child[f-'a'];
-        }
-        curr.isWord=curr.isWord+1;
+        add(node,0,word);
     }
     
-    /** Returns if the word is in the trie. */
     public boolean search(String word) {
-        Node r=getNode(word);
-        return r == null ? false : r.isWord>0; 
-    }
-    
-    /** Returns if there is any word in the trie that starts with the given prefix. */
-    public boolean startsWith(String prefix) {
-        return getNode(prefix)!=null;
-    }
-    public boolean delete (String word){
-            Node r=getNode(word);
-            if(r==null) return false;
-            r.isWord=r.isWord-1;
-            return true;
-    }
-    public Node getNode(String word){
-        Node curr=root;
+        Node cur=this.node;
         for(int i=0;i<word.length();i++){
-            char f=word.charAt(i);
-            if(curr.child[f-'a']==null) return null;
-            curr=curr.child[f-'a'];
-        }
-        return curr;
-    }
-    class Node{
-        int isWord;
-        Node child[]=new Node[26];
-        Node(){
-            isWord=0;
-            for(int i=0;i<26;i++){
-                child[i]=null;
+            char c=word.charAt(i);
+            if(cur.a[c-'a']!=null){
+                cur=cur.a[c-'a'];
+            }else{
+                return false;
             }
         }
+        return cur.end==true;
+    }
+    
+    public boolean startsWith(String word) {
+        Node cur=this.node;
+        for(int i=0;i<word.length();i++){
+            char c=word.charAt(i);
+            if(cur.a[c-'a']!=null){
+                cur=cur.a[c-'a'];
+            }else{
+                return false;
+            }
+        }
+        return true;
     }
 }
-
+class Node{
+    Node a[];
+    boolean end;
+    Node(int n){
+        a=new Node[n];
+    }
+}
 /**
  * Your Trie object will be instantiated and called as such:
  * Trie obj = new Trie();
