@@ -1,25 +1,26 @@
 class Solution {
-    public int[] sortJumbled(int[] h, int[] a) {
-        int n=a.length;
-        Integer ans[]=new Integer[n];
+    public int[] sortJumbled(int[] h, int[] nums) {
+        int n=nums.length;
+        int ans[][]=new int[n][3];
         for(int i=0;i<n;i++){
-            ans[i]=i;
+            String now=convert(nums[i],h);
+            ans[i][0]=Integer.valueOf(now);
+            ans[i][1]=i;
+            ans[i][2]=nums[i];
         }
-        Arrays.sort(ans,(x,y)->(help(a[x],h)==help(a[y],h)) ? (x-y):(help(a[x],h)-help(a[y],h)));
-        int c[]=new int[n];
+        Arrays.sort(ans,(x,y)->((x[0]==y[0])?(x[1]-y[1]):(x[0]-y[0])));
         for(int i=0;i<n;i++){
-            c[i]=a[ans[i]];//cant do a[i]=a[ans[i]] as a changes on the go so overrides
+            nums[i]=ans[i][2];
         }
-        return c;
-
+        return nums;
     }
-    int help(int a,int h[]){
-        String s=String.valueOf(a);
-        char c[]=s.toCharArray();
-        for(int i=0;i<c.length;i++){
-            c[i]=(char)(h[c[i]-'0']+(int)'0');
+    String convert(int k,int h[]){
+        String s=String.valueOf(k);
+        char a[]=s.toCharArray();
+        for(int i=0;i<s.length();i++){
+            char c=a[i];
+            a[i]=(char)(h[c-'0']+'0');
         }
-        return Integer.valueOf(String.valueOf(c));
+        return String.valueOf(a);
     }
-    
 }
