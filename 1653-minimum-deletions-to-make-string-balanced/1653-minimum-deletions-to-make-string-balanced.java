@@ -1,25 +1,20 @@
 class Solution {
+
     public int minimumDeletions(String s) {
-        int n=s.length();
-        int ra=0;
-        for(int i=0;i<n;i++){
-            if(s.charAt(i)=='a') ra++;        
-        }
-        
-        int ans=n,lb=0;
-        for(int i=0;i<n;i++){
-            int cnt=0;
-            if(s.charAt(i)=='b') lb++;
-            if(s.charAt(i)=='a') ra--;
-            if(s.charAt(i)=='b'){
-                cnt=lb-1;
-                cnt+=ra;
-            }else{
-                cnt=lb;
-                cnt+=ra;
+        int n = s.length();
+        int minDeletions = 0;
+        int bCount = 0;
+
+        // minDeletions variable represents the deletions needed yet to make this string valid in past
+        for (int i = 0; i < n; i++) {
+            if (s.charAt(i) == 'b') {//if comes bs then deletions are same as no need to delete b if any A does not come after this 
+                bCount++;
+            } else {
+                // Two cases: remove 'a' or keep 'a', delete a-> min+1 is our new min and if keep a then means delete all the b ocdured so far 
+                minDeletions = Math.min(minDeletions + 1, bCount);
             }
-            ans=Math.min(ans,cnt);
         }
-        return ans;
+
+        return minDeletions;
     }
 }
