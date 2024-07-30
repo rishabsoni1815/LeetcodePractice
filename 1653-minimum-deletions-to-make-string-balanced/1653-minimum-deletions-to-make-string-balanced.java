@@ -10,22 +10,15 @@ class Solution {
         }
         
         
-        int lb[]=new int[n];
-        if(s.charAt(0)=='b') lb[0]=1;
-        
-        for(int i=1;i<n;i++){
-            lb[i]=lb[i-1];
-            if(s.charAt(i)=='b') lb[i]++;
-        }
-        
-        int ans=n;
+        int ans=n,lb=0;
         for(int i=0;i<n;i++){
             int cnt=0;
+            if(s.charAt(i)=='b') lb++;
             if(s.charAt(i)=='b'){
-                cnt=lb[i]-1;
+                cnt=lb-1;
                 cnt+=(ra[i]);
             }else{
-                cnt=lb[i];
+                cnt=lb;
                 cnt+=(ra[i]-1);
             }
             ans=Math.min(ans,cnt);
