@@ -1,6 +1,6 @@
 class Solution {
      public int lengthOfLIS(int[] a) {
-    //o(nlogn) binary search -> by taking the smallest elements always in the list from index 0 and replace with the lowerbound() we can only get length of lis can't print it fo
+    //o(nlogn) binary search -> by taking the smallest elements always in the list from index 0 and replace with the ele >= x not just > as we want lis (>) not (>=)  we can only get length of lis can't print it fo
           int n=a.length;
         ArrayList<Integer>ans=new ArrayList<>();
         ans.add(a[0]);
@@ -9,7 +9,7 @@ class Solution {
                 ans.add(a[i]);
             }else{
                 int u=lb(ans,a[i]);
-                    ans.set(u,a[i]);
+                if(u!=-1)  ans.set(u,a[i]);
             }
         }
         return ans.size(); 
@@ -20,7 +20,7 @@ class Solution {
         int ans=-1;
         while(i<=j){
             int m=(i+j)/2;
-            if(a.get(m)>=t){
+            if(a.get(m)>=t){//if we dont include t i.e. only do a.gwt(m)>t then there will be duplicates in arraylist as if eg -> [4,10,4,5] array list is 4,5 on index 2 and we replace 10 with 4 so this becomes 4,4 which is wrong so our should return 4,10 so check for ele >=t not just >t
                 j=m-1;
                 ans=m;
             }else{
