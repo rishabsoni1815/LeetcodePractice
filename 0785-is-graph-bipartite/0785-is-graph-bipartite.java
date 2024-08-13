@@ -1,62 +1,36 @@
 class Solution {
-    public boolean isBipartite(int[][] g) {
-        //dfs
-       int n=g.length;
-       boolean v[]=new boolean[n];
-       int col[]=new int[n];Arrays.fill(col,-1); 
-       for(int i=0;i<n;i++){
-           if(v[i]==false){
-               col[i]=0;
-               if(dfs(i,v,g,col)==false) return false;
-           }
-       }
-       return true;
-    }
-    boolean dfs(int i,boolean v[],int g[][],int col[]){
-        v[i]=true;
-        for(int k=0;k<g[i].length;k++){
-            int nei=g[i][k];
-            if(v[nei]==false){
-                col[nei]=1-col[i];
-                if(dfs(nei,v,g,col)==false) return false;
-            }else{
-                if(col[nei]==col[i]) return false;
+    public boolean isBipartite(int[][] a) {
+        int n=a.length;
+        ArrayList<ArrayList<Integer>>g=new ArrayList<>();
+        for(int i=0;i<n;i++){
+            g.add(new ArrayList<Integer>());
+        }
+        for(int i=0;i<n;i++){
+            for(int j=0;j<a[i].length;j++){
+                g.get(i).add(a[i][j]);
+                g.get(a[i][j]).add(i);
+            }
+        }
+        int h[]=new int[n];
+        HashSet<Integer>v=new HashSet<>();
+        for(int i=0;i<n;i++){
+            if(!v.contains(i)){
+                if(dfs(i,g,v,h)==false) return false;
             }
         }
         return true;
     }
-    
-    
-    
-    // public boolean isBipartite(int[][] g) {
-    //     //bfs
-    //     int n=g.length;
-    //    boolean v[]=new boolean[n];
-    //     int col[]=new int[n];
-    //     Arrays.fill(col,-1);
-    //     // Code here
-    //     for(int i=0;i<n;i++){
-    //         if(v[i]==false){
-    //             Queue<Integer>q=new LinkedList<>();
-    //             q.add(i);
-    //             v[i]=true;
-    //             col[i]=0;
-    //             while(!q.isEmpty()){
-    //                 int t=q.poll();
-    //                 for(int k=0;k<g[t].length;k++){
-    //                     int nei=g[t][k];
-    //                     if(v[nei]==false){
-    //                         v[nei]=true;
-    //                         q.add(nei);
-    //                         col[nei]=1-col[t];
-    //                     }
-    //                     else{
-    //                         if(col[nei]==col[t]) return false;
-    //                     }
-    //                 }
-    //             }
-    //         }
-    //     }
-    //     return true;
-    // }
+    boolean dfs(int i,ArrayList<ArrayList<Integer>>g,HashSet<Integer>v,int h[]){
+        v.add(i);
+        for(int nei:g.get(i)){
+            if(!v.contains(nei)){
+                v.add(nei);
+                h[nei]=1-h[i];
+                if(dfs(nei,g,v,h)==false) return false;
+            }else{
+                if(h[nei]==h[i]) return false;
+            }
+        }
+        return true;
+    }
 }
