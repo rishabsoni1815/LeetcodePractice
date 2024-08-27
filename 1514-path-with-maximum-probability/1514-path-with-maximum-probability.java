@@ -1,47 +1,33 @@
 class Solution {
-   class State {
-	int node;
-	double prob;
-	State(int _node, double _prob) {
-		node = _node;
-		prob = _prob;
-	}
-}
+    public double maxProbability(int n, int[][] edges, double[] succProb, int start, int end) {
+        Map<Integer, List<Pair<Integer, Double>>> graph = new HashMap<>();
+        for (int i = 0; i < edges.length; i++) {
+            int u = edges[i][0], v = edges[i][1];
+            double pathProb = succProb[i];
+            graph.computeIfAbsent(u, k -> new ArrayList<>()).add(new Pair<>(v, pathProb));
+            graph.computeIfAbsent(v, k -> new ArrayList<>()).add(new Pair<>(u, pathProb));
+        }
+        
+        double[] maxProb = new double[n];
+        maxProb[start] = 1d;
+        
+        Queue<Integer> queue = new LinkedList<>();
+        queue.offer(start);
+        while (!queue.isEmpty()) {
+            int curNode = queue.poll();
+            for (Pair<Integer, Double> neighbor : graph.getOrDefault(curNode, new ArrayList<>())) {
+                int nxtNode = neighbor.getKey();
+                double pathProb = neighbor.getValue();
 
-public double maxProbability(int n, int[][] edges, double[] succProb, int start, int end) {
-
-	// build graph -> double[0]: node, double[1]: edge prob
-	Map<Integer, List<double[]>> map = new HashMap<>();
-	for (int i = 0; i < edges.length; ++i) {
-		int[] edge = edges[i];
-
-		map.putIfAbsent(edge[0], new ArrayList<>());
-		map.putIfAbsent(edge[1], new ArrayList<>());
-
-		map.get(edge[0]).add(new double[] {edge[1], succProb[i]});
-		map.get(edge[1]).add(new double[] {edge[0], succProb[i]});
-	}
-
-	double[] probs = new double[n];  // best prob so far for each node
-	Queue<State> queue = new LinkedList<>();
-	queue.add(new State(start, 1.0));
-
-	while (!queue.isEmpty()) {
-
-		State state = queue.poll();
-		int parent = state.node;
-		double prob = state.prob;
-
-		for (double[] child : map.getOrDefault(parent, new ArrayList<>())) {
-			// add to queue only if: it can make a better prob
-			if (probs[(int) child[0]] >= prob * child[1]) continue;
-
-			queue.add(new State((int) child[0], prob * child[1]));
-			probs[(int) child[0]] = prob * child[1];
-		}
-
-	}
-
-	return probs[end];
-}
+                // Only update maxProb[nxtNode] if the current path increases
+                // the probability of reach nxtNode.
+                if (maxProb[curNode] * pathProb > maxProb[nxtNode]) {
+                    maxProb[nxtNode] = maxProb[curNode] * pathProb;
+                    queue.offer(nxtNode);
+                }
+            }
+        }
+        
+        return maxProb[end];
+    }
 }
