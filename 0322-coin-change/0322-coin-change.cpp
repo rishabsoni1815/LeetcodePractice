@@ -6,7 +6,7 @@ public:
     return 0;
     if(sum<0 || i==arr.size())
         return INT_MAX;
-    if(dp[i][sum]!=-2)
+    if(dp[i][sum]!=-1)
     return dp[i][sum];
     int Pick = helper(dp,arr,sum - arr[i],i);
     int nonPick= helper(dp,arr ,sum ,i+1);
@@ -17,7 +17,7 @@ public:
 }
     int coinChange(vector<int>& coins, int amount) {
         int n= coins.size();
-       vector<vector<int>> dp(n,vector<int>(amount+1,-2));
+       vector<vector<int>> dp(n,vector<int>(amount+1,-1));
         int result = helper(dp,coins,amount,0);
         return (result == INT_MAX) ? -1 : result; 
         
