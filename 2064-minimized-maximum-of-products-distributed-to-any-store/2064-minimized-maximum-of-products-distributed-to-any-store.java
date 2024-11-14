@@ -1,8 +1,10 @@
 class Solution {
     public int minimizedMaximum(int n, int[] a) {
-        int maxe=a[0];
-        for(int u:a) maxe=Math.max(maxe,u);
-        int l=1,r=maxe,ans=maxe;
+        int max=0;
+        for(int x:a){
+            max=Math.max(max,x);
+        }
+        int l=1,r=max,ans=r;
         while(l<=r){
             int m=l+(r-l)/2;
             if(help(a,n,m)){
@@ -14,11 +16,13 @@ class Solution {
         }
         return ans;
     }
-     boolean help(int a[],long n,long m){
-        long ans=0;
+    boolean help(int a[],int n,int m){
+        int cnt=0;
         for(int i=0;i<a.length;i++){
-            n-=(long)(Math.ceil((double)a[i]/m));
-            if(n<0) return false;
+            int x=a[i]/m;
+            cnt+=x;
+            if(a[i]%m!=0) cnt++;
+            if(cnt>n) return false;
         }
         return true;
     }
