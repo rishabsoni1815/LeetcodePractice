@@ -15,7 +15,8 @@ class Solution {
                 int c[]=new int[2];//0->vertices,1->edges
                 dfs(i,v,g,c);
                 int cnt=(c[0]*(c[0]-1))/2;
-                if(2*cnt==c[1]) ans++;
+                System.out.println(i+" "+c[0]+" "+c[1]);
+                if(2*cnt==c[1]) ans++;//since undirected so counted edges twice
             }
         }
         return ans;
@@ -23,8 +24,8 @@ class Solution {
     void dfs(int i,HashSet<Integer>v,ArrayList<ArrayList<Integer>>g,int c[]){
         v.add(i);
         c[0]++;
+        c[1]+=g.get(i).size();
         for(int nei:g.get(i)){
-            c[1]++;
             if(!v.contains(nei)){
                 dfs(nei,v,g,c);
             }
