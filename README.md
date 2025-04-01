@@ -26,6 +26,7 @@ Collection of LeetCode questions which i solve
 |  |
 | ------- |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2090-number-of-ways-to-arrive-at-destination) |
+| [2262-solving-questions-with-brainpower](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2262-solving-questions-with-brainpower) |
 ## Topological Sort
 |  |
 | ------- |
@@ -37,6 +38,7 @@ Collection of LeetCode questions which i solve
 ## Array
 |  |
 | ------- |
+| [2262-solving-questions-with-brainpower](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2262-solving-questions-with-brainpower) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2681-put-marbles-in-bags](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2681-put-marbles-in-bags) |
 ## Two Pointers
