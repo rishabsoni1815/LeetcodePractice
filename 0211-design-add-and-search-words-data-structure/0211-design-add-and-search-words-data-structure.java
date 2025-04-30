@@ -1,7 +1,7 @@
 public class WordDictionary {
     public class TrieNode {
         public TrieNode[] children = new TrieNode[26];
-        public String item = "";
+        public boolean end;
     }
     
     private TrieNode root = new TrieNode();
@@ -14,7 +14,7 @@ public class WordDictionary {
             }
             node = node.children[c - 'a'];
         }
-        node.item = word;
+        node.end = true;
     }
 
     public boolean search(String word) {
@@ -22,7 +22,7 @@ public class WordDictionary {
     }
     
     private boolean match(char[] chs, int k, TrieNode node) {
-        if (k == chs.length) return !node.item.equals("");   
+        if (k == chs.length) return node.end;   
         if (chs[k] != '.') {
             return node.children[chs[k] - 'a'] != null && match(chs, k + 1, node.children[chs[k] - 'a']);
         } else {
