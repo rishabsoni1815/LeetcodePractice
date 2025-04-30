@@ -6,10 +6,12 @@ Collection of LeetCode questions which i solve
 ## Depth-First Search
 |  |
 | ------- |
+| [2206-detonate-the-maximum-bombs](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2206-detonate-the-maximum-bombs) |
 | [2793-count-the-number-of-complete-components](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2793-count-the-number-of-complete-components) |
 ## Breadth-First Search
 |  |
 | ------- |
+| [2206-detonate-the-maximum-bombs](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2206-detonate-the-maximum-bombs) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2793-count-the-number-of-complete-components](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2793-count-the-number-of-complete-components) |
 ## Union Find
@@ -22,6 +24,7 @@ Collection of LeetCode questions which i solve
 |  |
 | ------- |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2090-number-of-ways-to-arrive-at-destination) |
+| [2206-detonate-the-maximum-bombs](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2206-detonate-the-maximum-bombs) |
 | [2793-count-the-number-of-complete-components](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2793-count-the-number-of-complete-components) |
 ## Dynamic Programming
 |  |
@@ -40,6 +43,7 @@ Collection of LeetCode questions which i solve
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0128-longest-consecutive-sequence) |
+| [2206-detonate-the-maximum-bombs](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2206-detonate-the-maximum-bombs) |
 | [2262-solving-questions-with-brainpower](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2262-solving-questions-with-brainpower) |
 | [2277-count-equal-and-divisible-pairs-in-an-array](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2277-count-equal-and-divisible-pairs-in-an-array) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2588-maximum-number-of-points-from-grid-queries) |
@@ -84,4 +88,12 @@ Collection of LeetCode questions which i solve
 |  |
 | ------- |
 | [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
+## Math
+|  |
+| ------- |
+| [2206-detonate-the-maximum-bombs](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2206-detonate-the-maximum-bombs) |
+## Geometry
+|  |
+| ------- |
+| [2206-detonate-the-maximum-bombs](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2206-detonate-the-maximum-bombs) |
 <!---LeetCode Topics End-->
