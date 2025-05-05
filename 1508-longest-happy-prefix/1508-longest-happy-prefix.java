@@ -2,8 +2,6 @@ class Solution {
     public String longestPrefix(String s) {
         int n=s.length();
         int lps[]=new int[n];
-        lps[0]=0;
-        int max=0;String ans="";
         for(int i=1;i<n;i++){
             int prev=lps[i-1];
             while(prev>0 && s.charAt(prev)!=s.charAt(i)){
