@@ -1,7 +1,7 @@
 class Solution {
     List<List<Integer>>ans=new ArrayList<>();
     public List<List<Integer>> permuteUnique(int[] nums) {
-        Arrays.sort(nums);
+        // Arrays.sort(nums);
         ans=new ArrayList<>();
         int n=nums.length;
         h(0,nums,nums.length);
