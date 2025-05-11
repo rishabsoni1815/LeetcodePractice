@@ -7,14 +7,14 @@ class Solution {
         return ans;
     }
     void help(int n,int k,List<List<Integer>>ans,List<Integer>t){
-        if(k==0) {
+        if(k==0){
             ans.add(new ArrayList<>(t));
             return;
         }
-        for(int x=n;x>=1;x--){
-            t.add(x);
-            help(x-1,k-1,ans,t);
-            t.remove(t.size()-1);
-        }
+        if(n<=0) return;
+        t.add(n);
+        help(n-1,k-1,ans,t);
+        t.remove(t.size()-1);
+        help(n-1,k,ans,t);
     }
 }
