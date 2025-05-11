@@ -162,4 +162,8 @@ Collection of LeetCode questions which i solve
 |  |
 | ------- |
 | [2048-build-array-from-permutation](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2048-build-array-from-permutation) |
+## Backtracking
+|  |
+| ------- |
+| [0077-combinations](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0077-combinations) |
 <!---LeetCode Topics End-->
