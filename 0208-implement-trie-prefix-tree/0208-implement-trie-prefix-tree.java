@@ -1,56 +1,46 @@
 class Trie {
-    Node node;
+    TrieNode tree;
     public Trie() {
-        node=new Node(26);
+        tree=new TrieNode();
     }
-    public void add(Node node,int i,String s){
-        if(i>=s.length()) {
-            node.end=true;
-            return;
-        }
-        char c=s.charAt(i);
-        if(node.a[c-'a']==null){
-            node.a[c-'a']=new Node(26);
-        }
-        add(node.a[c-'a'],i+1,s);
-    }
+    
     public void insert(String word) {
-        add(node,0,word);
+        TrieNode temp=tree;
+        for(int i=0;i<word.length();i++){
+            if(temp.node[word.charAt(i)-'a']==null){
+                temp.node[word.charAt(i)-'a']=new TrieNode();
+                temp=temp.node[word.charAt(i)-'a'];
+            }else temp=temp.node[word.charAt(i)-'a'];
+        }
+        temp.isWord=true;
     }
     
     public boolean search(String word) {
-        Node cur=this.node;
+        TrieNode temp=tree;
         for(int i=0;i<word.length();i++){
-            char c=word.charAt(i);
-            if(cur.a[c-'a']!=null){
-                cur=cur.a[c-'a'];
-            }else{
-                return false;
-            }
+            if(temp.node[word.charAt(i)-'a']!=null){
+                temp=temp.node[word.charAt(i)-'a'];
+            }else return false;
         }
-        return cur.end==true;
+        return temp.isWord==true;
     }
     
     public boolean startsWith(String word) {
-        Node cur=this.node;
+        TrieNode temp=tree;
         for(int i=0;i<word.length();i++){
-            char c=word.charAt(i);
-            if(cur.a[c-'a']!=null){
-                cur=cur.a[c-'a'];
-            }else{
-                return false;
-            }
+            if(temp.node[word.charAt(i)-'a']!=null){
+                temp=temp.node[word.charAt(i)-'a'];
+            }else return false;
         }
         return true;
     }
 }
-class Node{
-    Node a[];
-    boolean end;
-    Node(int n){
-        a=new Node[n];
-    }
+
+class TrieNode{
+    TrieNode node[]=new TrieNode[26];
+    boolean isWord;
 }
+
 /**
  * Your Trie object will be instantiated and called as such:
  * Trie obj = new Trie();
