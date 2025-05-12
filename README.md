@@ -114,6 +114,7 @@ Collection of LeetCode questions which i solve
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0128-longest-consecutive-sequence) |
+| [0208-implement-trie-prefix-tree](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0208-implement-trie-prefix-tree) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 ## Binary Search
 |  |
@@ -135,15 +136,18 @@ Collection of LeetCode questions which i solve
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0208-implement-trie-prefix-tree](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0211-design-add-and-search-words-data-structure) |
 | [1508-longest-happy-prefix](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1508-longest-happy-prefix) |
 ## Design
 |  |
 | ------- |
+| [0208-implement-trie-prefix-tree](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0211-design-add-and-search-words-data-structure) |
 ## Trie
 |  |
 | ------- |
+| [0208-implement-trie-prefix-tree](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0211-design-add-and-search-words-data-structure) |
 ## Minimum Spanning Tree
 |  |
