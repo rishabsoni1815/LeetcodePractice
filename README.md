@@ -37,6 +37,7 @@ Collection of LeetCode questions which i solve
 ## Dynamic Programming
 |  |
 | ------- |
+| [0063-unique-paths-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0063-unique-paths-ii) |
 | [0806-domino-and-tromino-tiling](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0806-domino-and-tromino-tiling) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2262-solving-questions-with-brainpower](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2262-solving-questions-with-brainpower) |
@@ -54,6 +55,7 @@ Collection of LeetCode questions which i solve
 |  |
 | ------- |
 | [0047-permutations-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0047-permutations-ii) |
+| [0063-unique-paths-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0063-unique-paths-ii) |
 | [0128-longest-consecutive-sequence](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0128-longest-consecutive-sequence) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [2048-build-array-from-permutation](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2048-build-array-from-permutation) |
@@ -95,6 +97,7 @@ Collection of LeetCode questions which i solve
 ## Matrix
 |  |
 | ------- |
+| [0063-unique-paths-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0063-unique-paths-ii) |
 | [2250-k-highest-ranked-items-within-a-price-range](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2250-k-highest-ranked-items-within-a-price-range) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
