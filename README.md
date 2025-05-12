@@ -41,6 +41,7 @@ Collection of LeetCode questions which i solve
 |  |
 | ------- |
 | [0063-unique-paths-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0063-unique-paths-ii) |
+| [0139-word-break](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0139-word-break) |
 | [0806-domino-and-tromino-tiling](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0806-domino-and-tromino-tiling) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2262-solving-questions-with-brainpower](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2262-solving-questions-with-brainpower) |
@@ -60,6 +61,7 @@ Collection of LeetCode questions which i solve
 | [0047-permutations-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0047-permutations-ii) |
 | [0063-unique-paths-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0063-unique-paths-ii) |
 | [0128-longest-consecutive-sequence](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0128-longest-consecutive-sequence) |
+| [0139-word-break](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0139-word-break) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [2048-build-array-from-permutation](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2048-build-array-from-permutation) |
 | [2151-the-time-when-the-network-becomes-idle](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2151-the-time-when-the-network-becomes-idle) |
@@ -114,6 +116,7 @@ Collection of LeetCode questions which i solve
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0128-longest-consecutive-sequence) |
+| [0139-word-break](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0139-word-break) |
 | [0208-implement-trie-prefix-tree](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0208-implement-trie-prefix-tree) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 ## Binary Search
@@ -136,6 +139,7 @@ Collection of LeetCode questions which i solve
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0139-word-break](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0139-word-break) |
 | [0208-implement-trie-prefix-tree](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0211-design-add-and-search-words-data-structure) |
 | [1508-longest-happy-prefix](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1508-longest-happy-prefix) |
@@ -147,6 +151,7 @@ Collection of LeetCode questions which i solve
 ## Trie
 |  |
 | ------- |
+| [0139-word-break](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0139-word-break) |
 | [0208-implement-trie-prefix-tree](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0211-design-add-and-search-words-data-structure) |
 ## Minimum Spanning Tree
@@ -179,4 +184,8 @@ Collection of LeetCode questions which i solve
 | ------- |
 | [0047-permutations-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0047-permutations-ii) |
 | [0077-combinations](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0077-combinations) |
+## Memoization
+|  |
+| ------- |
+| [0139-word-break](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0139-word-break) |
 <!---LeetCode Topics End-->
