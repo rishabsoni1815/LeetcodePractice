@@ -1,46 +1,40 @@
 class Solution {
     public int findCircleNum(int[][] a) {
-        int n=a.length;
-        int m=a[0].length;
-        DisjointSet dsu = new DisjointSet(n);
-        for(int i=0;i<n;i++){
-            for(int j=0;j<m;j++){
-                if(i!=j&&a[i][j]==1){
-                    dsu.union(i,j);
+        int ans=a.length;
+        Dsu dsu=new Dsu(a.length);
+        for(int i=0;i<a.length;i++){
+            for(int j=0;j<a[i].length;j++){
+                if(a[i][j]==1 && i!=j){
+                    if(dsu.add(i,j)==true) ans--; 
                 }
             }
         }
-        int c=0;
-        for(int i=0;i<n;i++){
-            if(dsu.p[i]==i) {
-                c++;
-            }
-        }
-        return c;
+        return ans;
     }
-    class DisjointSet{
+    class Dsu{
+        int n;
         int p[];
         int r[];
-        public DisjointSet(int n){
+        Dsu(int n){
             p=new int[n];
             for(int i=0;i<n;i++) p[i]=i;
             r=new int[n];
         }
-        public int findParent(int u){
-            if(u==p[u]) return u;
-            return p[u]=findParent(p[u]);
+        int findParent(int x){
+            if(p[x]==x) return x;
+            return p[x]=findParent(p[x]);
         }
-        public boolean union(int u,int v){
-            int p1=findParent(u);
-            int p2=findParent(v);
-            if(p1==p2) return false;//dont directly check using p[p1] and p[p2] instead use findParent as we want ultimate parent not just current parent
-            if(r[p1]<r[p2]){
+        boolean add(int x,int y){
+            int p1=findParent(x);
+            int p2=findParent(y);
+            if(p1==p2) return false;
+            if(r[p1]>r[p2]){
+                p[p2]=p1;
+            }else if(r[p2]>r[p1]){
                 p[p1]=p2;
-            }else if(r[p1]>r[p2]){
-                p[p2]=p1;
             }else{
-                p[p2]=p1;
-                r[p1]++;
+                p[p1]=p2;
+                r[p2]++;
             }
             return true;
         }
