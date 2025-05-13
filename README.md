@@ -148,6 +148,7 @@ Collection of LeetCode questions which i solve
 | [0139-word-break](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0139-word-break) |
 | [0208-implement-trie-prefix-tree](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0394-decode-string](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0394-decode-string) |
 | [1508-longest-happy-prefix](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1508-longest-happy-prefix) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3629-total-characters-in-string-after-transformations-i) |
 ## Design
@@ -203,4 +204,12 @@ Collection of LeetCode questions which i solve
 |  |
 | ------- |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3629-total-characters-in-string-after-transformations-i) |
+## Stack
+|  |
+| ------- |
+| [0394-decode-string](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0394-decode-string) |
+## Recursion
+|  |
+| ------- |
+| [0394-decode-string](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0394-decode-string) |
 <!---LeetCode Topics End-->
