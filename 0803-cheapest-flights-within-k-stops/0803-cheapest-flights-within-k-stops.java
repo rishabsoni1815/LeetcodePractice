@@ -33,7 +33,7 @@ class Solution {
         // Create a queue which stores the node and their distances from the
         // source in the form of {stops, {node, dist}} with ‘stops’ indicating 
         // the no. of nodes between src and current node.
-        Queue<Tuple> q = new LinkedList<>(); 
+        PriorityQueue<Tuple> q = new PriorityQueue<>((x,y)->(x.first-y.first)); 
         
         q.add(new Tuple(0, src, 0));
 
