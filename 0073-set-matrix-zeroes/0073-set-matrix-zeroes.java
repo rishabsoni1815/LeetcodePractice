@@ -17,12 +17,14 @@ class Solution {
                 }
             }
         }
-        for(int i=1;i<n;i++){
-            for(int j=1;j<m;j++){
-                if(a[0][j]==0 || a[i][0]==0) a[i][j]=0;
+        for(int i=n-1;i>=0;i--){
+            for(int j=m-1;j>=0;j--){
+                if(i==0 || j==0){
+                    if(i==0 && fRow) a[i][j]=0;
+                    else if(j==0 && fCol) a[i][j]=0;
+                }
+                else if(a[0][j]==0 || a[i][0]==0) a[i][j]=0;
             }
-        }
-        if(fCol) for(int i=0;i<n;i++) a[i][0]=0;
-        if(fRow) for(int i=0;i<m;i++) a[0][i]=0;   
+        } 
     }
 }
