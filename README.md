@@ -191,6 +191,7 @@ Collection of LeetCode questions which i solve
 | [0211-design-add-and-search-words-data-structure](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0394-decode-string](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0394-decode-string) |
 | [1508-longest-happy-prefix](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1508-longest-happy-prefix) |
+| [2260-divide-a-string-into-groups-of-size-k](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2260-divide-a-string-into-groups-of-size-k) |
 | [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
 | [3194-find-words-containing-character](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3194-find-words-containing-character) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3629-total-characters-in-string-after-transformations-i) |
@@ -230,6 +231,7 @@ Collection of LeetCode questions which i solve
 |  |
 | ------- |
 | [2048-build-array-from-permutation](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2048-build-array-from-permutation) |
+| [2260-divide-a-string-into-groups-of-size-k](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2260-divide-a-string-into-groups-of-size-k) |
 ## Backtracking
 |  |
 | ------- |
