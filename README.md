@@ -106,6 +106,7 @@ Collection of LeetCode questions which i solve
 | [3194-find-words-containing-character](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3194-find-words-containing-character) |
 | [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3307-find-the-maximum-sum-of-node-values) |
+| [3461-find-the-minimum-area-to-cover-all-ones-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3461-find-the-minimum-area-to-cover-all-ones-i) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 | [3639-zero-array-transformation-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3639-zero-array-transformation-i) |
@@ -149,6 +150,7 @@ Collection of LeetCode questions which i solve
 | [1628-count-submatrices-with-all-ones](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1628-count-submatrices-with-all-ones) |
 | [2250-k-highest-ranked-items-within-a-price-range](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2250-k-highest-ranked-items-within-a-price-range) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2588-maximum-number-of-points-from-grid-queries) |
+| [3461-find-the-minimum-area-to-cover-all-ones-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3461-find-the-minimum-area-to-cover-all-ones-i) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 ## Greedy
