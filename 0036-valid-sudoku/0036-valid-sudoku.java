@@ -1,59 +1,21 @@
 class Solution {
-    public boolean isValidSudoku(char[][] a) {
-        int n = a.length, m = a[0].length;
-        for (int i = 0; i < n; i++) {
-            if (!checkCol(a[i]))
-                return false;
-        }
-        for (int i = 0; i < m; i++) {
-            if (!checkRow(a, i))
-                return false;
-        }
-        for (int i = 0; i < n; i += 3) {
-            for (int j = 0; j < m; j += 3) {
-                if (!checkCube(a, i, j))
-                    return false;
-            }
-        }
-        return true;
-    }
+    public boolean isValidSudoku(char[][] board) {
+        boolean[][] rows = new boolean[9][9];//i,j tells if j is already seen in ith row or not
+        boolean[][] cols = new boolean[9][9];//i,j tells if j is already seen in ith col or not
+        boolean[][] boxes = new boolean[9][9];//i,j tells if j is already seen in ith box or not 
 
-    boolean checkCol(char a[]) {
-        HashSet<Character> h = new HashSet<>();
-        for (int i = 0; i < a.length; i++) {
-            if (a[i] == '.')
-                continue;
-            if (a[i] > '0' && a[i] <= '9' && !h.contains(a[i]))
-                h.add(a[i]);
-            else
-                return false;
-        }
-        return true;
-    }
+        for (int i = 0; i < 9; i++) {
+            for (int j = 0; j < 9; j++) {
+                if (board[i][j] != '.') {
+                    int num = board[i][j] - '1';
+                    int boxIndex = (i / 3) * 3 + (j / 3);
 
-    boolean checkRow(char a[][], int j) {
-        HashSet<Character> h = new HashSet<>();
-        for (int i = 0; i < a.length; i++) {
-            if (a[i][j] == '.')
-                continue;
-            if (a[i][j] > '0' && a[i][j] <= '9' && !h.contains(a[i][j]))
-                h.add(a[i][j]);
-            else
-                return false;
-        }
-        return true;
-    }
+                    if (rows[i][num] || cols[j][num] || boxes[boxIndex][num]) {
+                        return false;
+                    }
 
-    boolean checkCube(char a[][], int ii, int jj) {
-        HashSet<Character> h = new HashSet<>();
-        for (int i = ii; i < ii + 3; i++) {
-            for (int j = jj; j < jj + 3; j++) {
-                if (a[i][j] == '.')
-                    continue;
-                if (a[i][j] > '0' && a[i][j] <= '9' && !h.contains(a[i][j]))
-                    h.add(a[i][j]);
-                else
-                    return false;
+                    rows[i][num] = cols[j][num] = boxes[boxIndex][num] = true;
+                }
             }
         }
         return true;
