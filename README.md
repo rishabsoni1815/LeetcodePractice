@@ -80,6 +80,7 @@ Collection of LeetCode questions which i solve
 ## Array
 |  |
 | ------- |
+| [0036-valid-sudoku](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0036-valid-sudoku) |
 | [0047-permutations-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0047-permutations-ii) |
 | [0053-maximum-subarray](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0053-maximum-subarray) |
 | [0063-unique-paths-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0063-unique-paths-ii) |
@@ -149,6 +150,7 @@ Collection of LeetCode questions which i solve
 ## Matrix
 |  |
 | ------- |
+| [0036-valid-sudoku](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0036-valid-sudoku) |
 | [0063-unique-paths-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0063-unique-paths-ii) |
 | [0073-set-matrix-zeroes](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0073-set-matrix-zeroes) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1402-count-square-submatrices-with-all-ones) |
@@ -173,6 +175,7 @@ Collection of LeetCode questions which i solve
 ## Hash Table
 |  |
 | ------- |
+| [0036-valid-sudoku](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0036-valid-sudoku) |
 | [0073-set-matrix-zeroes](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0073-set-matrix-zeroes) |
 | [0128-longest-consecutive-sequence](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0128-longest-consecutive-sequence) |
 | [0139-word-break](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0139-word-break) |
