@@ -195,6 +195,7 @@ Collection of LeetCode questions which i solve
 | [2215-finding-3-digit-even-numbers](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2215-finding-3-digit-even-numbers) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
+| [3872-find-most-frequent-vowel-and-consonant](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3872-find-most-frequent-vowel-and-consonant) |
 ## Binary Search
 |  |
 | ------- |
@@ -242,6 +243,7 @@ Collection of LeetCode questions which i solve
 | [3194-find-words-containing-character](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3194-find-words-containing-character) |
 | [3462-vowels-game-in-a-string](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3462-vowels-game-in-a-string) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3629-total-characters-in-string-after-transformations-i) |
+| [3872-find-most-frequent-vowel-and-consonant](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3872-find-most-frequent-vowel-and-consonant) |
 ## Design
 |  |
 | ------- |
@@ -302,6 +304,7 @@ Collection of LeetCode questions which i solve
 |  |
 | ------- |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3629-total-characters-in-string-after-transformations-i) |
+| [3872-find-most-frequent-vowel-and-consonant](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3872-find-most-frequent-vowel-and-consonant) |
 ## Stack
 |  |
 | ------- |
