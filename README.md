@@ -91,6 +91,7 @@ Collection of LeetCode questions which i solve
 | [0300-longest-increasing-subsequence](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0300-longest-increasing-subsequence) |
 | [0611-valid-triangle-number](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0611-valid-triangle-number) |
 | [0679-24-game](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0679-24-game) |
+| [0830-largest-triangle-area](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0830-largest-triangle-area) |
 | [1006-vowel-spellchecker](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1006-vowel-spellchecker) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1402-count-square-submatrices-with-all-ones) |
@@ -222,6 +223,7 @@ Collection of LeetCode questions which i solve
 | ------- |
 | [0342-power-of-four](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0342-power-of-four) |
 | [0679-24-game](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0679-24-game) |
+| [0830-largest-triangle-area](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0830-largest-triangle-area) |
 | [1448-maximum-69-number](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1448-maximum-69-number) |
 | [1529-max-difference-you-can-get-from-changing-an-integer](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1529-max-difference-you-can-get-from-changing-an-integer) |
 | [2206-detonate-the-maximum-bombs](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2206-detonate-the-maximum-bombs) |
@@ -236,6 +238,7 @@ Collection of LeetCode questions which i solve
 ## Geometry
 |  |
 | ------- |
+| [0830-largest-triangle-area](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0830-largest-triangle-area) |
 | [2206-detonate-the-maximum-bombs](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2206-detonate-the-maximum-bombs) |
 | [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
