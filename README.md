@@ -110,6 +110,7 @@ Collection of LeetCode questions which i solve
 | [2250-k-highest-ranked-items-within-a-price-range](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2250-k-highest-ranked-items-within-a-price-range) |
 | [2262-solving-questions-with-brainpower](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2262-solving-questions-with-brainpower) |
 | [2277-count-equal-and-divisible-pairs-in-an-array](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2277-count-equal-and-divisible-pairs-in-an-array) |
+| [2324-find-triangular-sum-of-an-array](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2324-find-triangular-sum-of-an-array) |
 | [2429-design-a-food-rating-system](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2429-design-a-food-rating-system) |
 | [2432-number-of-zero-filled-subarrays](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2432-number-of-zero-filled-subarrays) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2588-maximum-number-of-points-from-grid-queries) |
@@ -233,6 +234,7 @@ Collection of LeetCode questions which i solve
 | [1448-maximum-69-number](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1448-maximum-69-number) |
 | [1529-max-difference-you-can-get-from-changing-an-integer](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1529-max-difference-you-can-get-from-changing-an-integer) |
 | [2206-detonate-the-maximum-bombs](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2206-detonate-the-maximum-bombs) |
+| [2324-find-triangular-sum-of-an-array](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2324-find-triangular-sum-of-an-array) |
 | [2432-number-of-zero-filled-subarrays](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2432-number-of-zero-filled-subarrays) |
 | [2704-maximum-difference-by-remapping-a-digit](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2704-maximum-difference-by-remapping-a-digit) |
 | [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
@@ -303,6 +305,7 @@ Collection of LeetCode questions which i solve
 | ------- |
 | [2048-build-array-from-permutation](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2048-build-array-from-permutation) |
 | [2260-divide-a-string-into-groups-of-size-k](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2260-divide-a-string-into-groups-of-size-k) |
+| [2324-find-triangular-sum-of-an-array](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2324-find-triangular-sum-of-an-array) |
 | [2408-number-of-people-aware-of-a-secret](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2408-number-of-people-aware-of-a-secret) |
 ## Backtracking
 |  |
@@ -378,4 +381,8 @@ Collection of LeetCode questions which i solve
 |  |
 | ------- |
 | [2429-design-a-food-rating-system](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2429-design-a-food-rating-system) |
+## Combinatorics
+|  |
+| ------- |
+| [2324-find-triangular-sum-of-an-array](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2324-find-triangular-sum-of-an-array) |
 <!---LeetCode Topics End-->
