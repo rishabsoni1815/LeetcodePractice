@@ -9,6 +9,7 @@ Collection of LeetCode questions which i solve
 | [0211-design-add-and-search-words-data-structure](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0547-number-of-provinces](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0547-number-of-provinces) |
 | [0744-network-delay-time](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0744-network-delay-time) |
+| [0794-swim-in-rising-water](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0794-swim-in-rising-water) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1120-flower-planting-with-no-adjacent](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1120-flower-planting-with-no-adjacent) |
 | [2206-detonate-the-maximum-bombs](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2206-detonate-the-maximum-bombs) |
@@ -18,6 +19,7 @@ Collection of LeetCode questions which i solve
 | ------- |
 | [0547-number-of-provinces](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0547-number-of-provinces) |
 | [0744-network-delay-time](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0744-network-delay-time) |
+| [0794-swim-in-rising-water](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0794-swim-in-rising-water) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1120-flower-planting-with-no-adjacent](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1120-flower-planting-with-no-adjacent) |
 | [2151-the-time-when-the-network-becomes-idle](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2151-the-time-when-the-network-becomes-idle) |
@@ -30,6 +32,7 @@ Collection of LeetCode questions which i solve
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0128-longest-consecutive-sequence) |
 | [0547-number-of-provinces](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0547-number-of-provinces) |
+| [0794-swim-in-rising-water](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0794-swim-in-rising-water) |
 | [1613-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1613-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2793-count-the-number-of-complete-components](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2793-count-the-number-of-complete-components) |
@@ -92,6 +95,7 @@ Collection of LeetCode questions which i solve
 | [0300-longest-increasing-subsequence](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0300-longest-increasing-subsequence) |
 | [0611-valid-triangle-number](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0611-valid-triangle-number) |
 | [0679-24-game](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0679-24-game) |
+| [0794-swim-in-rising-water](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0794-swim-in-rising-water) |
 | [0830-largest-triangle-area](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0830-largest-triangle-area) |
 | [1006-vowel-spellchecker](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1006-vowel-spellchecker) |
 | [1018-largest-perimeter-triangle](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1018-largest-perimeter-triangle) |
@@ -159,6 +163,7 @@ Collection of LeetCode questions which i solve
 |  |
 | ------- |
 | [0744-network-delay-time](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0744-network-delay-time) |
+| [0794-swim-in-rising-water](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0794-swim-in-rising-water) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1917-maximum-average-pass-ratio](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1917-maximum-average-pass-ratio) |
 | [2250-k-highest-ranked-items-within-a-price-range](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2250-k-highest-ranked-items-within-a-price-range) |
@@ -174,6 +179,7 @@ Collection of LeetCode questions which i solve
 | [0036-valid-sudoku](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0036-valid-sudoku) |
 | [0063-unique-paths-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0063-unique-paths-ii) |
 | [0073-set-matrix-zeroes](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0073-set-matrix-zeroes) |
+| [0794-swim-in-rising-water](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0794-swim-in-rising-water) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1628-count-submatrices-with-all-ones](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1628-count-submatrices-with-all-ones) |
 | [2250-k-highest-ranked-items-within-a-price-range](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2250-k-highest-ranked-items-within-a-price-range) |
@@ -217,6 +223,7 @@ Collection of LeetCode questions which i solve
 | ------- |
 | [0300-longest-increasing-subsequence](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0300-longest-increasing-subsequence) |
 | [0611-valid-triangle-number](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0611-valid-triangle-number) |
+| [0794-swim-in-rising-water](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0794-swim-in-rising-water) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2720-minimize-the-maximum-difference-of-pairs](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
 ## Sliding Window
