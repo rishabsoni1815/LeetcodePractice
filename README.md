@@ -131,6 +131,7 @@ Collection of LeetCode questions which i solve
 | [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3307-find-the-maximum-sum-of-node-values) |
+| [3381-maximum-subarray-sum-with-length-divisible-by-k](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3381-maximum-subarray-sum-with-length-divisible-by-k) |
 | [3461-find-the-minimum-area-to-cover-all-ones-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3461-find-the-minimum-area-to-cover-all-ones-i) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
@@ -221,6 +222,7 @@ Collection of LeetCode questions which i solve
 | [1834-minimum-number-of-people-to-teach](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1834-minimum-number-of-people-to-teach) |
 | [2215-finding-3-digit-even-numbers](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2215-finding-3-digit-even-numbers) |
 | [2429-design-a-food-rating-system](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2429-design-a-food-rating-system) |
+| [3381-maximum-subarray-sum-with-length-divisible-by-k](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3381-maximum-subarray-sum-with-length-divisible-by-k) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3872-find-most-frequent-vowel-and-consonant) |
@@ -363,6 +365,7 @@ Collection of LeetCode questions which i solve
 |  |
 | ------- |
 | [2618-maximize-the-minimum-powered-city](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2618-maximize-the-minimum-powered-city) |
+| [3381-maximum-subarray-sum-with-length-divisible-by-k](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3381-maximum-subarray-sum-with-length-divisible-by-k) |
 | [3639-zero-array-transformation-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3639-zero-array-transformation-i) |
 | [3647-zero-array-transformation-iii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3647-zero-array-transformation-iii) |
 ## Bit Manipulation
