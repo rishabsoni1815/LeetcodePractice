@@ -105,6 +105,7 @@ Collection of LeetCode questions which i solve
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
+| [1590-make-sum-divisible-by-p](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1590-make-sum-divisible-by-p) |
 | [1628-count-submatrices-with-all-ones](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1628-count-submatrices-with-all-ones) |
 | [1834-minimum-number-of-people-to-teach](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1834-minimum-number-of-people-to-teach) |
 | [1917-maximum-average-pass-ratio](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1917-maximum-average-pass-ratio) |
@@ -220,6 +221,7 @@ Collection of LeetCode questions which i solve
 | [0208-implement-trie-prefix-tree](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0208-implement-trie-prefix-tree) |
 | [1006-vowel-spellchecker](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1006-vowel-spellchecker) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1353-find-resultant-array-after-removing-anagrams) |
+| [1590-make-sum-divisible-by-p](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1590-make-sum-divisible-by-p) |
 | [1834-minimum-number-of-people-to-teach](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1834-minimum-number-of-people-to-teach) |
 | [2215-finding-3-digit-even-numbers](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2215-finding-3-digit-even-numbers) |
 | [2429-design-a-food-rating-system](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2429-design-a-food-rating-system) |
@@ -366,6 +368,7 @@ Collection of LeetCode questions which i solve
 ## Prefix Sum
 |  |
 | ------- |
+| [1590-make-sum-divisible-by-p](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1590-make-sum-divisible-by-p) |
 | [2618-maximize-the-minimum-powered-city](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2618-maximize-the-minimum-powered-city) |
 | [3381-maximum-subarray-sum-with-length-divisible-by-k](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3381-maximum-subarray-sum-with-length-divisible-by-k) |
 | [3639-zero-array-transformation-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3639-zero-array-transformation-i) |
