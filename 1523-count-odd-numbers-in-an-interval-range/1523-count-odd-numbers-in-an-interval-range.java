@@ -1,11 +1,13 @@
 class Solution {
-   public int countOdds(int low, int high) {
-       int nums=high-low+1;  //counting total numbers in range
- 
-		if(low%2!=0 && high%2!=0)  
-            return nums/2 + 1;
-        
-        else
-		return nums/2;
+    public int countOdds(int l, int h) {
+        int diff=h-l+1;
+        if(diff%2==0) return diff/2;
+        else{
+            if(l%2==0){
+                return diff/2;
+            }else{
+                return diff/2+1;
+            }
+        }
     }
 }
