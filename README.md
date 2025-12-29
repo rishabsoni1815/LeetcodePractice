@@ -221,6 +221,7 @@ Collection of LeetCode questions which i solve
 | [0128-longest-consecutive-sequence](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0128-longest-consecutive-sequence) |
 | [0139-word-break](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0139-word-break) |
 | [0208-implement-trie-prefix-tree](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0208-implement-trie-prefix-tree) |
+| [0756-pyramid-transition-matrix](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0756-pyramid-transition-matrix) |
 | [1006-vowel-spellchecker](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1006-vowel-spellchecker) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1590-make-sum-divisible-by-p](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1590-make-sum-divisible-by-p) |
@@ -287,6 +288,7 @@ Collection of LeetCode questions which i solve
 | [0208-implement-trie-prefix-tree](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0394-decode-string](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0394-decode-string) |
+| [0756-pyramid-transition-matrix](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0756-pyramid-transition-matrix) |
 | [1006-vowel-spellchecker](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1006-vowel-spellchecker) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1508-longest-happy-prefix](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1508-longest-happy-prefix) |
@@ -345,6 +347,7 @@ Collection of LeetCode questions which i solve
 | [0047-permutations-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0047-permutations-ii) |
 | [0077-combinations](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0077-combinations) |
 | [0679-24-game](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0679-24-game) |
+| [0756-pyramid-transition-matrix](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0756-pyramid-transition-matrix) |
 ## Memoization
 |  |
 | ------- |
@@ -387,6 +390,7 @@ Collection of LeetCode questions which i solve
 |  |
 | ------- |
 | [0342-power-of-four](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0342-power-of-four) |
+| [0756-pyramid-transition-matrix](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0756-pyramid-transition-matrix) |
 | [1732-minimum-one-bit-operations-to-make-integers-zero](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1732-minimum-one-bit-operations-to-make-integers-zero) |
 | [2837-minimum-operations-to-make-the-integer-zero](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2837-minimum-operations-to-make-the-integer-zero) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3307-find-the-maximum-sum-of-node-values) |
