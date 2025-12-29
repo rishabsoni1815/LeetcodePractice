@@ -1,8 +1,10 @@
 class Solution {
     List<String>temp;
     HashMap<String,List<Character>> top;
+    HashMap<String,Boolean> dp;
     public boolean pyramidTransition(String s, List<String> a) {
         top=new HashMap<>();
+        dp=new HashMap<>();
         for(String c:a){
             String y=""+c.charAt(0)+c.charAt(1);
             if(!top.containsKey(y)){
@@ -15,10 +17,15 @@ class Solution {
     boolean help(String s,List<String>a){
         if(s.length()==1) return true;
         temp=new ArrayList<>();
+        if(dp.containsKey(s)) return dp.get(s);
         gen(s,a,0,"");
         for(String c:temp){
-            if(help(c,a)) return true;
+            if(help(c,a)) {
+                dp.put(s,true);
+                return true;
+            }
         }
+        dp.put(s,false);
         return false;
     }
     void gen(String s,List<String>a,int i,String ans){
