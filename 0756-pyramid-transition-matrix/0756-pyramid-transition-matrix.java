@@ -1,4 +1,5 @@
 class Solution {
+    // https://leetcode.com/problems/pyramid-transition-matrix/solutions/7447084/didnt-understand-youll-get-it-now-by-goh-ggog
     List<String>temp;
     HashMap<String,List<Character>> top;
     HashMap<String,Boolean> dp;
