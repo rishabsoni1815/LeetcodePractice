@@ -64,6 +64,7 @@ Collection of LeetCode questions which i solve
 | [0806-domino-and-tromino-tiling](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0806-domino-and-tromino-tiling) |
 | [1111-minimum-score-triangulation-of-polygon](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1111-minimum-score-triangulation-of-polygon) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1402-count-square-submatrices-with-all-ones) |
+| [1411-number-of-ways-to-paint-n-3-grid](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1411-number-of-ways-to-paint-n-3-grid) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1628-count-submatrices-with-all-ones](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1628-count-submatrices-with-all-ones) |
 | [1732-minimum-one-bit-operations-to-make-integers-zero](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1732-minimum-one-bit-operations-to-make-integers-zero) |
