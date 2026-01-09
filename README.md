@@ -161,6 +161,7 @@ Collection of LeetCode questions which i solve
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
 | [3744-minimum-operations-to-make-array-elements-zero](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3744-minimum-operations-to-make-array-elements-zero) |
+| [3796-find-maximum-value-in-a-constrained-sequence](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3796-find-maximum-value-in-a-constrained-sequence) |
 ## Two Pointers
 |  |
 | ------- |
@@ -234,6 +235,7 @@ Collection of LeetCode questions which i solve
 | [2720-minimize-the-maximum-difference-of-pairs](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3307-find-the-maximum-sum-of-node-values) |
 | [3647-zero-array-transformation-iii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3647-zero-array-transformation-iii) |
+| [3796-find-maximum-value-in-a-constrained-sequence](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3796-find-maximum-value-in-a-constrained-sequence) |
 ## Hash Table
 |  |
 | ------- |
