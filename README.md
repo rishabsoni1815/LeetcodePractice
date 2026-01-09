@@ -104,6 +104,7 @@ Collection of LeetCode questions which i solve
 | [0066-plus-one](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0066-plus-one) |
 | [0073-set-matrix-zeroes](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0073-set-matrix-zeroes) |
 | [0128-longest-consecutive-sequence](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0128-longest-consecutive-sequence) |
+| [0135-candy](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0135-candy) |
 | [0139-word-break](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0139-word-break) |
 | [0300-longest-increasing-subsequence](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0300-longest-increasing-subsequence) |
 | [0611-valid-triangle-number](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0611-valid-triangle-number) |
@@ -221,6 +222,7 @@ Collection of LeetCode questions which i solve
 ## Greedy
 |  |
 | ------- |
+| [0135-candy](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0135-candy) |
 | [0611-valid-triangle-number](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0611-valid-triangle-number) |
 | [1018-largest-perimeter-triangle](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1018-largest-perimeter-triangle) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1049-minimum-domino-rotations-for-equal-row) |
