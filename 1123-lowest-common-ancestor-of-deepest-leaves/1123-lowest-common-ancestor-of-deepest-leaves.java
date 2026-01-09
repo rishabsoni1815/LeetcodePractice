@@ -14,44 +14,21 @@
  * }
  */
 class Solution {
-    int max=0;
-    TreeNode ans;
+       int deepest; TreeNode lca;
     public TreeNode lcaDeepestLeaves(TreeNode root) {
-        ans=root;
-        max=0;
-        help(root,0);
-        return ans;
+        deepest = 0;
+        lca = null;
+        setLCA(root,0);
+        return lca;
     }
-    int help(TreeNode root,int l){
-        if(root==null) return l;
-        int o1=help(root.left,l+1);
-        int o2=help(root.right,l+1);
-        if(Math.max(o1,o2)>=max){
-            if(Math.max(o1,o2)==max){
-                if(o1==o2){
-                    ans=root;
-                }else{
-                    if(o1>o2){
-                        //do nothing
-                    }else{
-                        //do nothing and ans remains same
-                    }
-                }
-            }else{
-                if(o1==o2){
-                    ans=root;
-                    max=o1;
-                }else{
-                    if(o1>o2){
-                        max=o1;
-                        ans=root.left;
-                    }else{
-                        max=o2;
-                        ans=root.right;
-                    }
-                }
-            }
-        }
-        return Math.max(o1,o2);
+    
+    private int setLCA(TreeNode node, int depth){
+        deepest = Math.max(deepest, depth);
+        if(node==null) return depth;
+        int left = setLCA(node.left, depth+1);
+        int right = setLCA(node.right, depth+1);
+        if(left==deepest && right==deepest) lca = node;
+        return Math.max(left, right);
     }
+
 }
