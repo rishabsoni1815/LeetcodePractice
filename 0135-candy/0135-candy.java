@@ -2,30 +2,23 @@ class Solution {
     /*
     
     Do it in two directions.
-The first loop makes sure children with a higher rating get more candy than its left neighbor; the second loop makes sure children with a higher rating get more candy than its right neighbor.
+    The first loop makes sure children with a higher rating get more candy than its left neighbor; the second loop makes sure children with a higher rating get more candy than its right neighbor.
     
     */
-    
-    
-   public int candy(int[] ratings) {
-      int n = ratings.length;
-      int[] res = new int[n];
-      Arrays.fill(res, 1);
-      for(int i = 1; i < n; i++){
-        if(ratings[i] > ratings[i - 1]){
-          res[i] = res[i - 1] + 1;            
-        }  
-      }    
-      
-      for(int i = n - 2; i >=0; i--){
-        if(ratings[i + 1] < ratings[i]){
-          res[i] = Math.max(res[i+1] + 1, res[i]); //imp max not min as we want to take max of both possiblities   
+
+    public int candy(int[] a) {
+        int n = a.length;
+        int dp[] = new int[n];
+        int sum = 0;
+        Arrays.fill(dp,1);
+        for (int i = 1; i < n; i++) {
+            if(a[i]>a[i-1]) dp[i] = Math.max(dp[i], dp[i - 1] + 1);//adding only 1 since we want to minimise the no of candies
         }
-      }
-      
-      int sum = 0;
-      for(int r: res) sum += r;
-      
-      return sum;
+        for (int i = n - 2; i >= 0; i--) {
+            if(a[i]>a[i+1]) dp[i] = Math.max(dp[i], dp[i + 1] + 1);//taking max since we want both conditions to satisfy (i's candies are >right and >left person)
+        }
+        for (int i : dp)
+            sum+=i;
+        return sum;
     }
 }
