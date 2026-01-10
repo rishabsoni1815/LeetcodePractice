@@ -2,31 +2,61 @@ class Solution {
     public int minimumDeleteSum(String a, String b) {
         // Integer dp[][] = new Integer[a.length()][b.length()];
         // return help(a, b, a.length() - 1, b.length() - 1, dp);
+
+        // int n = a.length(), m = b.length();
+        // int dp[][] = new int[n + 1][m + 1];
+        // for (int i = 0; i <= n; i++) {
+        //     for (int j = 0; j <= m; j++) {
+        //         if (i == 0 && j == 0) {
+        //             dp[i][j] = 0;
+        //             continue;
+        //         } else if (i == 0) {
+        //             dp[i][j] = b.charAt(j - 1) + dp[i][j - 1];
+        //             continue;
+        //         } else if (j == 0) {
+        //             dp[i][j] = a.charAt(i - 1) + dp[i - 1][j];
+        //             continue;
+        //         }
+        //         if (a.charAt(i - 1) == b.charAt(j - 1)) {
+        //             dp[i][j] = dp[i - 1][j - 1];
+        //         } else {
+        //             int o1 = a.charAt(i - 1) + dp[i - 1][j];
+        //             int o2 = b.charAt(j - 1) + dp[i][j - 1];
+        //             int o3 = a.charAt(i - 1) + b.charAt(j - 1) + dp[i - 1][j - 1];
+        //             dp[i][j] = Math.min(o1, Math.min(o2, o3));
+        //         }
+        //     }
+        // }
+        // return dp[n][m];
+
         int n = a.length(), m = b.length();
-        int dp[][] = new int[n + 1][m + 1];
+        int dp[]=new int[m+1];
         for (int i = 0; i <= n; i++) {
+            int prev[]=new int[m+1];
             for (int j = 0; j <= m; j++) {
                 if (i == 0 && j == 0) {
-                    dp[i][j] = 0;
+                    prev[j] = 0;
                     continue;
                 } else if (i == 0) {
-                    dp[i][j] = b.charAt(j - 1) + dp[i][j - 1];
+                    prev[j] = b.charAt(j - 1) + prev[j - 1];
                     continue;
                 } else if (j == 0) {
-                    dp[i][j] = a.charAt(i - 1) + dp[i - 1][j];
+                    prev[j] = a.charAt(i - 1) + dp[j];
                     continue;
                 }
                 if (a.charAt(i - 1) == b.charAt(j - 1)) {
-                    dp[i][j] = dp[i - 1][j - 1];
+                    prev[j] = dp[j - 1];
                 } else {
-                    int o1 = a.charAt(i - 1) + dp[i - 1][j];
-                    int o2 = b.charAt(j - 1) + dp[i][j - 1];
-                    int o3 = a.charAt(i - 1) + b.charAt(j - 1) + dp[i - 1][j - 1];
-                    dp[i][j] = Math.min(o1, Math.min(o2, o3));
+                    int o1 = a.charAt(i - 1) + dp[j];
+                    int o2 = b.charAt(j - 1) + prev[j - 1];
+                    int o3 = a.charAt(i - 1) + b.charAt(j - 1) + dp[j - 1];
+                    prev[j] = Math.min(o1, Math.min(o2, o3));
                 }
             }
+            dp=prev;
         }
-        return dp[n][m];
+        return dp[m];
+
     }
 
     // int help(String a, String b, int i, int j, Integer dp[][]) {
