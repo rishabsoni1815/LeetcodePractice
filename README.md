@@ -119,6 +119,7 @@ Collection of LeetCode questions which i solve
 | [1018-largest-perimeter-triangle](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1018-largest-perimeter-triangle) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [1111-minimum-score-triangulation-of-polygon](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1111-minimum-score-triangulation-of-polygon) |
+| [1266-minimum-time-visiting-all-points](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1266-minimum-time-visiting-all-points) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1390-four-divisors](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1390-four-divisors) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1402-count-square-submatrices-with-all-ones) |
@@ -290,6 +291,7 @@ Collection of LeetCode questions which i solve
 | [0830-largest-triangle-area](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0830-largest-triangle-area) |
 | [0840-magic-squares-in-grid](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0840-magic-squares-in-grid) |
 | [1018-largest-perimeter-triangle](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1018-largest-perimeter-triangle) |
+| [1266-minimum-time-visiting-all-points](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1266-minimum-time-visiting-all-points) |
 | [1390-four-divisors](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1390-four-divisors) |
 | [1448-maximum-69-number](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1448-maximum-69-number) |
 | [1523-count-odd-numbers-in-an-interval-range](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1523-count-odd-numbers-in-an-interval-range) |
@@ -313,6 +315,7 @@ Collection of LeetCode questions which i solve
 |  |
 | ------- |
 | [0830-largest-triangle-area](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0830-largest-triangle-area) |
+| [1266-minimum-time-visiting-all-points](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1266-minimum-time-visiting-all-points) |
 | [2206-detonate-the-maximum-bombs](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2206-detonate-the-maximum-bombs) |
 | [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
