@@ -7,11 +7,6 @@ class StockSpanner {
     }
 
     public int next(int x) {
-        if (s.size() == 0 || s.peek() > x) {
-            s.add(x);
-            h.put(x,1);
-            return 1;
-        }
         int cnt=1;
         while (s.size() > 0 && s.peek() <= x) {
             cnt+=h.get(s.pop());
