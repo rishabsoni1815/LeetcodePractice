@@ -113,6 +113,7 @@ Collection of LeetCode questions which i solve
 | [0496-next-greater-element-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0496-next-greater-element-i) |
 | [0611-valid-triangle-number](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0611-valid-triangle-number) |
 | [0679-24-game](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0679-24-game) |
+| [0739-daily-temperatures](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0739-daily-temperatures) |
 | [0794-swim-in-rising-water](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0794-swim-in-rising-water) |
 | [0830-largest-triangle-area](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0830-largest-triangle-area) |
 | [0840-magic-squares-in-grid](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0840-magic-squares-in-grid) |
@@ -419,6 +420,7 @@ Collection of LeetCode questions which i solve
 | [0085-maximal-rectangle](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0085-maximal-rectangle) |
 | [0394-decode-string](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0394-decode-string) |
 | [0496-next-greater-element-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0496-next-greater-element-i) |
+| [0739-daily-temperatures](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0739-daily-temperatures) |
 | [1628-count-submatrices-with-all-ones](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1628-count-submatrices-with-all-ones) |
 ## Recursion
 |  |
@@ -460,6 +462,7 @@ Collection of LeetCode questions which i solve
 | ------- |
 | [0085-maximal-rectangle](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0085-maximal-rectangle) |
 | [0496-next-greater-element-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0496-next-greater-element-i) |
+| [0739-daily-temperatures](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0739-daily-temperatures) |
 | [1628-count-submatrices-with-all-ones](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1628-count-submatrices-with-all-ones) |
 ## Brainteaser
 |  |
