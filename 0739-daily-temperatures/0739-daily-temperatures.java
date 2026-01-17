@@ -1,13 +1,16 @@
 class Solution {
-    public int[] dailyTemperatures(int[] t) {
-        Stack<Integer>s=new Stack<>();//kind of next greater element so applying that with putting indices in the stack to get distance for ans[i]
-        int ans[]=new int[t.length];
-        for(int i=t.length-1;i>=0;i--){
-            while(s.size()>0 && t[i]>=t[s.peek()]){
+    public int[] dailyTemperatures(int[] a) {
+        int n=a.length;
+        int ans[]=new int[n];
+        Stack<Integer>s=new Stack<>();
+        int i=a.length-1;
+        while(i>=0){
+            while(s.size()>0 && a[s.peek()]<=a[i]){
                 s.pop();
             }
-            if(s.size()>0) ans[i]=s.peek()-i;
-            s.push(i);
+            if(!s.isEmpty()) ans[i]=s.peek()-i;
+            s.add(i);
+            i--;
         }
         return ans;
     }
