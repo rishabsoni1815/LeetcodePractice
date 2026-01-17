@@ -1,22 +1,26 @@
 class StockSpanner {
-    Stack<int[]> stack = new Stack<>();
-    
-    public int next(int price) {
-        int ans = 1;
-        while (!stack.isEmpty() && stack.peek()[0] <= price) {
-            ans += stack.pop()[1];
+    Stack<Integer> s;
+    HashMap<Integer,Integer>h;
+    public StockSpanner() {
+        s=new Stack<>();
+        h=new HashMap<>();
+    }
+
+    public int next(int x) {
+        if (s.size() == 0 || s.peek() > x) {
+            s.add(x);
+            h.put(x,1);
+            return 1;
         }
-        
-        stack.push(new int[] {price, ans});
-        return ans;
+        int cnt=1;
+        while (s.size() > 0 && s.peek() <= x) {
+            cnt+=h.get(s.pop());
+        }
+        h.put(x,cnt);
+        s.add(x);
+        return cnt;
     }
 }
-
-/**
- * Your StockSpanner object will be instantiated and called as such:
- * StockSpanner obj = new StockSpanner();
- * int param_1 = obj.next(price);
- */
 
 /**
  * Your StockSpanner object will be instantiated and called as such:
