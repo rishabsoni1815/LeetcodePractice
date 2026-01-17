@@ -353,6 +353,7 @@ Collection of LeetCode questions which i solve
 | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0901-online-stock-span](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0901-online-stock-span) |
 | [2429-design-a-food-rating-system](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2429-design-a-food-rating-system) |
 ## Trie
 |  |
@@ -421,6 +422,7 @@ Collection of LeetCode questions which i solve
 | [0394-decode-string](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0394-decode-string) |
 | [0496-next-greater-element-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0496-next-greater-element-i) |
 | [0739-daily-temperatures](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0739-daily-temperatures) |
+| [0901-online-stock-span](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0901-online-stock-span) |
 | [1628-count-submatrices-with-all-ones](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1628-count-submatrices-with-all-ones) |
 ## Recursion
 |  |
@@ -463,6 +465,7 @@ Collection of LeetCode questions which i solve
 | [0085-maximal-rectangle](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0085-maximal-rectangle) |
 | [0496-next-greater-element-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0496-next-greater-element-i) |
 | [0739-daily-temperatures](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0739-daily-temperatures) |
+| [0901-online-stock-span](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0901-online-stock-span) |
 | [1628-count-submatrices-with-all-ones](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1628-count-submatrices-with-all-ones) |
 ## Brainteaser
 |  |
@@ -492,4 +495,8 @@ Collection of LeetCode questions which i solve
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1339-maximum-product-of-splitted-binary-tree) |
+## Data Stream
+|  |
+| ------- |
+| [0901-online-stock-span](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0901-online-stock-span) |
 <!---LeetCode Topics End-->
