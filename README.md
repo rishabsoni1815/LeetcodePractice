@@ -80,6 +80,7 @@ Collection of LeetCode questions which i solve
 | [2262-solving-questions-with-brainpower](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2262-solving-questions-with-brainpower) |
 | [2376-count-special-integers](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2376-count-special-integers) |
 | [2408-number-of-people-aware-of-a-secret](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2408-number-of-people-aware-of-a-secret) |
+| [2977-minimum-cost-to-convert-string-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2977-minimum-cost-to-convert-string-ii) |
 | [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3307-find-the-maximum-sum-of-node-values) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3629-total-characters-in-string-after-transformations-i) |
@@ -95,6 +96,7 @@ Collection of LeetCode questions which i solve
 | [0744-network-delay-time](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0803-cheapest-flights-within-k-stops) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2090-number-of-ways-to-arrive-at-destination) |
+| [2977-minimum-cost-to-convert-string-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2977-minimum-cost-to-convert-string-ii) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 | [3650-minimum-cost-path-with-edge-reversals](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3650-minimum-cost-path-with-edge-reversals) |
@@ -158,6 +160,7 @@ Collection of LeetCode questions which i solve
 | [2699-count-the-number-of-fair-pairs](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2720-minimize-the-maximum-difference-of-pairs](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
 | [2943-maximize-area-of-square-hole-in-grid](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2943-maximize-area-of-square-hole-in-grid) |
+| [2977-minimum-cost-to-convert-string-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2977-minimum-cost-to-convert-string-ii) |
 | [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
 | [3194-find-words-containing-character](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3194-find-words-containing-character) |
 | [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
@@ -366,6 +369,7 @@ Collection of LeetCode questions which i solve
 | [2260-divide-a-string-into-groups-of-size-k](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2260-divide-a-string-into-groups-of-size-k) |
 | [2429-design-a-food-rating-system](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2429-design-a-food-rating-system) |
 | [2483-minimum-penalty-for-a-shop](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2483-minimum-penalty-for-a-shop) |
+| [2977-minimum-cost-to-convert-string-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2977-minimum-cost-to-convert-string-ii) |
 | [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
 | [3194-find-words-containing-character](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3194-find-words-containing-character) |
 | [3462-vowels-game-in-a-string](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3462-vowels-game-in-a-string) |
@@ -384,6 +388,7 @@ Collection of LeetCode questions which i solve
 | [0139-word-break](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0139-word-break) |
 | [0208-implement-trie-prefix-tree](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0211-design-add-and-search-words-data-structure) |
+| [2977-minimum-cost-to-convert-string-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2977-minimum-cost-to-convert-string-ii) |
 ## Minimum Spanning Tree
 |  |
 | ------- |
@@ -542,5 +547,6 @@ Collection of LeetCode questions which i solve
 ## Graph Theory
 |  |
 | ------- |
+| [2977-minimum-cost-to-convert-string-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2977-minimum-cost-to-convert-string-ii) |
 | [3650-minimum-cost-path-with-edge-reversals](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3650-minimum-cost-path-with-edge-reversals) |
 <!---LeetCode Topics End-->
