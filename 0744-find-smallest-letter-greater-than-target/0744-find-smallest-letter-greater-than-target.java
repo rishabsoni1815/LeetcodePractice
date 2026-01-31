@@ -1,17 +1,16 @@
 class Solution {
     public char nextGreatestLetter(char[] a, char t) {
         int n=a.length;
-        int i=0,j=n-1,ans=-1;
-        while(i<=j){
-            int m=i+(j-i)/2;
-            if(a[m]>t){
-                ans=m;
-                j=m-1;
+        int l=0,r=n-1,ans=0;
+        while(l<=r){
+            int mid=l+(r-l)/2;
+            if(a[mid]>t){
+                ans=mid;
+                r=mid-1;
             }else{
-                i=m+1;
+                l=mid+1;
             }
         }
-        if(ans==-1) return a[0];
-        else return a[ans];
+        return a[ans];
     }
 }
