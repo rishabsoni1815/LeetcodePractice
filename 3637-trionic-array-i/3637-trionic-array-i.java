@@ -1,31 +1,17 @@
 class Solution {
-    public boolean isTrionic(int[] a) {
-        int n = a.length;
-        // if (n < 4)
-        //     return false;
-        boolean inc = true;
-        int cnt = 0,cur=0;
-        for (int i = 1; i < n; i++) {
-            if(a[i]==a[i-1]) return false;
-            if (inc) {
-                if (a[i] <=a[i - 1]) {
-                    if(cur<1) return false;
-                    cnt++;
-                    inc = false;
-                    cur=0;
-                }
-                cur++;
-            } else {
-                if (a[i] > a[i - 1]) {
-                    if(cur<1) return false;
-                    cnt++;
-                    cur=0;
-                    inc = true;
-                }
-                cur++;
-            }
-            // System.out.println(i + " " + cnt + " " + inc);
+    public boolean isTrionic(int[] nums) {
+        int n=nums.length,p,q,i=0;
+        while(i+1<n && nums[i+1]>nums[i]){
+            i++;
         }
-        return cnt == 2 && cnt>0;
+        p=i;
+        while(i+1<n && nums[i+1]<nums[i]){
+            i++;
+        }
+        q=i;
+        while(i+1<n && nums[i+1]>nums[i]){
+            i++;
+        }
+        return i==n-1 && p>0 && q>p && q<n-1;
     }
 }
