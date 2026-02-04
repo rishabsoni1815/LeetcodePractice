@@ -84,6 +84,7 @@ Collection of LeetCode questions which i solve
 | [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3307-find-the-maximum-sum-of-node-values) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3629-total-characters-in-string-after-transformations-i) |
+| [3640-trionic-array-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3640-trionic-array-ii) |
 | [3651-minimum-cost-path-with-teleportations](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3651-minimum-cost-path-with-teleportations) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
 ## Topological Sort
@@ -181,6 +182,7 @@ Collection of LeetCode questions which i solve
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 | [3637-trionic-array-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3637-trionic-array-i) |
 | [3639-zero-array-transformation-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3639-zero-array-transformation-i) |
+| [3640-trionic-array-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3640-trionic-array-ii) |
 | [3647-zero-array-transformation-iii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3647-zero-array-transformation-iii) |
 | [3651-minimum-cost-path-with-teleportations](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3651-minimum-cost-path-with-teleportations) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
