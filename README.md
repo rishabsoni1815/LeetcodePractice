@@ -180,6 +180,7 @@ Collection of LeetCode questions which i solve
 | [3623-count-number-of-trapezoids-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3623-count-number-of-trapezoids-i) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
+| [3634-minimum-removals-to-balance-array](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3634-minimum-removals-to-balance-array) |
 | [3637-trionic-array-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3637-trionic-array-i) |
 | [3639-zero-array-transformation-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3639-zero-array-transformation-i) |
 | [3640-trionic-array-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3640-trionic-array-ii) |
@@ -216,6 +217,7 @@ Collection of LeetCode questions which i solve
 | [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3307-find-the-maximum-sum-of-node-values) |
+| [3634-minimum-removals-to-balance-array](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3634-minimum-removals-to-balance-array) |
 | [3647-zero-array-transformation-iii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3647-zero-array-transformation-iii) |
 ## Heap (Priority Queue)
 |  |
@@ -320,6 +322,7 @@ Collection of LeetCode questions which i solve
 | [1984-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1984-minimum-difference-between-highest-and-lowest-of-k-scores) |
 | [2618-maximize-the-minimum-powered-city](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2618-maximize-the-minimum-powered-city) |
 | [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
+| [3634-minimum-removals-to-balance-array](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3634-minimum-removals-to-balance-array) |
 ## Math
 |  |
 | ------- |
