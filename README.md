@@ -37,6 +37,7 @@ Collection of LeetCode questions which i solve
 | [2250-k-highest-ranked-items-within-a-price-range](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2250-k-highest-ranked-items-within-a-price-range) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2793-count-the-number-of-complete-components](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2793-count-the-number-of-complete-components) |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2812-find-the-safest-path-in-a-grid) |
 ## Union Find
 |  |
 | ------- |
@@ -168,6 +169,7 @@ Collection of LeetCode questions which i solve
 | [2681-put-marbles-in-bags](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2681-put-marbles-in-bags) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2720-minimize-the-maximum-difference-of-pairs](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [2943-maximize-area-of-square-hole-in-grid](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2943-maximize-area-of-square-hole-in-grid) |
 | [2977-minimum-cost-to-convert-string-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2977-minimum-cost-to-convert-string-ii) |
 | [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
@@ -238,6 +240,7 @@ Collection of LeetCode questions which i solve
 | [2429-design-a-food-rating-system](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2429-design-a-food-rating-system) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2681-put-marbles-in-bags](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2681-put-marbles-in-bags) |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3510-minimum-pair-removal-to-sort-array-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3510-minimum-pair-removal-to-sort-array-ii) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
@@ -261,6 +264,7 @@ Collection of LeetCode questions which i solve
 | [1975-maximum-matrix-sum](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1975-maximum-matrix-sum) |
 | [2250-k-highest-ranked-items-within-a-price-range](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2250-k-highest-ranked-items-within-a-price-range) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2588-maximum-number-of-points-from-grid-queries) |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3461-find-the-minimum-area-to-cover-all-ones-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3461-find-the-minimum-area-to-cover-all-ones-i) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
@@ -328,6 +332,7 @@ Collection of LeetCode questions which i solve
 | [2618-maximize-the-minimum-powered-city](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2618-maximize-the-minimum-powered-city) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2720-minimize-the-maximum-difference-of-pairs](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3453-separate-squares-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3453-separate-squares-i) |
 ## Sliding Window
 |  |
@@ -594,4 +599,5 @@ Collection of LeetCode questions which i solve
 | ------- |
 | [0547-number-of-provinces](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0547-number-of-provinces) |
 | [1631-path-with-minimum-effort](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1631-path-with-minimum-effort) |
+| [2812-find-the-safest-path-in-a-grid](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2812-find-the-safest-path-in-a-grid) |
 <!---LeetCode Topics End-->
