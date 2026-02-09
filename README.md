@@ -345,6 +345,7 @@ Collection of LeetCode questions which i solve
 | [2324-find-triangular-sum-of-an-array](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2324-find-triangular-sum-of-an-array) |
 | [2376-count-special-integers](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2376-count-special-integers) |
 | [2432-number-of-zero-filled-subarrays](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2432-number-of-zero-filled-subarrays) |
+| [2550-count-collisions-of-monkeys-on-a-polygon](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2550-count-collisions-of-monkeys-on-a-polygon) |
 | [2704-maximum-difference-by-remapping-a-digit](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2704-maximum-difference-by-remapping-a-digit) |
 | [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
@@ -473,6 +474,7 @@ Collection of LeetCode questions which i solve
 | ------- |
 | [0342-power-of-four](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0342-power-of-four) |
 | [0394-decode-string](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0394-decode-string) |
+| [2550-count-collisions-of-monkeys-on-a-polygon](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2550-count-collisions-of-monkeys-on-a-polygon) |
 ## Prefix Sum
 |  |
 | ------- |
