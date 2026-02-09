@@ -308,6 +308,7 @@ Collection of LeetCode questions which i solve
 ## Binary Search
 |  |
 | ------- |
+| [0069-sqrtx](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0069-sqrtx) |
 | [0300-longest-increasing-subsequence](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0300-longest-increasing-subsequence) |
 | [0611-valid-triangle-number](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0611-valid-triangle-number) |
 | [0744-find-smallest-letter-greater-than-target](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0744-find-smallest-letter-greater-than-target) |
@@ -330,6 +331,7 @@ Collection of LeetCode questions which i solve
 |  |
 | ------- |
 | [0066-plus-one](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0066-plus-one) |
+| [0069-sqrtx](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0069-sqrtx) |
 | [0342-power-of-four](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0342-power-of-four) |
 | [0679-24-game](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0679-24-game) |
 | [0830-largest-triangle-area](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0830-largest-triangle-area) |
