@@ -148,6 +148,7 @@ Collection of LeetCode questions which i solve
 | [1975-maximum-matrix-sum](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1975-maximum-matrix-sum) |
 | [1984-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1984-minimum-difference-between-highest-and-lowest-of-k-scores) |
 | [2048-build-array-from-permutation](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2048-build-array-from-permutation) |
+| [2087-minimum-cost-homecoming-of-a-robot-in-a-grid](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2087-minimum-cost-homecoming-of-a-robot-in-a-grid) |
 | [2144-maximum-difference-between-increasing-elements](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2144-maximum-difference-between-increasing-elements) |
 | [2151-the-time-when-the-network-becomes-idle](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2151-the-time-when-the-network-becomes-idle) |
 | [2206-detonate-the-maximum-bombs](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2206-detonate-the-maximum-bombs) |
@@ -274,6 +275,7 @@ Collection of LeetCode questions which i solve
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 | [1917-maximum-average-pass-ratio](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1917-maximum-average-pass-ratio) |
 | [1975-maximum-matrix-sum](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1975-maximum-matrix-sum) |
+| [2087-minimum-cost-homecoming-of-a-robot-in-a-grid](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2087-minimum-cost-homecoming-of-a-robot-in-a-grid) |
 | [2375-construct-smallest-number-from-di-string](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2375-construct-smallest-number-from-di-string) |
 | [2618-maximize-the-minimum-powered-city](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2618-maximize-the-minimum-powered-city) |
 | [2681-put-marbles-in-bags](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2681-put-marbles-in-bags) |
