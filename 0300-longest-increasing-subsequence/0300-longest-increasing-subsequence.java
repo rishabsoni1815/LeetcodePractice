@@ -8,7 +8,7 @@ class Solution {
             if(ans.get(ans.size()-1)<a[i]){//not <= as lis-> a[i-1]<a[i] not a[i-1]<=a[i]
                 ans.add(a[i]);
             }else{
-                int u=lb(ans,a[i]);
+                int u=lb(ans,a[i]);//smallest index having value >= a[i] will be replaced
                 if(u!=-1)  ans.set(u,a[i]);
             }
         }
