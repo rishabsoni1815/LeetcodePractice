@@ -3,8 +3,8 @@ class Solution {
         int ans=a.length;
         Dsu dsu=new Dsu(a.length);
         for(int i=0;i<a.length;i++){
-            for(int j=0;j<a[i].length;j++){
-                if(a[i][j]==1 && i!=j){
+            for(int j=i+1;j<a[i].length;j++){
+                if(a[i][j]==1){
                     if(dsu.add(i,j)==true) ans--; 
                 }
             }
