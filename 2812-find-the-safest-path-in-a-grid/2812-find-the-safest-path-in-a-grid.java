@@ -5,12 +5,12 @@ class Solution {
         int n=g.size();
         int m=g.get(0).size();
         if(g.get(0).get(0)==1||g.get(n-1).get(m-1)==1) return 0;
-        int dis[][]=new int[n][m];
-        findDis(dis,g,n,m);
-        int l=0,r=2*(n+m),ans=0;
+        int dis[][]=new int[n][m];//dis from nearest thief
+        findDis(dis,g,n,m);//multisource bfs from theives to each cell 
+        int l=0,r=(n+m),ans=0;
         while(l<=r){
             int mid=l+(r-l)/2;
-            if(check(mid,dis,g,n,m)){
+            if(check(mid,dis,g,n,m)){//bfs from 0,0 to n-1,m-1 to check at node we should not have dis >= mid
                 ans=mid;
                 l=mid+1;
             }else{
@@ -35,7 +35,7 @@ class Solution {
                 for(int i=0;i<4;i++){
                     int nx=pari+dx[i];
                     int ny=parj+dy[i];
-                    if(nx>=0 && nx<n && ny<m && ny>=0 && v[nx][ny]==false && g.get(nx).get(ny)==0 && dis[nx][ny]>=k){
+                    if(nx>=0 && nx<n && ny<m && ny>=0 && v[nx][ny]==false && dis[nx][ny]>=k){
                         v[nx][ny]=true;
                         q.add(new int[]{nx,ny});
                     }
