@@ -196,6 +196,7 @@ Collection of LeetCode questions which i solve
 | [3647-zero-array-transformation-iii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3647-zero-array-transformation-iii) |
 | [3651-minimum-cost-path-with-teleportations](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3651-minimum-cost-path-with-teleportations) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
+| [3719-longest-balanced-subarray-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3719-longest-balanced-subarray-i) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
 | [3744-minimum-operations-to-make-array-elements-zero](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3744-minimum-operations-to-make-array-elements-zero) |
 | [3796-find-maximum-value-in-a-constrained-sequence](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3796-find-maximum-value-in-a-constrained-sequence) |
@@ -317,6 +318,7 @@ Collection of LeetCode questions which i solve
 | [3623-count-number-of-trapezoids-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3623-count-number-of-trapezoids-i) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
+| [3719-longest-balanced-subarray-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3719-longest-balanced-subarray-i) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3872-find-most-frequent-vowel-and-consonant) |
 ## Binary Search
 |  |
@@ -508,6 +510,7 @@ Collection of LeetCode questions which i solve
 | [3432-count-partitions-with-even-sum-difference](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3432-count-partitions-with-even-sum-difference) |
 | [3639-zero-array-transformation-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3639-zero-array-transformation-i) |
 | [3647-zero-array-transformation-iii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3647-zero-array-transformation-iii) |
+| [3719-longest-balanced-subarray-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3719-longest-balanced-subarray-i) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -532,6 +535,7 @@ Collection of LeetCode questions which i solve
 | ------- |
 | [0053-maximum-subarray](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0053-maximum-subarray) |
 | [1382-balance-a-binary-search-tree](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1382-balance-a-binary-search-tree) |
+| [3719-longest-balanced-subarray-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3719-longest-balanced-subarray-i) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -600,4 +604,8 @@ Collection of LeetCode questions which i solve
 | [0547-number-of-provinces](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0547-number-of-provinces) |
 | [1631-path-with-minimum-effort](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1631-path-with-minimum-effort) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2812-find-the-safest-path-in-a-grid) |
+## Segment Tree
+|  |
+| ------- |
+| [3719-longest-balanced-subarray-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3719-longest-balanced-subarray-i) |
 <!---LeetCode Topics End-->
