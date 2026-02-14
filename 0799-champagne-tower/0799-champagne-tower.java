@@ -1,27 +1,33 @@
 class Solution {
+    double ans=0.0;
     public double champagneTower(int p, int r, int c) {
-        double dp[]=new double[r+2];
-        for(int i=0;i<=r;i++){
-            double next[]=new double[r+2];
-            for(int j=0;j<=i;j++){
-                if(i==0){
-                    dp[j]=p;
-                    if(p>1){
-                        next[j]+=((p-1)/2.0);
-                        next[j+1]+=((p-1)/2.0);
-                        dp[j]=1;
-                    }
-                }else{
-                    if(dp[j]>1){
-                        next[j]+=((dp[j]-1)/2.0);
-                        next[j+1]+=((dp[j]-1)/2.0);
-                        dp[j]=1;
-                    }
-                }
-            }
-            if(i==r) return dp[c];//as else dp will be modified with next and dp[c] will be next[c] on line 25
-            dp=next;
+        Double dp[][]=new Double[r+2][r+2];
+        return Math.min(1.0, help(p, r, c, r, c, dp));
+    }
+ double help(double p, int r, int c, int i, int j, Double[][] dp) {
+        
+        // invalid glass
+        if (j < 0 || j > i) return 0.0;
+        
+        // reached beyond required row
+        if (i > r) return 0.0;
+        
+        // memoized
+        if (dp[i][j] != null) return dp[i][j];
+        
+        // top glass
+        if (i == 0 && j == 0) {
+            return dp[i][j] = p;
         }
-        return dp[c];
+        
+        // amount coming from left parent
+        double left = help(p, r, c, i - 1, j - 1, dp);
+        double fromLeft = Math.max(0.0, (left - 1.0) / 2.0);
+        
+        // amount coming from right parent
+        double right = help(p, r, c, i - 1, j, dp);
+        double fromRight = Math.max(0.0, (right - 1.0) / 2.0);
+        
+        return dp[i][j] = fromLeft + fromRight;
     }
 }
