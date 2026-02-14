@@ -71,6 +71,7 @@ Collection of LeetCode questions which i solve
 | [0139-word-break](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0139-word-break) |
 | [0300-longest-increasing-subsequence](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0300-longest-increasing-subsequence) |
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
+| [0799-champagne-tower](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0799-champagne-tower) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0806-domino-and-tromino-tiling](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0806-domino-and-tromino-tiling) |
 | [1111-minimum-score-triangulation-of-polygon](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1111-minimum-score-triangulation-of-polygon) |
