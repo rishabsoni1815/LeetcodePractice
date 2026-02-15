@@ -14,19 +14,21 @@ class Solution {
                     r++;
                 j--;
             }
-            if (r > 1) {
-                if (r == 2)
-                    ans.append('0');
-                else
-                    ans.append('1');
-                r = 1;
-            } else {
-                if (r == 1)
-                    ans.append('1');
-                else
-                    ans.append('0');
-                r = 0;
-            }
+            ans.append(r % 2);
+            r = (r > 1) ? 1 : 0;
+            // if (r > 1) {
+            //     if (r == 2)
+            //         ans.append('0');
+            //     else
+            //         ans.append('1');
+            //     r = 1;
+            // } else {
+            //     if (r == 1)
+            //         ans.append('1');
+            //     else
+            //         ans.append('0');
+            //     r = 0;
+            // }
         }
         return ans.reverse().toString();
     }
