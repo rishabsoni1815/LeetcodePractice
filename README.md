@@ -357,6 +357,7 @@ Collection of LeetCode questions which i solve
 |  |
 | ------- |
 | [0066-plus-one](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0066-plus-one) |
+| [0067-add-binary](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0067-add-binary) |
 | [0069-sqrtx](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0069-sqrtx) |
 | [0342-power-of-four](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0342-power-of-four) |
 | [0679-24-game](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0679-24-game) |
@@ -398,6 +399,7 @@ Collection of LeetCode questions which i solve
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0067-add-binary](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0067-add-binary) |
 | [0139-word-break](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0139-word-break) |
 | [0208-implement-trie-prefix-tree](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0211-design-add-and-search-words-data-structure) |
@@ -458,6 +460,7 @@ Collection of LeetCode questions which i solve
 ## Simulation
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0067-add-binary) |
 | [1823-find-the-winner-of-the-circular-game](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1823-find-the-winner-of-the-circular-game) |
 | [2048-build-array-from-permutation](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2048-build-array-from-permutation) |
 | [2260-divide-a-string-into-groups-of-size-k](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2260-divide-a-string-into-groups-of-size-k) |
@@ -528,6 +531,7 @@ Collection of LeetCode questions which i solve
 ## Bit Manipulation
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0067-add-binary) |
 | [0342-power-of-four](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0342-power-of-four) |
 | [0756-pyramid-transition-matrix](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0756-pyramid-transition-matrix) |
 | [1732-minimum-one-bit-operations-to-make-integers-zero](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1732-minimum-one-bit-operations-to-make-integers-zero) |
