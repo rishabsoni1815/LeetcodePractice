@@ -532,6 +532,7 @@ Collection of LeetCode questions which i solve
 |  |
 | ------- |
 | [0067-add-binary](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0067-add-binary) |
+| [0190-reverse-bits](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0190-reverse-bits) |
 | [0342-power-of-four](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0342-power-of-four) |
 | [0756-pyramid-transition-matrix](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0756-pyramid-transition-matrix) |
 | [1732-minimum-one-bit-operations-to-make-integers-zero](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1732-minimum-one-bit-operations-to-make-integers-zero) |
@@ -552,6 +553,7 @@ Collection of LeetCode questions which i solve
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0053-maximum-subarray) |
+| [0190-reverse-bits](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0190-reverse-bits) |
 | [0218-the-skyline-problem](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0218-the-skyline-problem) |
 | [1382-balance-a-binary-search-tree](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1382-balance-a-binary-search-tree) |
 | [3719-longest-balanced-subarray-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3719-longest-balanced-subarray-i) |
