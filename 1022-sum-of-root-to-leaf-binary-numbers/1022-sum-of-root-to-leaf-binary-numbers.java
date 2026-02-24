@@ -19,16 +19,12 @@ class Solution {
     }
     int help(TreeNode root,int x){
         if(root==null) return 0;
-        if(root.left==null && root.right==null) {
-            int nx=x<<1;
-            if(root.val==1){
-                nx|=1;
-            }
-            return nx;
-        }
         int nx=x<<1;
         if(root.val==1){
             nx|=1;
+        }
+        if(root.left==null && root.right==null) {
+            return nx;
         }
         return help(root.left,nx)+help(root.right,nx);
     }
