@@ -12,6 +12,7 @@ Collection of LeetCode questions which i solve
 | [0794-swim-in-rising-water](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0794-swim-in-rising-water) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
+| [1022-sum-of-root-to-leaf-binary-numbers](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1022-sum-of-root-to-leaf-binary-numbers) |
 | [1120-flower-planting-with-no-adjacent](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1120-flower-planting-with-no-adjacent) |
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1339-maximum-product-of-splitted-binary-tree) |
@@ -552,6 +553,7 @@ Collection of LeetCode questions which i solve
 |  |
 | ------- |
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
+| [1022-sum-of-root-to-leaf-binary-numbers](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1022-sum-of-root-to-leaf-binary-numbers) |
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1339-maximum-product-of-splitted-binary-tree) |
 | [1382-balance-a-binary-search-tree](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1382-balance-a-binary-search-tree) |
@@ -604,6 +606,7 @@ Collection of LeetCode questions which i solve
 |  |
 | ------- |
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
+| [1022-sum-of-root-to-leaf-binary-numbers](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1022-sum-of-root-to-leaf-binary-numbers) |
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1339-maximum-product-of-splitted-binary-tree) |
 | [1382-balance-a-binary-search-tree](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1382-balance-a-binary-search-tree) |
