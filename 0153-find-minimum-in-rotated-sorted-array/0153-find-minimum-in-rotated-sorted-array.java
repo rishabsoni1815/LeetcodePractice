@@ -5,13 +5,16 @@ class Solution {
         int i=0,j=n-1,ans=Integer.MAX_VALUE;
         while(i<=j){
             int m=i+(j-i)/2;
-            if(a[i]<=a[m]){
-                ans=Math.min(ans,a[i]);//if left half is sorted see in right half but update ans with min of left half i.e. a[i]
+           if(m-1>0 && a[m-1]>a[m]) ans=Math.min(ans,a[m]);
+           if(m+1<n && a[m+1]>a[m]) ans=Math.min(ans,a[m]);
+           if(a[m]>a[i]) {
+                ans=Math.min(ans,a[i]);
                 i=m+1;
-            }else{
-                ans=Math.min(ans,a[m]);//if right half is sorted see in left half but update ans with min of right half i.e. a[m]
+           }
+           else {
+                ans=Math.min(ans,a[j]);
                 j=m-1;
-            }
+           }
         }
         return ans;
     }
