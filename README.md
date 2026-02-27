@@ -6,6 +6,7 @@ Collection of LeetCode questions which i solve
 ## Depth-First Search
 |  |
 | ------- |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0547-number-of-provinces](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0547-number-of-provinces) |
 | [0744-network-delay-time](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0744-network-delay-time) |
@@ -512,6 +513,7 @@ Collection of LeetCode questions which i solve
 | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0085-maximal-rectangle) |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0394-decode-string](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0394-decode-string) |
 | [0496-next-greater-element-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0496-next-greater-element-i) |
 | [0739-daily-temperatures](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0739-daily-temperatures) |
@@ -559,6 +561,7 @@ Collection of LeetCode questions which i solve
 ## Tree
 |  |
 | ------- |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [1022-sum-of-root-to-leaf-binary-numbers](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1022-sum-of-root-to-leaf-binary-numbers) |
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
@@ -612,6 +615,7 @@ Collection of LeetCode questions which i solve
 ## Binary Tree
 |  |
 | ------- |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [1022-sum-of-root-to-leaf-binary-numbers](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1022-sum-of-root-to-leaf-binary-numbers) |
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
@@ -624,6 +628,7 @@ Collection of LeetCode questions which i solve
 ## Linked List
 |  |
 | ------- |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0141-linked-list-cycle](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0141-linked-list-cycle) |
 | [0706-design-hashmap](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0706-design-hashmap) |
 | [3510-minimum-pair-removal-to-sort-array-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3510-minimum-pair-removal-to-sort-array-ii) |
