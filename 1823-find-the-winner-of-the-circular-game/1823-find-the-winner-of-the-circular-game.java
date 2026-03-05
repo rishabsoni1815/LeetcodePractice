@@ -11,10 +11,10 @@ class Solution {
         while (circle.size() > 1) {
             // Process the first k-1 friends without eliminating them
             for (int i = 0; i < k - 1; i++) {
-                circle.add(circle.remove());
+                circle.add(circle.poll());
             }
             // Eliminate the k-th friend
-            circle.remove();
+            circle.poll();
         }
 
         return circle.peek();
