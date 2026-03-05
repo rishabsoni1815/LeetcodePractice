@@ -128,6 +128,7 @@ Collection of LeetCode questions which i solve
 | [0152-maximum-product-subarray](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0152-maximum-product-subarray) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0218-the-skyline-problem](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0218-the-skyline-problem) |
+| [0240-search-a-2d-matrix-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0240-search-a-2d-matrix-ii) |
 | [0300-longest-increasing-subsequence](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0300-longest-increasing-subsequence) |
 | [0403-frog-jump](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0403-frog-jump) |
 | [0496-next-greater-element-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0496-next-greater-element-i) |
@@ -270,6 +271,7 @@ Collection of LeetCode questions which i solve
 | [0063-unique-paths-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0063-unique-paths-ii) |
 | [0073-set-matrix-zeroes](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0073-set-matrix-zeroes) |
 | [0085-maximal-rectangle](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0085-maximal-rectangle) |
+| [0240-search-a-2d-matrix-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0240-search-a-2d-matrix-ii) |
 | [0794-swim-in-rising-water](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0794-swim-in-rising-water) |
 | [0840-magic-squares-in-grid](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0840-magic-squares-in-grid) |
 | [1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |
@@ -344,6 +346,7 @@ Collection of LeetCode questions which i solve
 | ------- |
 | [0069-sqrtx](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0069-sqrtx) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0153-find-minimum-in-rotated-sorted-array) |
+| [0240-search-a-2d-matrix-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0240-search-a-2d-matrix-ii) |
 | [0300-longest-increasing-subsequence](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0300-longest-increasing-subsequence) |
 | [0611-valid-triangle-number](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0611-valid-triangle-number) |
 | [0744-find-smallest-letter-greater-than-target](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0744-find-smallest-letter-greater-than-target) |
@@ -578,6 +581,7 @@ Collection of LeetCode questions which i solve
 | [0053-maximum-subarray](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0053-maximum-subarray) |
 | [0190-reverse-bits](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0190-reverse-bits) |
 | [0218-the-skyline-problem](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0218-the-skyline-problem) |
+| [0240-search-a-2d-matrix-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0240-search-a-2d-matrix-ii) |
 | [0761-special-binary-string](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0761-special-binary-string) |
 | [1382-balance-a-binary-search-tree](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1382-balance-a-binary-search-tree) |
 | [3719-longest-balanced-subarray-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3719-longest-balanced-subarray-i) |
