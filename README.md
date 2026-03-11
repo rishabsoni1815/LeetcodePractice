@@ -569,6 +569,7 @@ Collection of LeetCode questions which i solve
 | [0401-binary-watch](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0401-binary-watch) |
 | [0693-binary-number-with-alternating-bits](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0693-binary-number-with-alternating-bits) |
 | [0756-pyramid-transition-matrix](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0756-pyramid-transition-matrix) |
+| [1009-complement-of-base-10-integer](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1009-complement-of-base-10-integer) |
 | [1732-minimum-one-bit-operations-to-make-integers-zero](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1732-minimum-one-bit-operations-to-make-integers-zero) |
 | [2438-range-product-queries-of-powers](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2438-range-product-queries-of-powers) |
 | [2837-minimum-operations-to-make-the-integer-zero](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2837-minimum-operations-to-make-the-integer-zero) |
