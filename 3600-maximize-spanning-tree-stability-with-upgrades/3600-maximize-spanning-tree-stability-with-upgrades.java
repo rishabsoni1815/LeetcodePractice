@@ -3,7 +3,7 @@ class Solution {
         DSU dsu = new DSU(n);
         int min = Integer.MAX_VALUE;
         PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> b[2] - a[2]);
-        List<Integer> list = new ArrayList<>();
+        List<Integer> list = new ArrayList<>();//stores 0-edges in desc order
         int taken=0;//exact n-1 in kruskals algo
         for (int[] edge : edges) {
             if (edge[3] == 0) { // offer all 0-edges in maxHeap
@@ -24,9 +24,8 @@ class Solution {
                 list.add(edge[2]);
             } // union the largest 0-edges until MST formed!
         }
-        for (int i = list.size() - 1; i >= 0 && k > 0; i--) {
+        for (int i = list.size() - 1; i >= 0 && k > 0; i--,k--) {
             list.set(i, 2 * list.get(i));
-            k--; 
         } // of those who made the MST, double the 'k' smallest ones
         for (int i : list) {
             min = Math.min(min, i);
