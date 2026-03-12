@@ -34,13 +34,13 @@ class Solution {
         return taken != n-1 ? -1 : min;
     }
     class DSU {
-        int[] size, parent;
+        int[] rank, parent;
 
         public DSU(int n) {
-            size = new int[n];
+            rank = new int[n];
             parent = new int[n];
             for (int i = 0; i < n; i++) {
-                size[i] = 1;
+                rank[i] = 1;
                 parent[i] = i;
             }
         }
@@ -57,12 +57,13 @@ class Solution {
             if (pu == pv) {
                 return false;
             }
-            if (size[pu] < size[pv]) {
+            if (rank[pu] < rank[pv]) {
                 parent[pu] = pv;
-                size[pv] += size[pu];
-            } else {
+            } else if(rank[pu] > rank[pv]) {
                 parent[pv] = pu;
-                size[pu] += size[pv];
+            }else{
+                parent[pv] = pu;
+                rank[pu]++;
             }
             return true;
         }
