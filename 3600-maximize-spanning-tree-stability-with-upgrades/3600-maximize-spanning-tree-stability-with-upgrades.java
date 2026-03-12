@@ -4,7 +4,7 @@ class Solution {
         int min = Integer.MAX_VALUE;
         PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> b[2] - a[2]);
         List<Integer> list = new ArrayList<>();
-        int taken=0;
+        int taken=0;//exact n-1 in kruskals algo
         for (int[] edge : edges) {
             if (edge[3] == 0) { // offer all 0-edges in maxHeap
                 pq.offer(edge);
@@ -35,12 +35,10 @@ class Solution {
     }
     class DSU {
         int[] size, parent;
-        int componentCount;
 
         public DSU(int n) {
             size = new int[n];
             parent = new int[n];
-            componentCount = n;
             for (int i = 0; i < n; i++) {
                 size[i] = 1;
                 parent[i] = i;
@@ -66,7 +64,6 @@ class Solution {
                 parent[pv] = pu;
                 size[pu] += size[pv];
             }
-            componentCount--;
             return true;
         }
     }
