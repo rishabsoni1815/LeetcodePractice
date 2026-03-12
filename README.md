@@ -314,6 +314,7 @@ Collection of LeetCode questions which i solve
 | [2704-maximum-difference-by-remapping-a-digit](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2704-maximum-difference-by-remapping-a-digit) |
 | [2720-minimize-the-maximum-difference-of-pairs](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3307-find-the-maximum-sum-of-node-values) |
+| [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3600-maximize-spanning-tree-stability-with-upgrades) |
 | [3647-zero-array-transformation-iii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3647-zero-array-transformation-iii) |
 | [3796-find-maximum-value-in-a-constrained-sequence](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3796-find-maximum-value-in-a-constrained-sequence) |
 ## Hash Table
@@ -364,6 +365,7 @@ Collection of LeetCode questions which i solve
 | [2720-minimize-the-maximum-difference-of-pairs](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3453-separate-squares-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3453-separate-squares-i) |
+| [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3600-maximize-spanning-tree-stability-with-upgrades) |
 ## Sliding Window
 |  |
 | ------- |
@@ -465,6 +467,7 @@ Collection of LeetCode questions which i solve
 |  |
 | ------- |
 | [1613-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1613-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree) |
+| [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3600-maximize-spanning-tree-stability-with-upgrades) |
 ## Strongly Connected Component
 |  |
 | ------- |
@@ -660,6 +663,7 @@ Collection of LeetCode questions which i solve
 | ------- |
 | [0547-number-of-provinces](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0547-number-of-provinces) |
 | [2977-minimum-cost-to-convert-string-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2977-minimum-cost-to-convert-string-ii) |
+| [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3600-maximize-spanning-tree-stability-with-upgrades) |
 | [3650-minimum-cost-path-with-edge-reversals](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3650-minimum-cost-path-with-edge-reversals) |
 ## Binary Search Tree
 |  |
@@ -671,6 +675,7 @@ Collection of LeetCode questions which i solve
 | [0547-number-of-provinces](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0547-number-of-provinces) |
 | [1631-path-with-minimum-effort](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1631-path-with-minimum-effort) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2812-find-the-safest-path-in-a-grid) |
+| [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3600-maximize-spanning-tree-stability-with-upgrades) |
 ## Segment Tree
 |  |
 | ------- |
