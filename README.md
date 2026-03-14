@@ -436,6 +436,7 @@ Collection of LeetCode questions which i solve
 | [0761-special-binary-string](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0761-special-binary-string) |
 | [1006-vowel-spellchecker](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1006-vowel-spellchecker) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1353-find-resultant-array-after-removing-anagrams) |
+| [1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
 | [1508-longest-happy-prefix](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1508-longest-happy-prefix) |
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1545-find-kth-bit-in-nth-binary-string) |
 | [1653-minimum-deletions-to-make-string-balanced](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1653-minimum-deletions-to-make-string-balanced) |
@@ -511,6 +512,7 @@ Collection of LeetCode questions which i solve
 | [0401-binary-watch](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0401-binary-watch) |
 | [0679-24-game](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0679-24-game) |
 | [0756-pyramid-transition-matrix](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0756-pyramid-transition-matrix) |
+| [1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
 | [1980-find-unique-binary-string](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1980-find-unique-binary-string) |
 | [2375-construct-smallest-number-from-di-string](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2375-construct-smallest-number-from-di-string) |
 ## Memoization
