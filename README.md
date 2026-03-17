@@ -156,6 +156,7 @@ Collection of LeetCode questions which i solve
 | [1590-make-sum-divisible-by-p](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1590-make-sum-divisible-by-p) |
 | [1628-count-submatrices-with-all-ones](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1628-count-submatrices-with-all-ones) |
 | [1631-path-with-minimum-effort](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1631-path-with-minimum-effort) |
+| [1727-largest-submatrix-with-rearrangements](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1727-largest-submatrix-with-rearrangements) |
 | [1823-find-the-winner-of-the-circular-game](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1823-find-the-winner-of-the-circular-game) |
 | [1834-minimum-number-of-people-to-teach](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1834-minimum-number-of-people-to-teach) |
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1877-minimize-maximum-pair-sum-in-array) |
@@ -236,6 +237,7 @@ Collection of LeetCode questions which i solve
 | [1018-largest-perimeter-triangle](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1018-largest-perimeter-triangle) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1613-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1613-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree) |
+| [1727-largest-submatrix-with-rearrangements](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1727-largest-submatrix-with-rearrangements) |
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 | [1984-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1984-minimum-difference-between-highest-and-lowest-of-k-scores) |
 | [2215-finding-3-digit-even-numbers](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2215-finding-3-digit-even-numbers) |
@@ -283,6 +285,7 @@ Collection of LeetCode questions which i solve
 | [1402-count-square-submatrices-with-all-ones](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1628-count-submatrices-with-all-ones](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1628-count-submatrices-with-all-ones) |
 | [1631-path-with-minimum-effort](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1631-path-with-minimum-effort) |
+| [1727-largest-submatrix-with-rearrangements](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1727-largest-submatrix-with-rearrangements) |
 | [1895-largest-magic-square](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1895-largest-magic-square) |
 | [1970-last-day-where-you-can-still-cross](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1970-last-day-where-you-can-still-cross) |
 | [1975-maximum-matrix-sum](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1975-maximum-matrix-sum) |
@@ -304,6 +307,7 @@ Collection of LeetCode questions which i solve
 | [1382-balance-a-binary-search-tree](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1382-balance-a-binary-search-tree) |
 | [1448-maximum-69-number](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1448-maximum-69-number) |
 | [1529-max-difference-you-can-get-from-changing-an-integer](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1529-max-difference-you-can-get-from-changing-an-integer) |
+| [1727-largest-submatrix-with-rearrangements](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1727-largest-submatrix-with-rearrangements) |
 | [1834-minimum-number-of-people-to-teach](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1834-minimum-number-of-people-to-teach) |
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 | [1917-maximum-average-pass-ratio](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1917-maximum-average-pass-ratio) |
