@@ -3,6 +3,7 @@ class Solution {
         int n=a.length,m=a[0].length;
         int x[][]=new int[n][m];
         int y[][]=new int[n][m];
+        int ans=0;
         for(int i=0;i<n;i++){
             for(int j=0;j<m;j++){
                 x[i][j]=(a[i][j]=='X' ? 1:0);
@@ -13,9 +14,11 @@ class Solution {
                 if(i-1>=0) y[i][j]+=y[i-1][j];
                 if(j-1>=0) y[i][j]+=y[i][j-1];
                 if(i-1>=0 && j-1>=0) y[i][j]-=y[i-1][j-1];
+
+                if(x[i][j]>0 && x[i][j]==y[i][j]) ans++;
             }
         }
-        int ans=0;
+        /* can be done in prev loop only
         for(int i=0;i<n;i++){
             for(int j=0;j<m;j++){
                 int xc=x[i][j];
@@ -23,6 +26,7 @@ class Solution {
                 if(xc>0 && xc==yc) ans++;
             }
         }
+        */
         return ans;
     }
 }
