@@ -191,6 +191,7 @@ Collection of LeetCode questions which i solve
 | [2812-find-the-safest-path-in-a-grid](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [2906-construct-product-matrix](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2906-construct-product-matrix) |
 | [2943-maximize-area-of-square-hole-in-grid](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2943-maximize-area-of-square-hole-in-grid) |
+| [2946-matrix-similarity-after-cyclic-shifts](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
 | [2977-minimum-cost-to-convert-string-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2977-minimum-cost-to-convert-string-ii) |
 | [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
 | [3194-find-words-containing-character](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3194-find-words-containing-character) |
@@ -301,6 +302,7 @@ Collection of LeetCode questions which i solve
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [2906-construct-product-matrix](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2906-construct-product-matrix) |
+| [2946-matrix-similarity-after-cyclic-shifts](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
 | [3212-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3212-count-submatrices-with-equal-frequency-of-x-and-y) |
 | [3461-find-the-minimum-area-to-cover-all-ones-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3461-find-the-minimum-area-to-cover-all-ones-i) |
 | [3546-equal-sum-grid-partition-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3546-equal-sum-grid-partition-i) |
@@ -419,6 +421,7 @@ Collection of LeetCode questions which i solve
 | [2432-number-of-zero-filled-subarrays](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2432-number-of-zero-filled-subarrays) |
 | [2550-count-collisions-of-monkeys-on-a-polygon](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2550-count-collisions-of-monkeys-on-a-polygon) |
 | [2704-maximum-difference-by-remapping-a-digit](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2704-maximum-difference-by-remapping-a-digit) |
+| [2946-matrix-similarity-after-cyclic-shifts](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
 | [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
 | [3279-alice-and-bob-playing-flower-game](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3279-alice-and-bob-playing-flower-game) |
@@ -519,6 +522,7 @@ Collection of LeetCode questions which i solve
 | [2288-count-operations-to-obtain-zero](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2288-count-operations-to-obtain-zero) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2324-find-triangular-sum-of-an-array) |
 | [2408-number-of-people-aware-of-a-secret](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2408-number-of-people-aware-of-a-secret) |
+| [2946-matrix-similarity-after-cyclic-shifts](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
 | [3510-minimum-pair-removal-to-sort-array-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3510-minimum-pair-removal-to-sort-array-ii) |
 ## Backtracking
 |  |
