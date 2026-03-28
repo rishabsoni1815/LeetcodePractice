@@ -92,6 +92,7 @@ Collection of LeetCode questions which i solve
 | [2262-solving-questions-with-brainpower](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2262-solving-questions-with-brainpower) |
 | [2376-count-special-integers](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2376-count-special-integers) |
 | [2408-number-of-people-aware-of-a-secret](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2408-number-of-people-aware-of-a-secret) |
+| [2573-find-the-string-with-lcp](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2573-find-the-string-with-lcp) |
 | [2977-minimum-cost-to-convert-string-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2977-minimum-cost-to-convert-string-ii) |
 | [3130-find-all-possible-stable-binary-arrays-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3130-find-all-possible-stable-binary-arrays-ii) |
 | [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
@@ -183,6 +184,7 @@ Collection of LeetCode questions which i solve
 | [2432-number-of-zero-filled-subarrays](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2432-number-of-zero-filled-subarrays) |
 | [2438-range-product-queries-of-powers](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2438-range-product-queries-of-powers) |
 | [2498-frog-jump-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2498-frog-jump-ii) |
+| [2573-find-the-string-with-lcp](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2573-find-the-string-with-lcp) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2618-maximize-the-minimum-powered-city](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2618-maximize-the-minimum-powered-city) |
 | [2681-put-marbles-in-bags](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2681-put-marbles-in-bags) |
@@ -299,6 +301,7 @@ Collection of LeetCode questions which i solve
 | [1970-last-day-where-you-can-still-cross](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1970-last-day-where-you-can-still-cross) |
 | [1975-maximum-matrix-sum](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1975-maximum-matrix-sum) |
 | [2250-k-highest-ranked-items-within-a-price-range](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2250-k-highest-ranked-items-within-a-price-range) |
+| [2573-find-the-string-with-lcp](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2573-find-the-string-with-lcp) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [2906-construct-product-matrix](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2906-construct-product-matrix) |
@@ -329,6 +332,7 @@ Collection of LeetCode questions which i solve
 | [2087-minimum-cost-homecoming-of-a-robot-in-a-grid](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2087-minimum-cost-homecoming-of-a-robot-in-a-grid) |
 | [2375-construct-smallest-number-from-di-string](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2375-construct-smallest-number-from-di-string) |
 | [2498-frog-jump-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2498-frog-jump-ii) |
+| [2573-find-the-string-with-lcp](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2573-find-the-string-with-lcp) |
 | [2618-maximize-the-minimum-powered-city](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2618-maximize-the-minimum-powered-city) |
 | [2681-put-marbles-in-bags](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2681-put-marbles-in-bags) |
 | [2704-maximum-difference-by-remapping-a-digit](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2704-maximum-difference-by-remapping-a-digit) |
@@ -467,6 +471,7 @@ Collection of LeetCode questions which i solve
 | [2375-construct-smallest-number-from-di-string](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2375-construct-smallest-number-from-di-string) |
 | [2429-design-a-food-rating-system](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2429-design-a-food-rating-system) |
 | [2483-minimum-penalty-for-a-shop](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2483-minimum-penalty-for-a-shop) |
+| [2573-find-the-string-with-lcp](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2573-find-the-string-with-lcp) |
 | [2977-minimum-cost-to-convert-string-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2977-minimum-cost-to-convert-string-ii) |
 | [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
 | [3194-find-words-containing-character](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3194-find-words-containing-character) |
@@ -705,6 +710,7 @@ Collection of LeetCode questions which i solve
 | ------- |
 | [0547-number-of-provinces](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0547-number-of-provinces) |
 | [1631-path-with-minimum-effort](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1631-path-with-minimum-effort) |
+| [2573-find-the-string-with-lcp](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2573-find-the-string-with-lcp) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3600-maximize-spanning-tree-stability-with-upgrades) |
 ## Segment Tree
