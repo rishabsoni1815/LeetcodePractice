@@ -190,6 +190,7 @@ Collection of LeetCode questions which i solve
 | [2681-put-marbles-in-bags](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2681-put-marbles-in-bags) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2720-minimize-the-maximum-difference-of-pairs](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
+| [2751-robot-collisions](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2751-robot-collisions) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [2906-construct-product-matrix](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2906-construct-product-matrix) |
 | [2943-maximize-area-of-square-hole-in-grid](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2943-maximize-area-of-square-hole-in-grid) |
@@ -254,6 +255,7 @@ Collection of LeetCode questions which i solve
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2681-put-marbles-in-bags](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2681-put-marbles-in-bags) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2699-count-the-number-of-fair-pairs) |
+| [2751-robot-collisions](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2751-robot-collisions) |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2840-check-if-strings-can-be-made-equal-with-operations-ii) |
 | [2943-maximize-area-of-square-hole-in-grid](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2943-maximize-area-of-square-hole-in-grid) |
 | [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
@@ -530,6 +532,7 @@ Collection of LeetCode questions which i solve
 | [2288-count-operations-to-obtain-zero](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2288-count-operations-to-obtain-zero) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2324-find-triangular-sum-of-an-array) |
 | [2408-number-of-people-aware-of-a-secret](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2408-number-of-people-aware-of-a-secret) |
+| [2751-robot-collisions](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2751-robot-collisions) |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
 | [3510-minimum-pair-removal-to-sort-array-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3510-minimum-pair-removal-to-sort-array-ii) |
 ## Backtracking
@@ -576,6 +579,7 @@ Collection of LeetCode questions which i solve
 | [1653-minimum-deletions-to-make-string-balanced](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1653-minimum-deletions-to-make-string-balanced) |
 | [1944-number-of-visible-people-in-a-queue](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1944-number-of-visible-people-in-a-queue) |
 | [2375-construct-smallest-number-from-di-string](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2375-construct-smallest-number-from-di-string) |
+| [2751-robot-collisions](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2751-robot-collisions) |
 ## Recursion
 |  |
 | ------- |
