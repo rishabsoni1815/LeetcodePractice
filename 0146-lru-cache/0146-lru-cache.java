@@ -1,5 +1,5 @@
 class LRUCache {
-    Node head = new Node(0, 0), tail = new Node(0, 0);
+    Node head = new Node(0, 0, 0), tail = new Node(0, 0, 0);
     Map<Integer, Node> map = new HashMap();
     int capacity;
 
@@ -13,6 +13,10 @@ class LRUCache {
     public int get(int key) {
         if (map.containsKey(key)) {
             Node node = map.get(key);//now node is most recently used so it will go next to head
+            if (isExpired(node)) {
+                remove(node);
+                return -1;
+            }
             remove(node);
             insert(node);//inseting next to head
             return node.value;
@@ -28,7 +32,7 @@ class LRUCache {
         if (map.size() == capacity) {
             remove(tail.prev);//removing least recently used element i.e prev to tail
         }
-        insert(new Node(key, value));
+        insert(new Node(key, value, Long.MAX_VALUE));
     }
 
     private void remove(Node node) {
@@ -45,13 +49,38 @@ class LRUCache {
         t.next.prev = t;
     }
 
-    class Node {
-        Node prev, next;
-        int key, value;
+    private boolean isExpired(Node node) {
+        return node.expiryTime != Long.MAX_VALUE
+                && System.currentTimeMillis() > node.expiryTime;
+    }
 
-        Node(int _key, int _value) {
-            key = _key;
-            value = _value;
+    public void put(int key, int value, long ttlMillis) {
+        if (map.containsKey(key)) {
+            remove(map.get(key));
+        }
+        if (map.size() == capacity) {
+            remove(tail.prev);
+        }
+        long expiryTime = (ttlMillis == Long.MAX_VALUE)
+                ? Long.MAX_VALUE
+                : System.currentTimeMillis() + ttlMillis;
+        insert(new Node(key, value, expiryTime));
+    }
+
+    class Node {
+
+        Node prev, next;
+
+        int key;
+        int value;
+
+        long expiryTime;
+
+        Node(int k, int v, long exp) {
+
+            key = k;
+            value = v;
+            expiryTime = exp;
         }
     }
 }
