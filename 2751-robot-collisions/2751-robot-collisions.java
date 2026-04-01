@@ -1,45 +1,35 @@
+// Added using AI
 class Solution {
-    public List<Integer> survivedRobotsHealths(int[] aa, int[] h, String d) {
-        int a[]=new int[aa.length];
-        for(int i=0;i<a.length;i++) a[i]=aa[i];
-        HashMap<Integer,Integer>posindex=new HashMap<>();
-        for(int i=0;i<a.length;i++){
-            posindex.put(a[i],i);
-        }
-        Arrays.sort(a);
-        Stack<Integer>s=new Stack<>();
-        for(int i=0;i<a.length;i++){
-            int idx=posindex.get(a[i]);
-            if(d.charAt(idx)=='R') s.push(a[i]);
-            else{
-                if(s.size()>0){
-                    int ii=posindex.get(s.peek());
-                    if(d.charAt(ii)=='R'){
-                        if(h[ii]<h[idx]){
-                            h[idx]--;
-                            s.pop();
-                            s.push(a[i]);
-                        }else if(h[ii]>h[idx]){
-                            h[ii]--;
-                        }else{
-                            s.pop();
-                        }
-                    }else{
-                        s.push(a[i]);
+    public List<Integer> survivedRobotsHealths(int[] positions, int[] healths, String directions) {
+        int n = positions.length;
+        Integer[] order = new Integer[n];
+        for (int i = 0; i < n; i++) order[i] = i;
+        Arrays.sort(order, (a, b) -> positions[a] - positions[b]);
+
+        boolean[] dead = new boolean[n];
+        Stack<Integer> st = new Stack<>();
+
+        for (int i : order) {
+            if (directions.charAt(i) == 'R') {
+                st.push(i);
+            } else {
+                while (!st.isEmpty() && directions.charAt(st.peek()) == 'R') {
+                    int top = st.peek();
+                    if (healths[top] > healths[i]) {
+                        healths[top]--; dead[i] = true; break;
+                    } else if (healths[top] < healths[i]) {
+                        healths[i]--; dead[top] = true; st.pop();
+                    } else {
+                        dead[i] = dead[top] = true; st.pop(); break;
                     }
-                }else{
-                    s.push(a[i]);
                 }
+                if (!dead[i]) st.push(i);
             }
         }
-        HashSet<Integer>hh=new HashSet<>();
-        while(s.size()>0) hh.add(s.pop());
-        List<Integer>ans=new ArrayList<>();
-        for(int i=0;i<aa.length;i++){
-            if(hh.contains(aa[i])){
-                ans.add(h[i]);
-            }
-        }
-        return ans;
+
+        List<Integer> res = new ArrayList<>();
+        for (int i = 0; i < n; i++)
+            if (!dead[i]) res.add(healths[i]);
+        return res;
     }
 }
