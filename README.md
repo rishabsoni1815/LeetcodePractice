@@ -354,6 +354,7 @@ Collection of LeetCode questions which i solve
 | [0036-valid-sudoku](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0036-valid-sudoku) |
 | [0073-set-matrix-zeroes](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0073-set-matrix-zeroes) |
 | [0128-longest-consecutive-sequence](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0128-longest-consecutive-sequence) |
+| [0138-copy-list-with-random-pointer](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0138-copy-list-with-random-pointer) |
 | [0139-word-break](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0139-word-break) |
 | [0141-linked-list-cycle](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0141-linked-list-cycle) |
 | [0146-lru-cache](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0146-lru-cache) |
@@ -701,6 +702,7 @@ Collection of LeetCode questions which i solve
 |  |
 | ------- |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [0138-copy-list-with-random-pointer](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0141-linked-list-cycle) |
 | [0146-lru-cache](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0146-lru-cache) |
 | [0706-design-hashmap](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0706-design-hashmap) |
