@@ -149,6 +149,7 @@ Collection of LeetCode questions which i solve
 | [1006-vowel-spellchecker](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1006-vowel-spellchecker) |
 | [1018-largest-perimeter-triangle](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1018-largest-perimeter-triangle) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1049-minimum-domino-rotations-for-equal-row) |
+| [1094-car-pooling](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1094-car-pooling) |
 | [1111-minimum-score-triangulation-of-polygon](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1111-minimum-score-triangulation-of-polygon) |
 | [1266-minimum-time-visiting-all-points](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1266-minimum-time-visiting-all-points) |
 | [1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |
@@ -248,6 +249,7 @@ Collection of LeetCode questions which i solve
 | [0611-valid-triangle-number](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0611-valid-triangle-number) |
 | [0761-special-binary-string](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0761-special-binary-string) |
 | [1018-largest-perimeter-triangle](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1018-largest-perimeter-triangle) |
+| [1094-car-pooling](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1094-car-pooling) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1613-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1613-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree) |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1727-largest-submatrix-with-rearrangements) |
@@ -274,6 +276,7 @@ Collection of LeetCode questions which i solve
 | [0744-network-delay-time](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0744-network-delay-time) |
 | [0794-swim-in-rising-water](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0794-swim-in-rising-water) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0803-cheapest-flights-within-k-stops) |
+| [1094-car-pooling](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1094-car-pooling) |
 | [1631-path-with-minimum-effort](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1631-path-with-minimum-effort) |
 | [1917-maximum-average-pass-ratio](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1917-maximum-average-pass-ratio) |
 | [2250-k-highest-ranked-items-within-a-price-range](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2250-k-highest-ranked-items-within-a-price-range) |
@@ -533,6 +536,7 @@ Collection of LeetCode questions which i solve
 |  |
 | ------- |
 | [0067-add-binary](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0067-add-binary) |
+| [1094-car-pooling](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1094-car-pooling) |
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1545-find-kth-bit-in-nth-binary-string) |
 | [1823-find-the-winner-of-the-circular-game](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1823-find-the-winner-of-the-circular-game) |
 | [2048-build-array-from-permutation](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2048-build-array-from-permutation) |
@@ -599,6 +603,7 @@ Collection of LeetCode questions which i solve
 ## Prefix Sum
 |  |
 | ------- |
+| [1094-car-pooling](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1094-car-pooling) |
 | [1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |
 | [1590-make-sum-divisible-by-p](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1590-make-sum-divisible-by-p) |
 | [1895-largest-magic-square](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1895-largest-magic-square) |
