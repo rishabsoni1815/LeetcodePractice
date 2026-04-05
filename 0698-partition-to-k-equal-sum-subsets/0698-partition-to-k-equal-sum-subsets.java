@@ -12,7 +12,7 @@ class Solution {
         return help(0,0,a,k,v,sum/k);
     }
     boolean help(int i,int sum,int a[],int k,boolean v[],int t){
-        if(k==1) return true;//as if k=1 then remaining sum is sum/k only as we have already checked sum%k==0
+        if(k==0 && sum==0) return true;
         if(sum>t) return false;
         if(sum==t) return help(0,0,a,k-1,v,t);
         for(int j=i;j<a.length;j++){
