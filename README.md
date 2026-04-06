@@ -152,6 +152,7 @@ Collection of LeetCode questions which i solve
 | [0794-swim-in-rising-water](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0794-swim-in-rising-water) |
 | [0830-largest-triangle-area](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0830-largest-triangle-area) |
 | [0840-magic-squares-in-grid](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0840-magic-squares-in-grid) |
+| [0874-walking-robot-simulation](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0874-walking-robot-simulation) |
 | [1006-vowel-spellchecker](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1006-vowel-spellchecker) |
 | [1018-largest-perimeter-triangle](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1018-largest-perimeter-triangle) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1049-minimum-domino-rotations-for-equal-row) |
@@ -374,6 +375,7 @@ Collection of LeetCode questions which i solve
 | [0756-pyramid-transition-matrix](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0756-pyramid-transition-matrix) |
 | [0840-magic-squares-in-grid](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0840-magic-squares-in-grid) |
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
+| [0874-walking-robot-simulation](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0874-walking-robot-simulation) |
 | [1006-vowel-spellchecker](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1006-vowel-spellchecker) |
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1353-find-resultant-array-after-removing-anagrams) |
@@ -544,6 +546,7 @@ Collection of LeetCode questions which i solve
 |  |
 | ------- |
 | [0067-add-binary](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0067-add-binary) |
+| [0874-walking-robot-simulation](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0874-walking-robot-simulation) |
 | [1094-car-pooling](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1094-car-pooling) |
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1545-find-kth-bit-in-nth-binary-string) |
 | [1823-find-the-winner-of-the-circular-game](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1823-find-the-winner-of-the-circular-game) |
