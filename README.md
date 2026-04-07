@@ -511,6 +511,7 @@ Collection of LeetCode questions which i solve
 | [0211-design-add-and-search-words-data-structure](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0706-design-hashmap](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0706-design-hashmap) |
 | [0901-online-stock-span](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0901-online-stock-span) |
+| [2069-walking-robot-simulation-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2069-walking-robot-simulation-ii) |
 | [2429-design-a-food-rating-system](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2429-design-a-food-rating-system) |
 ## Trie
 |  |
@@ -551,6 +552,7 @@ Collection of LeetCode questions which i solve
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1545-find-kth-bit-in-nth-binary-string) |
 | [1823-find-the-winner-of-the-circular-game](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1823-find-the-winner-of-the-circular-game) |
 | [2048-build-array-from-permutation](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2048-build-array-from-permutation) |
+| [2069-walking-robot-simulation-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2069-walking-robot-simulation-ii) |
 | [2075-decode-the-slanted-ciphertext](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2075-decode-the-slanted-ciphertext) |
 | [2260-divide-a-string-into-groups-of-size-k](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2260-divide-a-string-into-groups-of-size-k) |
 | [2288-count-operations-to-obtain-zero](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2288-count-operations-to-obtain-zero) |
