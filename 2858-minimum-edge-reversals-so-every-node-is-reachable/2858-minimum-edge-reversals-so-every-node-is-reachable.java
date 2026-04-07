@@ -1,31 +1,82 @@
 class Solution {
-    //https://leetcode.com/problems/minimum-edge-reversals-so-every-node-is-reachable/discuss/4052072/c-with-explanation-dp-in-disguise-of-graph/
+    /*
+    When root moves across an edge,
+    Only that edge changes meaning.
+    Everything else stays same.
+    So we:
+    Adjust +1 or -1
+    Instead of recomputing
+    That's rerooting.
+    */
+
+    List<int[]>[] graph;
+    int[] ans;
+
     public int[] minEdgeReversals(int n, int[][] edges) {
-        Map<Integer, List<int[]>> graph = new HashMap<>();
-        for (int i = 0; i < n; i++) graph.put(i, new ArrayList<>());
-        for (int[] edge : edges) {
-            graph.get(edge[0]).add(new int[]{edge[1], 0}); // normal edge, weight 0
-            graph.get(edge[1]).add(new int[]{edge[0], 1}); // reverse edge, weight 1    
+
+        // Build graph
+        graph = new ArrayList[n];
+
+        for (int i = 0; i < n; i++)
+            graph[i] = new ArrayList<>();
+
+        // Add edges with direction cost
+        for (int[] e : edges) {
+
+            int u = e[0];
+            int v = e[1];
+
+            graph[u].add(new int[] { v, 0 }); // original direction
+            graph[v].add(new int[] { u, 1 }); // reverse direction
         }
-        HashMap<String,Integer>dp=new HashMap<>();
-        // Integer[][] dp = new Integer[n][n]; as give memory exceeded
-        int ans[]=new int[n];
-        for(int i=0;i<n;i++) ans[i]=dfs(i,-1,graph,dp);
+
+        ans = new int[n];
+
+        // Step 1: find answer for root = 0
+        dfs1(0, -1);
+
+        // Step 2: reroot and compute others
+        dfs2(0, -1);
+
         return ans;
     }
-    
-    private int dfs(int u, int p, Map<Integer, List<int[]>> graph,HashMap<String,Integer>dp) {
-        int res = 0;
-        if(dp.containsKey(u+" o "+p)) {
-            return dp.get(u+" o "+p);
+
+    // First DFS:
+    // Count reversals needed if root = 0
+    private void dfs1(int u, int parent) {
+
+        for (int[] edge : graph[u]) {
+
+            int v = edge[0];
+            int w = edge[1];
+
+            if (v == parent)
+                continue;
+
+            ans[0] += w;
+
+            dfs1(v, u);
         }
-        for (int[] next : graph.get(u)) {
-            int v = next[0], w = next[1];
-            if (v == p) continue;
-            
-            res += dfs(v, u, graph,dp) + w;
+    }
+
+    // Second DFS:
+    // Rerooting step
+    private void dfs2(int u, int parent) {
+
+        for (int[] edge : graph[u]) {
+
+            int v = edge[0];
+            int w = edge[1];
+
+            if (v == parent)
+                continue;
+
+            if (w == 0)
+                ans[v] = ans[u] + 1;
+            else
+                ans[v] = ans[u] - 1;
+
+            dfs2(v, u);
         }
-        dp.put((u+" o "+p),res);
-        return res;
     }
 }
