@@ -24,6 +24,7 @@ Collection of LeetCode questions which i solve
 | [2101-detonate-the-maximum-bombs](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2101-detonate-the-maximum-bombs) |
 | [2206-detonate-the-maximum-bombs](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2206-detonate-the-maximum-bombs) |
 | [2793-count-the-number-of-complete-components](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2793-count-the-number-of-complete-components) |
+| [2858-minimum-edge-reversals-so-every-node-is-reachable](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2858-minimum-edge-reversals-so-every-node-is-reachable) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -44,6 +45,7 @@ Collection of LeetCode questions which i solve
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2793-count-the-number-of-complete-components](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2793-count-the-number-of-complete-components) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2812-find-the-safest-path-in-a-grid) |
+| [2858-minimum-edge-reversals-so-every-node-is-reachable](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2858-minimum-edge-reversals-so-every-node-is-reachable) |
 ## Union Find
 |  |
 | ------- |
@@ -99,6 +101,7 @@ Collection of LeetCode questions which i solve
 | [2376-count-special-integers](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2376-count-special-integers) |
 | [2408-number-of-people-aware-of-a-secret](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2408-number-of-people-aware-of-a-secret) |
 | [2573-find-the-string-with-lcp](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2573-find-the-string-with-lcp) |
+| [2858-minimum-edge-reversals-so-every-node-is-reachable](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2858-minimum-edge-reversals-so-every-node-is-reachable) |
 | [2977-minimum-cost-to-convert-string-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2977-minimum-cost-to-convert-string-ii) |
 | [3130-find-all-possible-stable-binary-arrays-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3130-find-all-possible-stable-binary-arrays-ii) |
 | [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
@@ -740,6 +743,7 @@ Collection of LeetCode questions which i solve
 | [0547-number-of-provinces](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0547-number-of-provinces) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0787-cheapest-flights-within-k-stops) |
 | [2101-detonate-the-maximum-bombs](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2101-detonate-the-maximum-bombs) |
+| [2858-minimum-edge-reversals-so-every-node-is-reachable](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2858-minimum-edge-reversals-so-every-node-is-reachable) |
 | [2977-minimum-cost-to-convert-string-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2977-minimum-cost-to-convert-string-ii) |
 | [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3600-maximize-spanning-tree-stability-with-upgrades) |
 | [3650-minimum-cost-path-with-edge-reversals](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3650-minimum-cost-path-with-edge-reversals) |
