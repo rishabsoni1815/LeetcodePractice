@@ -239,6 +239,7 @@ Collection of LeetCode questions which i solve
 | [3647-zero-array-transformation-iii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3647-zero-array-transformation-iii) |
 | [3651-minimum-cost-path-with-teleportations](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3651-minimum-cost-path-with-teleportations) |
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3653-xor-after-range-multiplication-queries-i) |
+| [3655-xor-after-range-multiplication-queries-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3655-xor-after-range-multiplication-queries-ii) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 | [3719-longest-balanced-subarray-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3719-longest-balanced-subarray-i) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
@@ -681,6 +682,7 @@ Collection of LeetCode questions which i solve
 | [0761-special-binary-string](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0761-special-binary-string) |
 | [1382-balance-a-binary-search-tree](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1382-balance-a-binary-search-tree) |
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3653-xor-after-range-multiplication-queries-i) |
+| [3655-xor-after-range-multiplication-queries-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3655-xor-after-range-multiplication-queries-ii) |
 | [3719-longest-balanced-subarray-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3719-longest-balanced-subarray-i) |
 ## Monotonic Stack
 |  |
