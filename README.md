@@ -227,6 +227,7 @@ Collection of LeetCode questions which i solve
 | [3432-count-partitions-with-even-sum-difference](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3432-count-partitions-with-even-sum-difference) |
 | [3453-separate-squares-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3453-separate-squares-i) |
 | [3461-find-the-minimum-area-to-cover-all-ones-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3461-find-the-minimum-area-to-cover-all-ones-i) |
+| [3488-closest-equal-element-queries](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3488-closest-equal-element-queries) |
 | [3510-minimum-pair-removal-to-sort-array-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3510-minimum-pair-removal-to-sort-array-ii) |
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
 | [3546-equal-sum-grid-partition-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3546-equal-sum-grid-partition-i) |
@@ -395,6 +396,7 @@ Collection of LeetCode questions which i solve
 | [2429-design-a-food-rating-system](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2429-design-a-food-rating-system) |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2840-check-if-strings-can-be-made-equal-with-operations-ii) |
 | [3381-maximum-subarray-sum-with-length-divisible-by-k](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3381-maximum-subarray-sum-with-length-divisible-by-k) |
+| [3488-closest-equal-element-queries](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3488-closest-equal-element-queries) |
 | [3510-minimum-pair-removal-to-sort-array-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3510-minimum-pair-removal-to-sort-array-ii) |
 | [3623-count-number-of-trapezoids-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3623-count-number-of-trapezoids-i) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3629-total-characters-in-string-after-transformations-i) |
@@ -423,6 +425,7 @@ Collection of LeetCode questions which i solve
 | [2812-find-the-safest-path-in-a-grid](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3296-minimum-number-of-seconds-to-make-mountain-height-zero) |
 | [3453-separate-squares-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3453-separate-squares-i) |
+| [3488-closest-equal-element-queries](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3488-closest-equal-element-queries) |
 | [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3600-maximize-spanning-tree-stability-with-upgrades) |
 ## Sliding Window
 |  |
