@@ -187,6 +187,7 @@ Collection of LeetCode questions which i solve
 | [1980-find-unique-binary-string](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1980-find-unique-binary-string) |
 | [1984-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1984-minimum-difference-between-highest-and-lowest-of-k-scores) |
 | [2048-build-array-from-permutation](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2048-build-array-from-permutation) |
+| [2078-two-furthest-houses-with-different-colors](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2078-two-furthest-houses-with-different-colors) |
 | [2087-minimum-cost-homecoming-of-a-robot-in-a-grid](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2087-minimum-cost-homecoming-of-a-robot-in-a-grid) |
 | [2101-detonate-the-maximum-bombs](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2101-detonate-the-maximum-bombs) |
 | [2144-maximum-difference-between-increasing-elements](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2144-maximum-difference-between-increasing-elements) |
@@ -356,6 +357,7 @@ Collection of LeetCode questions which i solve
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 | [1917-maximum-average-pass-ratio](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1917-maximum-average-pass-ratio) |
 | [1975-maximum-matrix-sum](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1975-maximum-matrix-sum) |
+| [2078-two-furthest-houses-with-different-colors](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2078-two-furthest-houses-with-different-colors) |
 | [2087-minimum-cost-homecoming-of-a-robot-in-a-grid](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2087-minimum-cost-homecoming-of-a-robot-in-a-grid) |
 | [2375-construct-smallest-number-from-di-string](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2375-construct-smallest-number-from-di-string) |
 | [2498-frog-jump-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2498-frog-jump-ii) |
