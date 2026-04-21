@@ -20,6 +20,7 @@ Collection of LeetCode questions which i solve
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1339-maximum-product-of-splitted-binary-tree) |
 | [1382-balance-a-binary-search-tree](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1382-balance-a-binary-search-tree) |
 | [1631-path-with-minimum-effort](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1631-path-with-minimum-effort) |
+| [1722-minimize-hamming-distance-after-swap-operations](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1722-minimize-hamming-distance-after-swap-operations) |
 | [1970-last-day-where-you-can-still-cross](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1970-last-day-where-you-can-still-cross) |
 | [2101-detonate-the-maximum-bombs](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2101-detonate-the-maximum-bombs) |
 | [2206-detonate-the-maximum-bombs](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2206-detonate-the-maximum-bombs) |
@@ -174,6 +175,7 @@ Collection of LeetCode questions which i solve
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1594-maximum-non-negative-product-in-a-matrix) |
 | [1628-count-submatrices-with-all-ones](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1628-count-submatrices-with-all-ones) |
 | [1631-path-with-minimum-effort](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1631-path-with-minimum-effort) |
+| [1722-minimize-hamming-distance-after-swap-operations](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1722-minimize-hamming-distance-after-swap-operations) |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1727-largest-submatrix-with-rearrangements) |
 | [1823-find-the-winner-of-the-circular-game](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1823-find-the-winner-of-the-circular-game) |
 | [1834-minimum-number-of-people-to-teach](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1834-minimum-number-of-people-to-teach) |
@@ -775,6 +777,7 @@ Collection of LeetCode questions which i solve
 | ------- |
 | [0547-number-of-provinces](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0547-number-of-provinces) |
 | [1631-path-with-minimum-effort](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1631-path-with-minimum-effort) |
+| [1722-minimize-hamming-distance-after-swap-operations](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1722-minimize-hamming-distance-after-swap-operations) |
 | [2573-find-the-string-with-lcp](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2573-find-the-string-with-lcp) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3600-maximize-spanning-tree-stability-with-upgrades) |
