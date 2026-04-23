@@ -85,6 +85,7 @@ Collection of LeetCode questions which i solve
 | [0435-non-overlapping-intervals](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0435-non-overlapping-intervals) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
+| [0740-delete-and-earn](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0740-delete-and-earn) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0799-champagne-tower](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0799-champagne-tower) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0803-cheapest-flights-within-k-stops) |
@@ -161,6 +162,7 @@ Collection of LeetCode questions which i solve
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0706-design-hashmap](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0706-design-hashmap) |
 | [0739-daily-temperatures](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0739-daily-temperatures) |
+| [0740-delete-and-earn](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0740-delete-and-earn) |
 | [0744-find-smallest-letter-greater-than-target](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0744-find-smallest-letter-greater-than-target) |
 | [0794-swim-in-rising-water](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0794-swim-in-rising-water) |
 | [0830-largest-triangle-area](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0830-largest-triangle-area) |
@@ -402,6 +404,7 @@ Collection of LeetCode questions which i solve
 | [0208-implement-trie-prefix-tree](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0208-implement-trie-prefix-tree) |
 | [0496-next-greater-element-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0496-next-greater-element-i) |
 | [0706-design-hashmap](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0706-design-hashmap) |
+| [0740-delete-and-earn](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0740-delete-and-earn) |
 | [0756-pyramid-transition-matrix](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0756-pyramid-transition-matrix) |
 | [0840-magic-squares-in-grid](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0840-magic-squares-in-grid) |
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
