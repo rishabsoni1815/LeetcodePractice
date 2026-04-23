@@ -81,6 +81,7 @@ Collection of LeetCode questions which i solve
 | [0152-maximum-product-subarray](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0152-maximum-product-subarray) |
 | [0300-longest-increasing-subsequence](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0300-longest-increasing-subsequence) |
 | [0403-frog-jump](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0403-frog-jump) |
+| [0435-non-overlapping-intervals](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0435-non-overlapping-intervals) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0787-cheapest-flights-within-k-stops) |
@@ -147,6 +148,7 @@ Collection of LeetCode questions which i solve
 | [0240-search-a-2d-matrix-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0240-search-a-2d-matrix-ii) |
 | [0300-longest-increasing-subsequence](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0300-longest-increasing-subsequence) |
 | [0403-frog-jump](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0403-frog-jump) |
+| [0435-non-overlapping-intervals](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0435-non-overlapping-intervals) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0496-next-greater-element-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0496-next-greater-element-i) |
 | [0528-random-pick-with-weight](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0528-random-pick-with-weight) |
@@ -269,6 +271,7 @@ Collection of LeetCode questions which i solve
 | ------- |
 | [0047-permutations-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0047-permutations-ii) |
 | [0218-the-skyline-problem](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0218-the-skyline-problem) |
+| [0435-non-overlapping-intervals](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0435-non-overlapping-intervals) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0611-valid-triangle-number](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0611-valid-triangle-number) |
 | [0761-special-binary-string](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0761-special-binary-string) |
@@ -352,6 +355,7 @@ Collection of LeetCode questions which i solve
 |  |
 | ------- |
 | [0135-candy](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0135-candy) |
+| [0435-non-overlapping-intervals](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0435-non-overlapping-intervals) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0611-valid-triangle-number](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0611-valid-triangle-number) |
 | [1018-largest-perimeter-triangle](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1018-largest-perimeter-triangle) |
