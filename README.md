@@ -139,6 +139,7 @@ Collection of LeetCode questions which i solve
 | [0073-set-matrix-zeroes](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0073-set-matrix-zeroes) |
 | [0084-largest-rectangle-in-histogram](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0085-maximal-rectangle) |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0128-longest-consecutive-sequence](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0128-longest-consecutive-sequence) |
 | [0135-candy](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0135-candy) |
 | [0139-word-break](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0139-word-break) |
@@ -690,6 +691,7 @@ Collection of LeetCode questions which i solve
 ## Tree
 |  |
 | ------- |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [1022-sum-of-root-to-leaf-binary-numbers](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1022-sum-of-root-to-leaf-binary-numbers) |
@@ -701,6 +703,7 @@ Collection of LeetCode questions which i solve
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0053-maximum-subarray) |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0190-reverse-bits](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0190-reverse-bits) |
 | [0218-the-skyline-problem](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0218-the-skyline-problem) |
 | [0240-search-a-2d-matrix-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0240-search-a-2d-matrix-ii) |
@@ -747,6 +750,7 @@ Collection of LeetCode questions which i solve
 ## Binary Tree
 |  |
 | ------- |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [1022-sum-of-root-to-leaf-binary-numbers](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1022-sum-of-root-to-leaf-binary-numbers) |
@@ -784,6 +788,7 @@ Collection of LeetCode questions which i solve
 ## Binary Search Tree
 |  |
 | ------- |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [1382-balance-a-binary-search-tree](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1382-balance-a-binary-search-tree) |
 ## Union-Find
 |  |
