@@ -163,6 +163,7 @@ Collection of LeetCode questions which i solve
 | [0679-24-game](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0679-24-game) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0706-design-hashmap](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0706-design-hashmap) |
+| [0720-longest-word-in-dictionary](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0720-longest-word-in-dictionary) |
 | [0739-daily-temperatures](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0739-daily-temperatures) |
 | [0740-delete-and-earn](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0740-delete-and-earn) |
 | [0744-find-smallest-letter-greater-than-target](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0744-find-smallest-letter-greater-than-target) |
@@ -283,6 +284,7 @@ Collection of LeetCode questions which i solve
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0502-ipo](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0502-ipo) |
 | [0611-valid-triangle-number](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0611-valid-triangle-number) |
+| [0720-longest-word-in-dictionary](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0720-longest-word-in-dictionary) |
 | [0761-special-binary-string](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0761-special-binary-string) |
 | [1018-largest-perimeter-triangle](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1018-largest-perimeter-triangle) |
 | [1094-car-pooling](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1094-car-pooling) |
@@ -406,6 +408,7 @@ Collection of LeetCode questions which i solve
 | [0208-implement-trie-prefix-tree](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0208-implement-trie-prefix-tree) |
 | [0496-next-greater-element-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0496-next-greater-element-i) |
 | [0706-design-hashmap](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0706-design-hashmap) |
+| [0720-longest-word-in-dictionary](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0720-longest-word-in-dictionary) |
 | [0740-delete-and-earn](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0740-delete-and-earn) |
 | [0756-pyramid-transition-matrix](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0756-pyramid-transition-matrix) |
 | [0840-magic-squares-in-grid](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0840-magic-squares-in-grid) |
@@ -520,6 +523,7 @@ Collection of LeetCode questions which i solve
 | [0211-design-add-and-search-words-data-structure](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0394-decode-string](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0394-decode-string) |
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
+| [0720-longest-word-in-dictionary](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0720-longest-word-in-dictionary) |
 | [0756-pyramid-transition-matrix](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0756-pyramid-transition-matrix) |
 | [0761-special-binary-string](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0761-special-binary-string) |
 | [1006-vowel-spellchecker](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1006-vowel-spellchecker) |
@@ -563,6 +567,7 @@ Collection of LeetCode questions which i solve
 | [0139-word-break](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0139-word-break) |
 | [0208-implement-trie-prefix-tree](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0720-longest-word-in-dictionary](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0720-longest-word-in-dictionary) |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2452-words-within-two-edits-of-dictionary) |
 | [2977-minimum-cost-to-convert-string-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2977-minimum-cost-to-convert-string-ii) |
 ## Minimum Spanning Tree
