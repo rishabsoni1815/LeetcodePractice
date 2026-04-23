@@ -207,6 +207,7 @@ Collection of LeetCode questions which i solve
 | [2498-frog-jump-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2498-frog-jump-ii) |
 | [2573-find-the-string-with-lcp](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2573-find-the-string-with-lcp) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2588-maximum-number-of-points-from-grid-queries) |
+| [2615-sum-of-distances](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2615-sum-of-distances) |
 | [2618-maximize-the-minimum-powered-city](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2618-maximize-the-minimum-powered-city) |
 | [2681-put-marbles-in-bags](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2681-put-marbles-in-bags) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2699-count-the-number-of-fair-pairs) |
@@ -399,6 +400,7 @@ Collection of LeetCode questions which i solve
 | [1980-find-unique-binary-string](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1980-find-unique-binary-string) |
 | [2215-finding-3-digit-even-numbers](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2215-finding-3-digit-even-numbers) |
 | [2429-design-a-food-rating-system](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2429-design-a-food-rating-system) |
+| [2615-sum-of-distances](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2615-sum-of-distances) |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2840-check-if-strings-can-be-made-equal-with-operations-ii) |
 | [3381-maximum-subarray-sum-with-length-divisible-by-k](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3381-maximum-subarray-sum-with-length-divisible-by-k) |
 | [3488-closest-equal-element-queries](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3488-closest-equal-element-queries) |
@@ -650,6 +652,7 @@ Collection of LeetCode questions which i solve
 | [1895-largest-magic-square](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1895-largest-magic-square) |
 | [2438-range-product-queries-of-powers](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2438-range-product-queries-of-powers) |
 | [2483-minimum-penalty-for-a-shop](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2483-minimum-penalty-for-a-shop) |
+| [2615-sum-of-distances](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2615-sum-of-distances) |
 | [2618-maximize-the-minimum-powered-city](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2618-maximize-the-minimum-powered-city) |
 | [2906-construct-product-matrix](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2906-construct-product-matrix) |
 | [3130-find-all-possible-stable-binary-arrays-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3130-find-all-possible-stable-binary-arrays-ii) |
