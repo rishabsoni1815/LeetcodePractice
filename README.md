@@ -132,6 +132,7 @@ Collection of LeetCode questions which i solve
 ## Array
 |  |
 | ------- |
+| [0033-search-in-rotated-sorted-array](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0033-search-in-rotated-sorted-array) |
 | [0036-valid-sudoku](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0036-valid-sudoku) |
 | [0047-permutations-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0047-permutations-ii) |
 | [0053-maximum-subarray](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0053-maximum-subarray) |
@@ -427,6 +428,7 @@ Collection of LeetCode questions which i solve
 ## Binary Search
 |  |
 | ------- |
+| [0033-search-in-rotated-sorted-array](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0033-search-in-rotated-sorted-array) |
 | [0069-sqrtx](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0069-sqrtx) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0240-search-a-2d-matrix-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0240-search-a-2d-matrix-ii) |
