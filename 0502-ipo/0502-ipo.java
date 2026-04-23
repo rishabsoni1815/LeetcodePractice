@@ -1,26 +1,27 @@
 class Solution {
     public int findMaximizedCapital(int k, int w, int[] p, int[] c) {
-        int n=p.length;
-        int a[][]=new int[n][2];
-        for(int i=0;i<n;i++){
-            a[i][0]=c[i];
-            a[i][1]=p[i];
+        PriorityQueue<Integer>q=new PriorityQueue<>(Collections.reverseOrder());
+        HashMap<Integer,Integer>pro=new HashMap<>();
+        for(int i=0;i<c.length;i++) pro.put(i,p[i]);
+        Integer a[]=new Integer[p.length];
+        for(int i=0;i<p.length;i++){
+            a[i]=i;
         }
-        Arrays.sort(a,(x,y)->(x[0]!=y[0] ? (x[0]-y[0]):(y[1]-x[1])));//sorting based on min capital then max profit
-        PriorityQueue<int []>q=new PriorityQueue<>((x,y)->(y[1]-x[1]));//max heap acc to max profit
-        int i=0;
-        while(i<n || k>0){//imp is k>0 as i maybe finished but queu is still >0 size
-            while(i<n && a[i][0]<=w){
-                q.add(new int[]{a[i][0],a[i][1]});
-                i++;
+        Arrays.sort(a,(x,y)->(c[x]-c[y]));
+        int ans=0,j=0,n=p.length;
+        // for(int i=0;i<n;i++){
+        //     System.out.println(a[i]+" "+c[a[i]]+" "+pro.get(a[i]));
+        // }
+        while(j<n && k>0){
+            while(j<n && w>=c[a[j]]){
+                q.add(pro.get(a[j]));
+                j++;
             }
-            if(q.size()==0 || k==0) break;//as no element to be added now
-            if(k>0) {
-                int curp=q.poll()[1];
-                w+=curp;
-                k--;
-            }
+            if(q.size()>0) w+=q.poll();
+            k--;
+            // System.out.println(w+" k: "+k);
         }
+        while(k-->0 && q.size()>0) w+=q.poll();
         return w;
     }
 }
