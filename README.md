@@ -157,6 +157,7 @@ Collection of LeetCode questions which i solve
 | [0403-frog-jump](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0403-frog-jump) |
 | [0435-non-overlapping-intervals](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0435-non-overlapping-intervals) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
+| [0456-132-pattern](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0456-132-pattern) |
 | [0496-next-greater-element-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0496-next-greater-element-i) |
 | [0502-ipo](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0502-ipo) |
 | [0528-random-pick-with-weight](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0528-random-pick-with-weight) |
@@ -443,6 +444,7 @@ Collection of LeetCode questions which i solve
 | [0240-search-a-2d-matrix-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0240-search-a-2d-matrix-ii) |
 | [0278-first-bad-version](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0278-first-bad-version) |
 | [0300-longest-increasing-subsequence](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0300-longest-increasing-subsequence) |
+| [0456-132-pattern](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0456-132-pattern) |
 | [0528-random-pick-with-weight](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0528-random-pick-with-weight) |
 | [0611-valid-triangle-number](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0611-valid-triangle-number) |
 | [0744-find-smallest-letter-greater-than-target](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0744-find-smallest-letter-greater-than-target) |
@@ -658,6 +660,7 @@ Collection of LeetCode questions which i solve
 | [0150-evaluate-reverse-polish-notation](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0227-basic-calculator-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0227-basic-calculator-ii) |
 | [0394-decode-string](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0394-decode-string) |
+| [0456-132-pattern](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0456-132-pattern) |
 | [0496-next-greater-element-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0496-next-greater-element-i) |
 | [0739-daily-temperatures](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0739-daily-temperatures) |
 | [0901-online-stock-span](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0901-online-stock-span) |
@@ -742,6 +745,7 @@ Collection of LeetCode questions which i solve
 | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0085-maximal-rectangle) |
+| [0456-132-pattern](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0456-132-pattern) |
 | [0496-next-greater-element-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0496-next-greater-element-i) |
 | [0739-daily-temperatures](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0739-daily-temperatures) |
 | [0901-online-stock-span](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0901-online-stock-span) |
@@ -766,6 +770,7 @@ Collection of LeetCode questions which i solve
 |  |
 | ------- |
 | [0218-the-skyline-problem](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0218-the-skyline-problem) |
+| [0456-132-pattern](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0456-132-pattern) |
 | [2429-design-a-food-rating-system](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2429-design-a-food-rating-system) |
 | [3510-minimum-pair-removal-to-sort-array-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3510-minimum-pair-removal-to-sort-array-ii) |
 ## Combinatorics
