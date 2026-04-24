@@ -474,6 +474,7 @@ Collection of LeetCode questions which i solve
 | [0067-add-binary](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0067-add-binary) |
 | [0069-sqrtx](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0069-sqrtx) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0227-basic-calculator-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0227-basic-calculator-ii) |
 | [0342-power-of-four](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0342-power-of-four) |
 | [0528-random-pick-with-weight](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0528-random-pick-with-weight) |
 | [0679-24-game](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0679-24-game) |
@@ -523,6 +524,7 @@ Collection of LeetCode questions which i solve
 | [0139-word-break](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0139-word-break) |
 | [0208-implement-trie-prefix-tree](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0227-basic-calculator-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0227-basic-calculator-ii) |
 | [0394-decode-string](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0394-decode-string) |
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [0720-longest-word-in-dictionary](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0720-longest-word-in-dictionary) |
@@ -653,6 +655,7 @@ Collection of LeetCode questions which i solve
 | [0085-maximal-rectangle](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0085-maximal-rectangle) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0227-basic-calculator-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0227-basic-calculator-ii) |
 | [0394-decode-string](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0394-decode-string) |
 | [0496-next-greater-element-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0496-next-greater-element-i) |
 | [0739-daily-temperatures](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0739-daily-temperatures) |
