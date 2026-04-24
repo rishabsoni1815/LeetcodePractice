@@ -441,6 +441,7 @@ Collection of LeetCode questions which i solve
 | [0069-sqrtx](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0069-sqrtx) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0240-search-a-2d-matrix-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0240-search-a-2d-matrix-ii) |
+| [0278-first-bad-version](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0278-first-bad-version) |
 | [0300-longest-increasing-subsequence](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0300-longest-increasing-subsequence) |
 | [0528-random-pick-with-weight](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0528-random-pick-with-weight) |
 | [0611-valid-triangle-number](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0611-valid-triangle-number) |
@@ -845,4 +846,8 @@ Collection of LeetCode questions which i solve
 |  |
 | ------- |
 | [0528-random-pick-with-weight](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0528-random-pick-with-weight) |
+## Interactive
+|  |
+| ------- |
+| [0278-first-bad-version](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0278-first-bad-version) |
 <!---LeetCode Topics End-->
