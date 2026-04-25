@@ -1,30 +1,78 @@
+
 class Solution {
+
     public int mostBooked(int n, int[][] a) {
-        if(n>=a.length) return 0;
-        Arrays.sort(a,(x,y)->(x[0]-y[0]));
-        PriorityQueue<int []>q=new PriorityQueue<>((x,y)->(x[1]==y[1]? (x[2]-y[2]):(x[1]-y[1])));//start,end,room_no
-        int freq[]=new int[n];
-        int p=0;
-        for(int i=0;i<a.length;i++){
-            if(q.size()<n){
-                q.add(new int[]{a[i][0],a[i][1],p});
-                freq[p]++;
-                p++;
-            }else{
-                int c[]=q.poll();
-                int s=c[1];
-                int e=s+a[i][1]-a[i][0];
-                q.add(new int[]{s,e,c[2]});
-                freq[c[2]]++;
+
+        Arrays.sort(a, (x, y) -> x[0] - y[0]);
+
+        // Free rooms
+        PriorityQueue<Integer> free =
+                new PriorityQueue<>();
+
+        for (int i = 0; i < n; i++)
+            free.add(i);
+
+        // Busy rooms
+        PriorityQueue<long[]> busy =
+                new PriorityQueue<>(
+                        (x, y) -> {
+                            if (x[0] == y[0])
+                                return Long.compare(x[1], y[1]);
+                            return Long.compare(x[0], y[0]);
+                        });
+
+        int[] freq = new int[n];
+
+        for (int[] meeting : a) {
+
+            int start = meeting[0];
+            int end = meeting[1];
+
+            long duration = end - start;
+
+            // Free finished rooms
+            while (!busy.isEmpty() &&
+                   busy.peek()[0] <= start) {
+
+                free.add((int) busy.poll()[1]);
+            }
+
+            if (!free.isEmpty()) {
+
+                int room = free.poll();
+
+                busy.add(new long[]{end, room});
+
+                freq[room]++;
+
+            } else {
+
+                long[] earliest = busy.poll();
+
+                long newEnd =
+                        earliest[0] + duration;
+
+                int room =
+                        (int) earliest[1];
+
+                busy.add(new long[]{newEnd, room});
+
+                freq[room]++;
             }
         }
-        int ans=0,max=0;
-        for(int i=0;i<n;i++){
-            if(freq[i]>max){
-                max=freq[i];
-                ans=i;
+
+        int ans = 0;
+        int max = 0;
+
+        for (int i = 0; i < n; i++) {
+
+            if (freq[i] > max) {
+
+                max = freq[i];
+                ans = i;
             }
         }
+
         return ans;
     }
 }
