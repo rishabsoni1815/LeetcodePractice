@@ -9,7 +9,7 @@ class Solution {
         Stack<Integer>s=new Stack<>();
         int i=b.length-1;
         while(i>=0){
-            while(s.size()>0 && s.peek()<b[i]){
+            while(s.size()>0 && s.peek()<=b[i]){
                 s.pop();
             }
             if(s.size()>0) ng[i]=s.peek();
