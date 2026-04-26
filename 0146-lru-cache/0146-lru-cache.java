@@ -1,86 +1,77 @@
 class LRUCache {
-    Node head = new Node(0, 0, 0), tail = new Node(0, 0, 0);
-    Map<Integer, Node> map = new HashMap();
-    int capacity;
-
-    //head's next will have most recently used
-    public LRUCache(int _capacity) {
-        capacity = _capacity;
-        head.next = tail;
-        tail.prev = head;
+    Node head;
+    Node tail;
+    int n=0;
+    int cap=0;
+    HashMap<Integer,Node>h;
+    public LRUCache(int n) {
+        this.n=n;
+        cap=0;
+        h=new HashMap<>();
+        head=new Node(-1,-1);
+        tail=new Node(-1,-1);
+        head.next=tail;
+        tail.prev=head;
+    }
+    
+    public int get(int k) {
+        if(!h.containsKey(k)) return -1;
+        Node cur=h.get(k);
+        int ans=cur.val;
+        remove(cur);
+        add(cur);
+        return ans;
     }
 
-    public int get(int key) {
-        if (map.containsKey(key)) {
-            Node node = map.get(key);//now node is most recently used so it will go next to head
-            if (isExpired(node)) {
-                remove(node);
-                return -1;
+    public void add(Node node){
+        Node temp=head.next;
+        head.next=node;
+        node.prev=head;
+        node.next=temp;
+        temp.prev=node;
+        h.put(node.key,node);
+    }
+
+    public void remove(Node node){
+        node.prev.next=node.next;
+        node.next.prev=node.prev;
+        if(h.containsKey(node.key)) h.remove(node.key);
+        node=null;
+    }
+    
+    public void put(int k, int v) {
+        if(h.containsKey(k)){
+            Node cur=h.get(k);
+            cur.val=v;
+            remove(cur);
+            add(cur);
+        }else{
+            if(cap+1>n) {
+                remove(tail.prev);
+                add(new Node(k,v));
+            }else{
+                cap++;
+                add(new Node(k,v));
             }
-            remove(node);
-            insert(node);//inseting next to head
-            return node.value;
-        } else {
-            return -1;
-        }
-    }
-
-    public void put(int key, int value) {
-        if (map.containsKey(key)) {//remove existin intead of updating just v, re insert new k,v
-            remove(map.get(key));
-        }
-        if (map.size() == capacity) {
-            remove(tail.prev);//removing least recently used element i.e prev to tail
-        }
-        insert(new Node(key, value, Long.MAX_VALUE));
-    }
-
-    private void remove(Node node) {
-        map.remove(node.key);
-        node.prev.next = node.next;
-        node.next.prev = node.prev;
-    }
-
-    private void insert(Node t) {
-        map.put(t.key, t);
-        t.next = head.next;
-        t.prev = head;
-        head.next = t;
-        t.next.prev = t;
-    }
-
-    private boolean isExpired(Node node) {
-        return node.expiryTime != Long.MAX_VALUE
-                && System.currentTimeMillis() > node.expiryTime;
-    }
-
-    public void put(int key, int value, long ttlMillis) {
-        if (map.containsKey(key)) {
-            remove(map.get(key));
-        }
-        if (map.size() == capacity) {
-            remove(tail.prev);
-        }
-        long expiryTime = (ttlMillis == Long.MAX_VALUE)
-                ? Long.MAX_VALUE
-                : System.currentTimeMillis() + ttlMillis;
-        insert(new Node(key, value, expiryTime));
-    }
-
-    class Node {
-
-        Node prev, next;
-
-        int key;
-        int value;
-
-        long expiryTime;
-
-        Node(int k, int v, long exp) {
-
-            key = k;
-            value = v;
-            expiryTime = exp;
         }
     }
 }
+
+class Node{
+    Node next;
+    Node prev;
+    int key;
+    int val;
+    long sec;
+    Node(int key,int val) {
+        this.val=val;
+        this.key=key;
+    }
+}
+
+/**
+ * Your LRUCache object will be instantiated and called as such:
+ * LRUCache obj = new LRUCache(capacity);
+ * int param_1 = obj.get(key);
+ * obj.put(key,value);
+ */
