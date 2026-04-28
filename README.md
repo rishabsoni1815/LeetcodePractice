@@ -202,6 +202,7 @@ Collection of LeetCode questions which i solve
 | [1975-maximum-matrix-sum](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1975-maximum-matrix-sum) |
 | [1980-find-unique-binary-string](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1980-find-unique-binary-string) |
 | [1984-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1984-minimum-difference-between-highest-and-lowest-of-k-scores) |
+| [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 | [2048-build-array-from-permutation](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2048-build-array-from-permutation) |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2078-two-furthest-houses-with-different-colors) |
 | [2087-minimum-cost-homecoming-of-a-robot-in-a-grid](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2087-minimum-cost-homecoming-of-a-robot-in-a-grid) |
@@ -296,6 +297,7 @@ Collection of LeetCode questions which i solve
 | [1727-largest-submatrix-with-rearrangements](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1727-largest-submatrix-with-rearrangements) |
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 | [1984-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1984-minimum-difference-between-highest-and-lowest-of-k-scores) |
+| [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 | [2215-finding-3-digit-even-numbers](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2215-finding-3-digit-even-numbers) |
 | [2250-k-highest-ranked-items-within-a-price-range](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2250-k-highest-ranked-items-within-a-price-range) |
 | [2402-meeting-rooms-iii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2402-meeting-rooms-iii) |
@@ -354,6 +356,7 @@ Collection of LeetCode questions which i solve
 | [1895-largest-magic-square](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1895-largest-magic-square) |
 | [1970-last-day-where-you-can-still-cross](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1970-last-day-where-you-can-still-cross) |
 | [1975-maximum-matrix-sum](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1975-maximum-matrix-sum) |
+| [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 | [2250-k-highest-ranked-items-within-a-price-range](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2250-k-highest-ranked-items-within-a-price-range) |
 | [2573-find-the-string-with-lcp](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2573-find-the-string-with-lcp) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2588-maximum-number-of-points-from-grid-queries) |
@@ -496,6 +499,7 @@ Collection of LeetCode questions which i solve
 | [1523-count-odd-numbers-in-an-interval-range](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1523-count-odd-numbers-in-an-interval-range) |
 | [1529-max-difference-you-can-get-from-changing-an-integer](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1529-max-difference-you-can-get-from-changing-an-integer) |
 | [1823-find-the-winner-of-the-circular-game](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1823-find-the-winner-of-the-circular-game) |
+| [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 | [2101-detonate-the-maximum-bombs](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2101-detonate-the-maximum-bombs) |
 | [2206-detonate-the-maximum-bombs](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2206-detonate-the-maximum-bombs) |
 | [2288-count-operations-to-obtain-zero](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2288-count-operations-to-obtain-zero) |
