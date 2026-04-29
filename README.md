@@ -111,6 +111,7 @@ Collection of LeetCode questions which i solve
 | [2977-minimum-cost-to-convert-string-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2977-minimum-cost-to-convert-string-ii) |
 | [3130-find-all-possible-stable-binary-arrays-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3130-find-all-possible-stable-binary-arrays-ii) |
 | [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
+| [3225-maximum-score-from-grid-operations](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3225-maximum-score-from-grid-operations) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3307-find-the-maximum-sum-of-node-values) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3640-trionic-array-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3640-trionic-array-ii) |
@@ -238,6 +239,7 @@ Collection of LeetCode questions which i solve
 | [3194-find-words-containing-character](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3194-find-words-containing-character) |
 | [3212-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3212-count-submatrices-with-equal-frequency-of-x-and-y) |
 | [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
+| [3225-maximum-score-from-grid-operations](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3225-maximum-score-from-grid-operations) |
 | [3251-maximum-area-of-longest-diagonal-rectangle](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3251-maximum-area-of-longest-diagonal-rectangle) |
 | [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
@@ -364,6 +366,7 @@ Collection of LeetCode questions which i solve
 | [2906-construct-product-matrix](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2906-construct-product-matrix) |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
 | [3212-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3212-count-submatrices-with-equal-frequency-of-x-and-y) |
+| [3225-maximum-score-from-grid-operations](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3225-maximum-score-from-grid-operations) |
 | [3461-find-the-minimum-area-to-cover-all-ones-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3461-find-the-minimum-area-to-cover-all-ones-i) |
 | [3546-equal-sum-grid-partition-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3546-equal-sum-grid-partition-i) |
 | [3567-minimum-absolute-difference-in-sliding-submatrix](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3567-minimum-absolute-difference-in-sliding-submatrix) |
@@ -704,6 +707,7 @@ Collection of LeetCode questions which i solve
 | [2906-construct-product-matrix](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2906-construct-product-matrix) |
 | [3130-find-all-possible-stable-binary-arrays-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3130-find-all-possible-stable-binary-arrays-ii) |
 | [3212-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3212-count-submatrices-with-equal-frequency-of-x-and-y) |
+| [3225-maximum-score-from-grid-operations](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3225-maximum-score-from-grid-operations) |
 | [3381-maximum-subarray-sum-with-length-divisible-by-k](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3381-maximum-subarray-sum-with-length-divisible-by-k) |
 | [3432-count-partitions-with-even-sum-difference](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3432-count-partitions-with-even-sum-difference) |
 | [3546-equal-sum-grid-partition-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3546-equal-sum-grid-partition-i) |
