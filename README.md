@@ -117,6 +117,7 @@ Collection of LeetCode questions which i solve
 | [3640-trionic-array-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3640-trionic-array-ii) |
 | [3651-minimum-cost-path-with-teleportations](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3651-minimum-cost-path-with-teleportations) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
+| [3742-maximum-path-score-in-a-grid](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3742-maximum-path-score-in-a-grid) |
 ## Topological Sort
 |  |
 | ------- |
@@ -270,6 +271,7 @@ Collection of LeetCode questions which i solve
 | [3719-longest-balanced-subarray-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3719-longest-balanced-subarray-i) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
 | [3741-minimum-distance-between-three-equal-elements-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3741-minimum-distance-between-three-equal-elements-ii) |
+| [3742-maximum-path-score-in-a-grid](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3742-maximum-path-score-in-a-grid) |
 | [3744-minimum-operations-to-make-array-elements-zero](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3744-minimum-operations-to-make-array-elements-zero) |
 | [3796-find-maximum-value-in-a-constrained-sequence](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3796-find-maximum-value-in-a-constrained-sequence) |
 ## Two Pointers
@@ -374,6 +376,7 @@ Collection of LeetCode questions which i solve
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 | [3651-minimum-cost-path-with-teleportations](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3651-minimum-cost-path-with-teleportations) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
+| [3742-maximum-path-score-in-a-grid](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3742-maximum-path-score-in-a-grid) |
 ## Greedy
 |  |
 | ------- |
