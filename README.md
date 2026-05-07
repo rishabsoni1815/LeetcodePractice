@@ -119,6 +119,7 @@ Collection of LeetCode questions which i solve
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3640-trionic-array-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3640-trionic-array-ii) |
 | [3651-minimum-cost-path-with-teleportations](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3651-minimum-cost-path-with-teleportations) |
+| [3660-jump-game-ix](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3660-jump-game-ix) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
 | [3742-maximum-path-score-in-a-grid](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3742-maximum-path-score-in-a-grid) |
 ## Topological Sort
@@ -273,6 +274,7 @@ Collection of LeetCode questions which i solve
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3653-xor-after-range-multiplication-queries-i) |
 | [3655-xor-after-range-multiplication-queries-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3655-xor-after-range-multiplication-queries-ii) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
+| [3660-jump-game-ix](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3660-jump-game-ix) |
 | [3719-longest-balanced-subarray-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3719-longest-balanced-subarray-i) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
 | [3741-minimum-distance-between-three-equal-elements-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3741-minimum-distance-between-three-equal-elements-ii) |
