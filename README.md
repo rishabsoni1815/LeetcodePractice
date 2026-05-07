@@ -202,6 +202,7 @@ Collection of LeetCode questions which i solve
 | [1823-find-the-winner-of-the-circular-game](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1823-find-the-winner-of-the-circular-game) |
 | [1834-minimum-number-of-people-to-teach](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1834-minimum-number-of-people-to-teach) |
 | [1848-minimum-distance-to-the-target-element](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1848-minimum-distance-to-the-target-element) |
+| [1861-rotating-the-box](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1861-rotating-the-box) |
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 | [1895-largest-magic-square](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1895-largest-magic-square) |
 | [1917-maximum-average-pass-ratio](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1917-maximum-average-pass-ratio) |
@@ -287,6 +288,7 @@ Collection of LeetCode questions which i solve
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0141-linked-list-cycle](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0141-linked-list-cycle) |
 | [0611-valid-triangle-number](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0611-valid-triangle-number) |
+| [1861-rotating-the-box](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1861-rotating-the-box) |
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2699-count-the-number-of-fair-pairs) |
@@ -365,6 +367,7 @@ Collection of LeetCode questions which i solve
 | [1628-count-submatrices-with-all-ones](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1628-count-submatrices-with-all-ones) |
 | [1631-path-with-minimum-effort](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1631-path-with-minimum-effort) |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1727-largest-submatrix-with-rearrangements) |
+| [1861-rotating-the-box](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1861-rotating-the-box) |
 | [1895-largest-magic-square](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1895-largest-magic-square) |
 | [1970-last-day-where-you-can-still-cross](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1970-last-day-where-you-can-still-cross) |
 | [1975-maximum-matrix-sum](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1975-maximum-matrix-sum) |
