@@ -48,6 +48,7 @@ Collection of LeetCode questions which i solve
 | [2793-count-the-number-of-complete-components](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2793-count-the-number-of-complete-components) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [2858-minimum-edge-reversals-so-every-node-is-reachable](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2858-minimum-edge-reversals-so-every-node-is-reachable) |
+| [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
 ## Union Find
 |  |
 | ------- |
@@ -266,6 +267,7 @@ Collection of LeetCode questions which i solve
 | [3623-count-number-of-trapezoids-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3623-count-number-of-trapezoids-i) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
+| [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
 | [3634-minimum-removals-to-balance-array](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3634-minimum-removals-to-balance-array) |
 | [3637-trionic-array-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3637-trionic-array-i) |
 | [3639-zero-array-transformation-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3639-zero-array-transformation-i) |
@@ -456,6 +458,7 @@ Collection of LeetCode questions which i solve
 | [3510-minimum-pair-removal-to-sort-array-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3510-minimum-pair-removal-to-sort-array-ii) |
 | [3623-count-number-of-trapezoids-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3623-count-number-of-trapezoids-i) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3629-total-characters-in-string-after-transformations-i) |
+| [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 | [3719-longest-balanced-subarray-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3719-longest-balanced-subarray-i) |
 | [3741-minimum-distance-between-three-equal-elements-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3741-minimum-distance-between-three-equal-elements-ii) |
@@ -538,6 +541,7 @@ Collection of LeetCode questions which i solve
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
 | [3623-count-number-of-trapezoids-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3623-count-number-of-trapezoids-i) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3629-total-characters-in-string-after-transformations-i) |
+| [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
 | [3744-minimum-operations-to-make-array-elements-zero](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3744-minimum-operations-to-make-array-elements-zero) |
 ## Geometry
 |  |
@@ -888,4 +892,8 @@ Collection of LeetCode questions which i solve
 |  |
 | ------- |
 | [0278-first-bad-version](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0278-first-bad-version) |
+## Number Theory
+|  |
+| ------- |
+| [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
 <!---LeetCode Topics End-->
