@@ -232,6 +232,7 @@ Collection of LeetCode questions which i solve
 | [2438-range-product-queries-of-powers](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2438-range-product-queries-of-powers) |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2452-words-within-two-edits-of-dictionary) |
 | [2498-frog-jump-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2498-frog-jump-ii) |
+| [2553-separate-the-digits-in-an-array](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2553-separate-the-digits-in-an-array) |
 | [2573-find-the-string-with-lcp](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2573-find-the-string-with-lcp) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2615-sum-of-distances](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2615-sum-of-distances) |
@@ -653,6 +654,7 @@ Collection of LeetCode questions which i solve
 | [2324-find-triangular-sum-of-an-array](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2324-find-triangular-sum-of-an-array) |
 | [2402-meeting-rooms-iii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2402-meeting-rooms-iii) |
 | [2408-number-of-people-aware-of-a-secret](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2408-number-of-people-aware-of-a-secret) |
+| [2553-separate-the-digits-in-an-array](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2553-separate-the-digits-in-an-array) |
 | [2751-robot-collisions](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2751-robot-collisions) |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
 | [3510-minimum-pair-removal-to-sort-array-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3510-minimum-pair-removal-to-sort-array-ii) |
