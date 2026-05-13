@@ -200,6 +200,7 @@ Collection of LeetCode questions which i solve
 | [1628-count-submatrices-with-all-ones](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1628-count-submatrices-with-all-ones) |
 | [1631-path-with-minimum-effort](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1631-path-with-minimum-effort) |
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1665-minimum-initial-energy-to-finish-tasks) |
+| [1674-minimum-moves-to-make-array-complementary](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1674-minimum-moves-to-make-array-complementary) |
 | [1722-minimize-hamming-distance-after-swap-operations](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1722-minimize-hamming-distance-after-swap-operations) |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1727-largest-submatrix-with-rearrangements) |
 | [1823-find-the-winner-of-the-circular-game](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1823-find-the-winner-of-the-circular-game) |
@@ -452,6 +453,7 @@ Collection of LeetCode questions which i solve
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1590-make-sum-divisible-by-p](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1590-make-sum-divisible-by-p) |
+| [1674-minimum-moves-to-make-array-complementary](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1674-minimum-moves-to-make-array-complementary) |
 | [1834-minimum-number-of-people-to-teach](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1834-minimum-number-of-people-to-teach) |
 | [1980-find-unique-binary-string](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1980-find-unique-binary-string) |
 | [2215-finding-3-digit-even-numbers](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2215-finding-3-digit-even-numbers) |
@@ -727,6 +729,7 @@ Collection of LeetCode questions which i solve
 | [1094-car-pooling](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1094-car-pooling) |
 | [1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |
 | [1590-make-sum-divisible-by-p](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1590-make-sum-divisible-by-p) |
+| [1674-minimum-moves-to-make-array-complementary](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1674-minimum-moves-to-make-array-complementary) |
 | [1895-largest-magic-square](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1895-largest-magic-square) |
 | [2438-range-product-queries-of-powers](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2438-range-product-queries-of-powers) |
 | [2483-minimum-penalty-for-a-shop](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2483-minimum-penalty-for-a-shop) |
