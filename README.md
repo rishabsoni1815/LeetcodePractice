@@ -244,6 +244,7 @@ Collection of LeetCode questions which i solve
 | [2720-minimize-the-maximum-difference-of-pairs](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
 | [2751-robot-collisions](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2751-robot-collisions) |
 | [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2770-maximum-number-of-jumps-to-reach-the-last-index) |
+| [2784-check-if-array-is-good](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2784-check-if-array-is-good) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [2906-construct-product-matrix](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2906-construct-product-matrix) |
 | [2943-maximize-area-of-square-hole-in-grid](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2943-maximize-area-of-square-hole-in-grid) |
@@ -327,6 +328,7 @@ Collection of LeetCode questions which i solve
 | [2681-put-marbles-in-bags](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2681-put-marbles-in-bags) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2751-robot-collisions](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2751-robot-collisions) |
+| [2784-check-if-array-is-good](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2784-check-if-array-is-good) |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2840-check-if-strings-can-be-made-equal-with-operations-ii) |
 | [2943-maximize-area-of-square-hole-in-grid](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2943-maximize-area-of-square-hole-in-grid) |
 | [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
@@ -460,6 +462,7 @@ Collection of LeetCode questions which i solve
 | [2402-meeting-rooms-iii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2402-meeting-rooms-iii) |
 | [2429-design-a-food-rating-system](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2429-design-a-food-rating-system) |
 | [2615-sum-of-distances](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2615-sum-of-distances) |
+| [2784-check-if-array-is-good](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2784-check-if-array-is-good) |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2840-check-if-strings-can-be-made-equal-with-operations-ii) |
 | [3381-maximum-subarray-sum-with-length-divisible-by-k](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3381-maximum-subarray-sum-with-length-divisible-by-k) |
 | [3488-closest-equal-element-queries](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3488-closest-equal-element-queries) |
