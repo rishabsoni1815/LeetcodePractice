@@ -158,6 +158,7 @@ Collection of LeetCode questions which i solve
 | [0150-evaluate-reverse-polish-notation](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0152-maximum-product-subarray](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0152-maximum-product-subarray) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0153-find-minimum-in-rotated-sorted-array) |
+| [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
 | [0198-house-robber](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0198-house-robber) |
 | [0218-the-skyline-problem](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0218-the-skyline-problem) |
 | [0240-search-a-2d-matrix-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0240-search-a-2d-matrix-ii) |
@@ -480,6 +481,7 @@ Collection of LeetCode questions which i solve
 | [0033-search-in-rotated-sorted-array](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0033-search-in-rotated-sorted-array) |
 | [0069-sqrtx](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0069-sqrtx) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0153-find-minimum-in-rotated-sorted-array) |
+| [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
 | [0240-search-a-2d-matrix-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0240-search-a-2d-matrix-ii) |
 | [0278-first-bad-version](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0278-first-bad-version) |
 | [0300-longest-increasing-subsequence](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0300-longest-increasing-subsequence) |
