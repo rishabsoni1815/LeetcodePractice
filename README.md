@@ -38,6 +38,7 @@ Collection of LeetCode questions which i solve
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [1120-flower-planting-with-no-adjacent](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1120-flower-planting-with-no-adjacent) |
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
+| [1345-jump-game-iv](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1345-jump-game-iv) |
 | [1631-path-with-minimum-effort](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1631-path-with-minimum-effort) |
 | [1970-last-day-where-you-can-still-cross](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1970-last-day-where-you-can-still-cross) |
 | [2101-detonate-the-maximum-bombs](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2101-detonate-the-maximum-bombs) |
@@ -191,6 +192,7 @@ Collection of LeetCode questions which i solve
 | [1235-maximum-profit-in-job-scheduling](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1235-maximum-profit-in-job-scheduling) |
 | [1266-minimum-time-visiting-all-points](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1266-minimum-time-visiting-all-points) |
 | [1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |
+| [1345-jump-game-iv](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1345-jump-game-iv) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1390-four-divisors](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1390-four-divisors) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1402-count-square-submatrices-with-all-ones) |
@@ -454,6 +456,7 @@ Collection of LeetCode questions which i solve
 | [0874-walking-robot-simulation](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0874-walking-robot-simulation) |
 | [1006-vowel-spellchecker](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1006-vowel-spellchecker) |
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
+| [1345-jump-game-iv](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1345-jump-game-iv) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1590-make-sum-divisible-by-p](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1590-make-sum-divisible-by-p) |
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1674-minimum-moves-to-make-array-complementary) |
