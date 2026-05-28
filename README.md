@@ -258,6 +258,7 @@ Collection of LeetCode questions which i solve
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
 | [2977-minimum-cost-to-convert-string-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2977-minimum-cost-to-convert-string-ii) |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3043-find-the-length-of-the-longest-common-prefix) |
+| [3093-longest-common-suffix-queries](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3093-longest-common-suffix-queries) |
 | [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
 | [3194-find-words-containing-character](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3194-find-words-containing-character) |
 | [3212-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3212-count-submatrices-with-equal-frequency-of-x-and-y) |
@@ -618,6 +619,7 @@ Collection of LeetCode questions which i solve
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2840-check-if-strings-can-be-made-equal-with-operations-ii) |
 | [2977-minimum-cost-to-convert-string-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2977-minimum-cost-to-convert-string-ii) |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3043-find-the-length-of-the-longest-common-prefix) |
+| [3093-longest-common-suffix-queries](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3093-longest-common-suffix-queries) |
 | [3120-count-the-number-of-special-characters-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3120-count-the-number-of-special-characters-i) |
 | [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
 | [3194-find-words-containing-character](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3194-find-words-containing-character) |
@@ -644,6 +646,7 @@ Collection of LeetCode questions which i solve
 | [2452-words-within-two-edits-of-dictionary](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2452-words-within-two-edits-of-dictionary) |
 | [2977-minimum-cost-to-convert-string-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2977-minimum-cost-to-convert-string-ii) |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3043-find-the-length-of-the-longest-common-prefix) |
+| [3093-longest-common-suffix-queries](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3093-longest-common-suffix-queries) |
 ## Minimum Spanning Tree
 |  |
 | ------- |
