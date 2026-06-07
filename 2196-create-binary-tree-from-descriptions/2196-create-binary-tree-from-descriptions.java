@@ -1,44 +1,46 @@
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode() {}
- *     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
- *         this.val = val;
- *         this.left = left;
- *         this.right = right;
- *     }
- * }
- */
 class Solution {
+
     public TreeNode createBinaryTree(int[][] descriptions) {
-        HashMap<Integer, TreeNode> map = new HashMap<>();
+        // Maps values to TreeNode pointers
+        Map<Integer, TreeNode> nodeMap = new HashMap<>();
+
+        // Stores values which are children in the descriptions
         Set<Integer> children = new HashSet<>();
-        for (int[] arr : descriptions) {//traversing and connecting nodes
-            int parent = arr[0], child = arr[1], isLeft = arr[2];
-            children.add(child);
-            TreeNode node = map.getOrDefault(parent, new TreeNode(parent));
-            if (isLeft == 1) {
-                node.left = map.getOrDefault(child, new TreeNode(child));
-                map.put(child, node.left);
+
+        // Iterate through descriptions to create nodes and set up tree structure
+        for (int[] description : descriptions) {
+            // Extract parent value, child value, and whether it is a
+            // left child (1) or right child (0)
+            int parentValue = description[0];
+            int childValue = description[1];
+            boolean isLeft = description[2] == 1;
+
+            // Create parent and child nodes if not already created
+            if (!nodeMap.containsKey(parentValue)) {
+                nodeMap.put(parentValue, new TreeNode(parentValue));
+            }
+            if (!nodeMap.containsKey(childValue)) {
+                nodeMap.put(childValue, new TreeNode(childValue));
+            }
+
+            // Attach child node to parent's left or right branch
+            if (isLeft) {
+                nodeMap.get(parentValue).left = nodeMap.get(childValue);
             } else {
-                node.right = map.getOrDefault(child, new TreeNode(child));
-                map.put(child, node.right);
+                nodeMap.get(parentValue).right = nodeMap.get(childValue);
             }
-            map.put(parent, node);
+
+            // Mark child as a child in the set
+            children.add(childValue);
         }
-        
-        int root = -1;
-        for (int [] arr: descriptions) {
-            if (!children.contains(arr[0])) {//parent which is not a child is root
-                root = arr[0];
-                break;
+
+        // Find and return the root node
+        for (TreeNode node : nodeMap.values()) {
+            if (!children.contains(node.val)) {
+                return node; // Root node found
             }
         }
-        
-        return map.getOrDefault(root, null);
+
+        return null; // Should not occur according to problem statement
     }
 }
