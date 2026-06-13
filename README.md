@@ -309,6 +309,7 @@ Collection of LeetCode questions which i solve
 | [3742-maximum-path-score-in-a-grid](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3742-maximum-path-score-in-a-grid) |
 | [3744-minimum-operations-to-make-array-elements-zero](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3744-minimum-operations-to-make-array-elements-zero) |
 | [3796-find-maximum-value-in-a-constrained-sequence](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3796-find-maximum-value-in-a-constrained-sequence) |
+| [3838-weighted-word-mapping](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3838-weighted-word-mapping) |
 ## Two Pointers
 |  |
 | ------- |
@@ -651,6 +652,7 @@ Collection of LeetCode questions which i solve
 | [3194-find-words-containing-character](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3194-find-words-containing-character) |
 | [3462-vowels-game-in-a-string](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3462-vowels-game-in-a-string) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3629-total-characters-in-string-after-transformations-i) |
+| [3838-weighted-word-mapping](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3838-weighted-word-mapping) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3872-find-most-frequent-vowel-and-consonant) |
 ## Design
 |  |
@@ -718,6 +720,7 @@ Collection of LeetCode questions which i solve
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
 | [3510-minimum-pair-removal-to-sort-array-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3510-minimum-pair-removal-to-sort-array-ii) |
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3653-xor-after-range-multiplication-queries-i) |
+| [3838-weighted-word-mapping](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3838-weighted-word-mapping) |
 ## Backtracking
 |  |
 | ------- |
