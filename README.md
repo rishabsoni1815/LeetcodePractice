@@ -318,6 +318,7 @@ Collection of LeetCode questions which i solve
 | [0611-valid-triangle-number](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0611-valid-triangle-number) |
 | [1861-rotating-the-box](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1861-rotating-the-box) |
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1877-minimize-maximum-pair-sum-in-array) |
+| [2095-delete-the-middle-node-of-a-linked-list](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 | [2161-partition-array-according-to-given-pivot](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2161-partition-array-according-to-given-pivot) |
 | [2540-minimum-common-value](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2540-minimum-common-value) |
@@ -911,6 +912,7 @@ Collection of LeetCode questions which i solve
 | [0141-linked-list-cycle](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0141-linked-list-cycle) |
 | [0146-lru-cache](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0146-lru-cache) |
 | [0706-design-hashmap](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0706-design-hashmap) |
+| [2095-delete-the-middle-node-of-a-linked-list](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 | [3510-minimum-pair-removal-to-sort-array-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3510-minimum-pair-removal-to-sort-array-ii) |
 ## Doubly-Linked List
