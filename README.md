@@ -571,6 +571,7 @@ Collection of LeetCode questions which i solve
 | [0840-magic-squares-in-grid](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/0840-magic-squares-in-grid) |
 | [1018-largest-perimeter-triangle](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1018-largest-perimeter-triangle) |
 | [1266-minimum-time-visiting-all-points](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1266-minimum-time-visiting-all-points) |
+| [1344-angle-between-hands-of-a-clock](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1344-angle-between-hands-of-a-clock) |
 | [1390-four-divisors](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1390-four-divisors) |
 | [1448-maximum-69-number](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1448-maximum-69-number) |
 | [1523-count-odd-numbers-in-an-interval-range](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1523-count-odd-numbers-in-an-interval-range) |
