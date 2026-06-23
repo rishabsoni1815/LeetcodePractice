@@ -125,6 +125,7 @@ Collection of LeetCode questions which i solve
 | [3640-trionic-array-ii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3640-trionic-array-ii) |
 | [3651-minimum-cost-path-with-teleportations](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3651-minimum-cost-path-with-teleportations) |
 | [3660-jump-game-ix](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3660-jump-game-ix) |
+| [3699-number-of-zigzag-arrays-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3699-number-of-zigzag-arrays-i) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
 | [3742-maximum-path-score-in-a-grid](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3742-maximum-path-score-in-a-grid) |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3751-total-waviness-of-numbers-in-range-i) |
@@ -812,6 +813,7 @@ Collection of LeetCode questions which i solve
 | [3546-equal-sum-grid-partition-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3546-equal-sum-grid-partition-i) |
 | [3639-zero-array-transformation-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3639-zero-array-transformation-i) |
 | [3647-zero-array-transformation-iii](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3647-zero-array-transformation-iii) |
+| [3699-number-of-zigzag-arrays-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3699-number-of-zigzag-arrays-i) |
 | [3719-longest-balanced-subarray-i](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/3719-longest-balanced-subarray-i) |
 ## Bit Manipulation
 |  |
