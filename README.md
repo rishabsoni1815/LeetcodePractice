@@ -655,6 +655,7 @@ Collection of LeetCode questions which i solve
 | [1888-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1888-minimum-number-of-flips-to-make-the-binary-string-alternating) |
 | [1980-find-unique-binary-string](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/1980-find-unique-binary-string) |
 | [2075-decode-the-slanted-ciphertext](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2075-decode-the-slanted-ciphertext) |
+| [2124-check-if-all-as-appears-before-all-bs](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2124-check-if-all-as-appears-before-all-bs) |
 | [2260-divide-a-string-into-groups-of-size-k](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2260-divide-a-string-into-groups-of-size-k) |
 | [2375-construct-smallest-number-from-di-string](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2375-construct-smallest-number-from-di-string) |
 | [2429-design-a-food-rating-system](https://github.com/rishabsoni1815/LeetcodePractice/tree/master/2429-design-a-food-rating-system) |
